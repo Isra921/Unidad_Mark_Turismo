@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué es la Organización Mundial del Turismo (OMT)?",
+    "opciones": [
+      "El organismo especializado de las Naciones Unidas encargado de promover un turismo responsable, sostenible y accesible para todos.",
+      "Una agencia privada de viajes que comercializa vuelos internacionales.",
+      "Una asociación civil exclusiva para dueños de hoteles de lujo.",
+      "Un sindicato internacional de guías de turistas de montaña."
+    ],
+    "respuesta_correcta": "El organismo especializado de las Naciones Unidas encargado de promover un turismo responsable, sostenible y accesible para todos.",
+    "explicacion": "La OMT es la agencia de la ONU rectora de las directrices y estándares estadísticos globales del sector."
+  },
+  {
+    "pregunta": "Según la OMT, ¿cuál es la diferencia fundamental entre un turista y un excursionista?",
+    "opciones": [
+      "El turista pernocta al menos una noche en el lugar visitado, mientras que el excursionista no pernocta.",
+      "El turista viaja en avión y el excursionista viaja exclusivamente a pie.",
+      "El turista es extranjero y el excursionista es de nacionalidad mexicana.",
+      "El turista gasta menos dinero que el excursionista en su visita."
+    ],
+    "respuesta_correcta": "El turista pernocta al menos una noche en el lugar visitado, mientras que el excursionista no pernocta.",
+    "explicacion": "La pernoctación (dormir al menos una noche) es el criterio técnico delimitador entre turista y excursionista."
+  },
+  {
+    "pregunta": "De acuerdo con las notas de la OMT, un visitante es toda persona que viaja fuera de su entorno habitual por:",
+    "opciones": [
+      "Menos de un año, con cualquier motivo principal que no sea ser empleado por una entidad residente.",
+      "Más de dos años para fijar su residencia permanente en el país de destino.",
+      "Cualquier lapso con la finalidad exclusiva de obtener un contrato laboral fijo.",
+      "Menos de 24 horas y sin realizar ningún tipo de gasto."
+    ],
+    "respuesta_correcta": "Menos de un año, con cualquier motivo principal que no sea ser empleado por una entidad residente.",
+    "explicacion": "La condición para ser considerado visitante es que la actividad no implique remuneración laboral en el lugar visitado y dure menos de 1 año."
+  },
+  {
+    "pregunta": "¿Cómo define la OMT a un destino turístico?",
+    "opciones": [
+      "Espacio físico donde un visitante pernocta al menos una noche, integrando productos, servicios, atractivos y actores.",
+      "Cualquier aeropuerto o terminal de autobuses de conexión de tránsito.",
+      "Un portal web donde se compran boletos y seguros de viaje.",
+      "Una frontera internacional delimitada por aduanas migratorias."
+    ],
+    "respuesta_correcta": "Espacio físico donde un visitante pernocta al menos una noche, integrando productos, servicios, atractivos y actores.",
+    "explicacion": "El destino es la unidad geográfica y vivencial que articula recursos, servicios y gobernanza."
+  },
+  {
+    "pregunta": "¿Por qué el turista resulta económicamente más rentable para un destino que el excursionista?",
+    "opciones": [
+      "Porque genera gasto en alojamiento, realiza múltiples comidas en restaurantes y demanda actividades diurnas y nocturnas.",
+      "Porque no utiliza infraestructura pública ni transporte.",
+      "Porque viaja siempre con subsidios gubernamentales directos.",
+      "Porque está exento de pagar impuestos locales de hospedaje."
+    ],
+    "respuesta_correcta": "Porque genera gasto en alojamiento, realiza múltiples comidas en restaurantes y demanda actividades diurnas y nocturnas.",
+    "explicacion": "Al pernoctar, el turista multiplica su consumo diario y la derrama económica en múltiples sectores de la localidad."
+  },
+  {
+    "pregunta": "¿Qué estrategia de marketing es más adecuada para el segmento de excursionistas?",
+    "opciones": [
+      "Promoción en puntos de llegada, ofertas de medio día, consumo rápido y cupones flash.",
+      "Paquetes de estancia prolongada de 7 noches con reservación obligatoria de 6 meses de anticipación.",
+      "Venta de membresías anuales de tiempo compartido con pago diferido.",
+      "Publicidad institucional en revistas científicas de aviación."
+    ],
+    "respuesta_correcta": "Promoción en puntos de llegada, ofertas de medio día, consumo rápido y cupones flash.",
+    "explicacion": "Dado que el excursionista solo dispone de unas horas, el marketing debe ser de impulso, consumo ágil y fácil acceso."
+  },
+  {
+    "pregunta": "En el ejercicio resuelto de la playa con 30,000 turistas (4 noches, $1,200/día), ¿cuál fue el gasto total anual generado por los turistas?",
+    "opciones": [
+      "$144,000,000 de pesos.",
+      "$8,000,000 de pesos.",
+      "$36,000,000 de pesos.",
+      "$50,000,000 de pesos."
+    ],
+    "respuesta_correcta": "$144,000,000 de pesos.",
+    "explicacion": "30,000 turistas × 4 noches = 120,000 pernoctaciones; 120,000 × $1,200 = $144,000,000 pesos."
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes es uno de los cinco indicadores de medición del turismo propuestos por la OMT?",
+    "opciones": [
+      "Pernoctaciones (número de noches que los turistas pasan en el destino).",
+      "Cantidad de lluvia anual registrada en el observatorio meteorológico.",
+      "Número de páginas del folleto turístico municipal.",
+      "Porcentaje de automóviles eléctricos que circulan en la capital."
+    ],
+    "respuesta_correcta": "Pernoctaciones (número de noches que los turistas pasan en el destino).",
+    "explicacion": "Las pernoctaciones reflejan el uso real de la planta turística y miden la intensidad de la estadía."
+  },
+  {
+    "pregunta": "¿Cómo se define el producto turístico según las notas de la OMT?",
+    "opciones": [
+      "Combinación de elementos tangibles e intangibles (recursos, servicios e infraestructura) que conforman la experiencia del visitante.",
+      "Un souvenir artesanal adquirido en una tienda de aeropuerto.",
+      "La llave física o magnética de una habitación de hotel.",
+      "El boleto de avión expedido por una compañía de transporte."
+    ],
+    "respuesta_correcta": "Combinación de elementos tangibles e intangibles (recursos, servicios e infraestructura) que conforman la experiencia del visitante.",
+    "explicacion": "El producto turístico es una amalgama vivencial integral y no un bien tangible aislado."
+  },
+  {
+    "pregunta": "¿Por qué es crucial para el marketing hablar el mismo lenguaje técnico de la OMT?",
+    "opciones": [
+      "Porque permite comparar destinos, analizar mercados internacionales y justificar inversiones con datos homologados.",
+      "Porque es un requisito para que una agencia de viajes pueda utilizar redes sociales.",
+      "Porque elimina la necesidad de contar con personal capacitado en servicio al cliente.",
+      "Porque garantiza que todos los hoteles tengan exactamente la misma tarifa."
+    ],
+    "respuesta_correcta": "Porque permite comparar destinos, analizar mercados internacionales y justificar inversiones con datos homologados.",
+    "explicacion": "La comparabilidad estadística y metodológica es la base para sustentar proyectos y evaluar su rentabilidad."
+  }
+]

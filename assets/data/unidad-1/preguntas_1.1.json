@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué es un plan de marketing de acuerdo con el texto?",
+    "opciones": [
+      "Un documento escrito que organiza sistemáticamente las decisiones y acciones para alcanzar objetivos comerciales en un periodo determinado.",
+      "Un trámite burocrático exigido exclusivamente por las secretarías de turismo gubernamentales.",
+      "Un catálogo fotográfico para exhibir promociones de temporada baja.",
+      "Un balance contable de ingresos y egresos de los últimos cinco años."
+    ],
+    "respuesta_correcta": "Un documento escrito que organiza sistemáticamente las decisiones y acciones para alcanzar objetivos comerciales en un periodo determinado.",
+    "explicacion": "El plan es una herramienta viva que orienta recursos, define prioridades y permite evaluar resultados comerciales."
+  },
+  {
+    "pregunta": "¿Por qué el plan de marketing adquiere una dimensión especial en el sector turístico?",
+    "opciones": [
+      "Porque no vende un objeto físico almacenable, sino una experiencia compuesta por momentos, sensaciones y recuerdos.",
+      "Porque las empresas turísticas cuentan con presupuestos ilimitados para promoción digital.",
+      "Porque en turismo no existe la competencia internacional ni la estacionalidad.",
+      "Porque los productos turísticos pueden almacenarse en inventario para el siguiente año."
+    ],
+    "respuesta_correcta": "Porque no vende un objeto físico almacenable, sino una experiencia compuesta por momentos, sensaciones y recuerdos.",
+    "explicacion": "Los servicios turísticos son intangibles y perecederos; no es posible recuperar una noche de hotel que quedó vacía."
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una de las cinco razones esenciales para planear el marketing en turismo?",
+    "opciones": [
+      "La experiencia se construye con muchos actores interdependientes (hotel, transporte, restaurante, guía).",
+      "La demanda turística nunca experimenta cambios tecnológicos ni sociales.",
+      "Los destinos turísticos solo compiten con ciudades vecinas del mismo estado.",
+      "Las empresas turísticas no se ven afectadas por temporadas altas o bajas."
+    ],
+    "respuesta_correcta": "La experiencia se construye con muchos actores interdependientes (hotel, transporte, restaurante, guía).",
+    "explicacion": "El plan de marketing debe coordinar la experiencia integral del visitante aunque los prestadores pertenezcan a distintas empresas."
+  },
+  {
+    "pregunta": "¿Qué elementos esenciales debe contener el resumen ejecutivo en turismo?",
+    "opciones": [
+      "Nombre del destino o empresa, segmento objetivo, temporada que cubre y monto de inversión.",
+      "El organigrama completo con nombres y sueldos de todos los colaboradores.",
+      "El código fuente de las plataformas de reservación digital.",
+      "Las actas constitutivas notariales de todos los hoteles de la región."
+    ],
+    "respuesta_correcta": "Nombre del destino o empresa, segmento objetivo, temporada que cubre y monto de inversión.",
+    "explicacion": "El resumen ejecutivo sintetiza en pocas páginas la situación, la oportunidad, las acciones, el costo y los resultados esperados."
+  },
+  {
+    "pregunta": "En el análisis de la situación, ¿qué aspectos componen el análisis externo?",
+    "opciones": [
+      "Entorno político, económico, social, tecnológico, ambiental y legal (macroentorno fuera de control directo).",
+      "Los recursos financieros y el manual de procedimientos internos del hotel.",
+      "Las metas individuales del gerente de mercadotecnia.",
+      "El inventario de sábanas y mobiliario del establecimiento."
+    ],
+    "respuesta_correcta": "Entorno político, económico, social, tecnológico, ambiental y legal (macroentorno fuera de control directo).",
+    "explicacion": "El análisis externo comprende todas las variables que la empresa no controla pero que condicionan drásticamente su operación."
+  },
+  {
+    "pregunta": "¿Qué características definen a los objetivos formulados bajo la metodología SMART?",
+    "opciones": [
+      "Específicos, Medibles, Alcanzables, Relevantes y con Plazo temporal definido.",
+      "Subjetivos, Moderados, Amplios, Rápidos y Teóricos.",
+      "Sostenibles, Millonarios, Atractivos, Rígidos y Tradicionales.",
+      "Secretos, Municipales, Anuales, Regionales y Turísticos."
+    ],
+    "respuesta_correcta": "Específicos, Medibles, Alcanzables, Relevantes y con Plazo temporal definido.",
+    "explicacion": "La metodología SMART asegura que los objetivos sean claros, cuantitativamente verificables y viables."
+  },
+  {
+    "pregunta": "La división del mercado según estilo de vida, valores, intereses y personalidad corresponde al criterio de segmentación:",
+    "opciones": [
+      "Psicográfico.",
+      "Geográfico.",
+      "Demográfico.",
+      "Conductual."
+    ],
+    "respuesta_correcta": "Psicográfico.",
+    "explicacion": "El criterio psicográfico agrupa a los viajeros a partir de sus valores, motivaciones profundas y estilos de vida."
+  },
+  {
+    "pregunta": "¿Qué tres elementos se suman a las tradicionales 4P para conformar las 7P del marketing turístico?",
+    "opciones": [
+      "Personas, Procesos y Evidencia física.",
+      "Patrimonio, Pasajeros y Permisos.",
+      "Prensa, Protocolos y Paisajes.",
+      "Presupuesto, Paquetes y Plataformas."
+    ],
+    "respuesta_correcta": "Personas, Procesos y Evidencia física.",
+    "explicacion": "Por la naturaleza de los servicios, el personal (personas), la consistencia operativa (procesos) y los elementos tangibles (evidencia física) son indispensables."
+  },
+  {
+    "pregunta": "En el ejercicio resuelto del hotel boutique en San Miguel de Allende, ¿cuál fue el objetivo establecido?",
+    "opciones": [
+      "Aumentar la ocupación en temporada baja del 40% al 60% entre mayo y septiembre del próximo año.",
+      "Construir 50 habitaciones adicionales para competir con grandes cadenas.",
+      "Cerrar las operaciones del hotel durante la temporada de lluvias.",
+      "Ofrecer descuentos masivos del 70% sin importar la devaluación de la marca."
+    ],
+    "respuesta_correcta": "Aumentar la ocupación en temporada baja del 40% al 60% entre mayo y septiembre del próximo año.",
+    "explicacion": "El hotel planteó una meta SMART concreta para incrementar la ocupación en temporada valle mediante valor agregado y no guerra de precios."
+  },
+  {
+    "pregunta": "¿Cómo se define el posicionamiento en el plan de marketing turístico?",
+    "opciones": [
+      "El lugar que el destino o empresa ocupa en la mente del consumidor a partir de experiencias y percepciones.",
+      "La ubicación geográfica en coordenadas GPS registradas en mapas digitales.",
+      "El rango jerárquico del director general dentro del consejo directivo.",
+      "El número de metros cuadrados que ocupa el vestíbulo del establecimiento."
+    ],
+    "respuesta_correcta": "El lugar que el destino o empresa ocupa en la mente del consumidor a partir de experiencias y percepciones.",
+    "explicacion": "El posicionamiento no es lo que la empresa dice de sí misma, sino la reputación y percepción que el viajero guarda en su mente."
+  }
+]

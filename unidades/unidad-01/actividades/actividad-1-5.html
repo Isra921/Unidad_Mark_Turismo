@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad de aprendizaje 1.5 | Marketing</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="../../../assets/css/variables.css">
+  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css?v=20260930">
+  <link rel="stylesheet" href="../../../assets/css/actividad.css">
+
+  <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-01" data-tema="1.5"
+  data-preguntas="assets/data/unidad-1/preguntas_1.5.json" data-cantidad="10">
+
+  <header class="site-nav">
+    <a class="brand" href="../index.html">EST · Marketing<small>Unidad 1: Encuadre empresarial</small></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
+      <span class="u-sr-only">Abrir navegación</span><i class="fas fa-bars" aria-hidden="true"></i>
+    </button>
+    <nav id="main-navigation" aria-label="Navegación principal">
+      <a href="../index.html"><i class="fas fa-book" aria-hidden="true"></i> Unidad 1</a>
+      <a href="../referencias.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias</a>
+    </nav>
+  </header>
+
+  <main class="u-page">
+
+    <div class="a-layout">
+      <div class="a-main">
+        <header class="a-card a-head">
+          <div class="a-head__top">
+            <span class="a-badge">Actividad de aprendizaje</span>
+            <span class="a-head__where">Unidad I · 1.5</span>
+          </div>
+          <h1 class="a-title">Actividad de aprendizaje 1.5</h1>
+          <p class="a-purpose">Refuerza los conceptos del tema 1.5 <strong>El enfoque industrial del turismo</strong> evaluando la cadena de valor, clústeres turísticos y la aplicación sistémica del marketing.</p>
+          <ul class="a-chips" aria-label="Datos de la actividad">
+            <li class="u-chip u-chip--soft"><i class="fas fa-shapes" aria-hidden="true"></i> Tipo: interactiva</li>
+            <li class="u-chip u-chip--soft"><i class="fas fa-list-ol" aria-hidden="true"></i> Preguntas: <strong id="totalPreguntas">10</strong></li>
+            <li class="u-chip u-chip--soft"><i class="far fa-clock" aria-hidden="true"></i> Duración estimada: 10 min</li>
+            <li class="u-chip u-chip--soft"><i class="fas fa-rotate" aria-hidden="true"></i> Intentos: ilimitados</li>
+            <li class="u-chip a-chip--outline">Sin valor en la calificación</li>
+            <li class="u-chip u-chip--accent" id="ultimoResultado" hidden><i class="fas fa-chart-simple" aria-hidden="true"></i> Último resultado: <strong></strong></li>
+          </ul>
+        </header>
+
+        <section class="a-card" aria-labelledby="instruccionesTitulo">
+          <h2 class="a-card__title" id="instruccionesTitulo">Instrucciones</h2>
+          <ol class="a-steps">
+            <li>Repasa el tema 1.5 antes de responder; cada intento toma 10 preguntas al azar del banco del tema.</li>
+            <li>Lee cada pregunta, elige tu respuesta y pulsa <strong>Comprobar respuesta</strong>. Con <strong>Reiniciar</strong> comienzas un intento nuevo.</li>
+            <li>Lee la retroalimentación: si fallas, verás la respuesta correcta y la explicación del concepto. Al final obtendrás tu resultado.</li>
+          </ol>
+        </section>
+
+        <section class="a-card a-exercise" aria-labelledby="ejercicioTitulo">
+          <div class="a-exercise__bar">
+            <h2 class="a-exercise__label" id="ejercicioTitulo">Ejercicio</h2>
+            <span class="a-exercise__count" id="ejercicioContador" aria-live="polite"></span>
+          </div>
+          <div class="a-exercise__body" id="ejercicio" aria-busy="true">
+            <p class="u-loading">Cargando preguntas…</p>
+          </div>
+        </section>
+
+        <div id="retroalimentacion" aria-live="polite"></div>
+
+        <!-- Se genera desde el JSON; este enlace es solo de respaldo -->
+        <nav class="a-pager" id="actividadNavegacion" aria-label="Navegación de la actividad">
+          <a class="a-pager__prev" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la unidad</a>
+        </nav>
+      </div>
+
+      <aside class="a-sidebar" aria-label="Información de la actividad">
+        <section class="a-side-card a-side-card--dark" aria-labelledby="antesTitulo">
+          <p class="a-side-title" id="antesTitulo">Antes de empezar</p>
+          <p class="a-side-text">Esta actividad refuerza el aprendizaje; no requiere entrega de evidencia.</p>
+          <a class="a-side-link" id="enlaceRepaso" href="../index.html"><i class="fas fa-book-open" aria-hidden="true"></i> <span>Repasar el tema 1.5</span></a>
+        </section>
+
+        <nav class="a-side-card" aria-labelledby="otrasTitulo">
+          <p class="a-side-title" id="otrasTitulo">Otras actividades</p>
+          <div id="otrasActividades">
+            <a class="a-side-item" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la unidad</a>
+          </div>
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Marketing · Unidad 1: Encuadre empresarial · Escuela Superior de Turismo (EST - IPN)</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/nav-global.js"></script>
+  <script src="../../../assets/js/data-manager.js?v=20260930"></script>
+  <script src="../../../assets/js/unidades-ui.js?v=20260930"></script>
+  <script src="../../../assets/js/paginas/actividad-plantilla.js"></script>
+</body>
+
+</html>

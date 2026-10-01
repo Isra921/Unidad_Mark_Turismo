@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿A qué se refiere la característica de 'inseparabilidad' en los servicios turísticos?",
+    "opciones": [
+      "A que la producción y el consumo del servicio ocurren simultáneamente en presencia del cliente.",
+      "A que el boleto de avión y la reservación de hotel deben comprarse siempre juntos.",
+      "A que los turistas nunca pueden viajar sin compañía familiar.",
+      "A que un hotel no puede cambiar de logotipo ni de nombre comercial."
+    ],
+    "respuesta_correcta": "A que la producción y el consumo del servicio ocurren simultáneamente en presencia del cliente.",
+    "explicacion": "El cliente experimenta el servicio al mismo tiempo que el personal lo brinda; no hay margen de almacenamiento ni inspección previa."
+  },
+  {
+    "pregunta": "¿Qué consecuencia directa tiene la 'caducidad' en las empresas turísticas?",
+    "opciones": [
+      "Los servicios no se pueden almacenar; una habitación o un asiento no vendido hoy es ingreso perdido para siempre.",
+      "Los alimentos de los restaurantes deben tirarse a la basura cada dos horas obligatoriamente.",
+      "Los empleados deben ser reemplazados cada fin de temporada vacacional.",
+      "Los paquetes de viaje tienen una vigencia máxima legal de tres días."
+    ],
+    "respuesta_correcta": "Los servicios no se pueden almacenar; una habitación o un asiento no vendido hoy es ingreso perdido para siempre.",
+    "explicacion": "La imposibilidad de almacenar inventario exige estrategias ágiles de revenue management y comercialización de último minuto."
+  },
+  {
+    "pregunta": "¿Cómo se clasifican las empresas turísticas según su función?",
+    "opciones": [
+      "Alojamiento, restauración, transporte, intermediación, ocio y entretenimiento, y servicios complementarios.",
+      "Microempresas, pequeñas, medianas y grandes empresas.",
+      "Empresas locales, regionales, nacionales e internacionales.",
+      "Empresas públicas, privadas y mixtas."
+    ],
+    "respuesta_correcta": "Alojamiento, restauración, transporte, intermediación, ocio y entretenimiento, y servicios complementarios.",
+    "explicacion": "La función operativa agrupa a las empresas por el rol directo que desempeñan en la cadena turística."
+  },
+  {
+    "pregunta": "Según la clasificación por tamaño en México, ¿cuántos colaboradores tiene una pequeña empresa turística?",
+    "opciones": [
+      "De 10 a 49 empleados.",
+      "Menos de 10 empleados.",
+      "De 50 a 249 empleados.",
+      "Más de 250 empleados."
+    ],
+    "respuesta_correcta": "De 10 a 49 empleados.",
+    "explicacion": "Micro es menos de 10; pequeña de 10 a 49; mediana de 50 a 249; y grande 250 o más."
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia fundamental entre una meta y un objetivo?",
+    "opciones": [
+      "La meta es un enunciado general y cualitativo de largo plazo; el objetivo es específico, cuantitativo y con plazo definido.",
+      "La meta siempre involucra dinero en efectivo y el objetivo solo involucra personal.",
+      "La meta la fija el gobierno y los objetivos los fijan los clientes.",
+      "No existe diferencia; en mercadotecnia son términos exactamente idénticos."
+    ],
+    "respuesta_correcta": "La meta es un enunciado general y cualitativo de largo plazo; el objetivo es específico, cuantitativo y con plazo definido.",
+    "explicacion": "La meta define el rumbo cualitativo deseado; el objetivo cuantifica la meta en parámetros medibles (SMART)."
+  },
+  {
+    "pregunta": "¿Qué pregunta central responde la misión de una empresa turística?",
+    "opciones": [
+      "¿Para qué existe la empresa, a quién sirve y qué necesidad satisface?",
+      "¿Cuánto dinero ganará el dueño en el año 2040?",
+      "¿Cuál es el horario de comida de los recepcionistas?",
+      "¿Qué marca de camionetas debe comprar la agencia de viajes?"
+    ],
+    "respuesta_correcta": "¿Para qué existe la empresa, a quién sirve y qué necesidad satisface?",
+    "explicacion": "La misión declara el propósito de existencia, el mercado atendido y la propuesta de valor fundamental."
+  },
+  {
+    "pregunta": "¿Qué representa la visión dentro de la filosofía empresarial?",
+    "opciones": [
+      "Hacia dónde quiere llegar la empresa en el futuro, de forma ambiciosa e inspiradora con un horizonte temporal.",
+      "La inspección ocular que realiza protección civil en las instalaciones.",
+      "La fotografía panorámica del destino que se coloca en la publicidad.",
+      "La evaluación médica de agudeza visual de los choferes de autobuses."
+    ],
+    "respuesta_correcta": "Hacia dónde quiere llegar la empresa en el futuro, de forma ambiciosa e inspiradora con un horizonte temporal.",
+    "explicacion": "La visión es la imagen futura compartida hacia la que se orientan todos los esfuerzos de la organización."
+  },
+  {
+    "pregunta": "En el ejercicio resuelto del parque ecoturístico en la Selva Lacandona, ¿cuál fue uno de sus valores declarados?",
+    "opciones": [
+      "Conservación: proteger el ecosistema en todas las operaciones.",
+      "Urbanización: pavimentar la mayor cantidad de senderos posibles.",
+      "Exclusividad: prohibir el ingreso a personas de comunidades vecinas.",
+      "Velocidad: reducir a la mitad el tiempo de todos los recorridos en lancha."
+    ],
+    "respuesta_correcta": "Conservación: proteger el ecosistema en todas las operaciones.",
+    "explicacion": "Los valores del parque incluyen conservación, comunidad, autenticidad, seguridad y educación ambiental."
+  },
+  {
+    "pregunta": "¿Por qué el factor humano es considerado el principal activo de la empresa turística?",
+    "opciones": [
+      "Porque un colaborador empático y capacitado puede transformar una experiencia ordinaria en una memorable.",
+      "Porque las máquinas no pueden preparar café en las mañanas.",
+      "Porque los turistas solo quieren hablar con gerentes generales.",
+      "Porque el personal no requiere capacitación ni remuneración salarial."
+    ],
+    "respuesta_correcta": "Porque un colaborador empático y capacitado puede transformar una experiencia ordinaria en una memorable.",
+    "explicacion": "La calidez, atención y hospitalidad residen en las personas que tienen contacto directo con el visitante."
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes es un ejemplo de objetivo SMART para un hotel?",
+    "opciones": [
+      "Aumentar la ocupación anual del 65% al 75% en los próximos 12 meses.",
+      "Ser el hotel más bonito y agradable de todo el continente.",
+      "Intentar vender más habitaciones en algún momento del año.",
+      "Hacer que todos los huéspedes estén muy felices siempre."
+    ],
+    "respuesta_correcta": "Aumentar la ocupación anual del 65% al 75% en los próximos 12 meses.",
+    "explicacion": "Es específico (ocupación), medible (del 65% al 75%), alcanzable, relevante y temporal (12 meses)."
+  }
+]

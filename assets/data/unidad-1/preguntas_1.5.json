@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué postula el enfoque industrial del turismo?",
+    "opciones": [
+      "Que el turismo es una cadena productiva de actividades interconectadas que generan valor conjunto, y no un sector aislado.",
+      "Que todas las ciudades turísticas deben construir refinerías y fábricas químicas.",
+      "Que los turistas deben trabajar en líneas de producción durante sus vacaciones.",
+      "Que las artesanías deben ser producidas exclusivamente en naves industriales automatizadas."
+    ],
+    "respuesta_correcta": "Que el turismo es una cadena productiva de actividades interconectadas que generan valor conjunto, y no un sector aislado.",
+    "explicacion": "El enfoque industrial concibe al turismo como un entramado articulado de múltiples sectores económicos interdependientes."
+  },
+  {
+    "pregunta": "En la cadena de valor del turismo, ¿cuál es un ejemplo de actividad primaria?",
+    "opciones": [
+      "El servicio de hospedaje, transporte de conexión, alimentación y recorridos guiados.",
+      "La compra de servidores informáticos para la base de datos corporativa.",
+      "La redacción del manual de políticas de recursos humanos.",
+      "La contratación de pólizas de seguro patrimonial para edificios."
+    ],
+    "respuesta_correcta": "El servicio de hospedaje, transporte de conexión, alimentación y recorridos guiados.",
+    "explicacion": "Las actividades primarias son aquellas directamente involucradas en la experiencia tangible y vivencial del visitante."
+  },
+  {
+    "pregunta": "¿Qué es un clúster turístico?",
+    "opciones": [
+      "Una concentración geográfica de empresas e instituciones conexas que compiten y colaboran simultáneamente para fortalecer el destino.",
+      "Un conjunto de computadoras conectadas a un servidor central en una recepción hotelera.",
+      "Un archipiélago de islas desiertas donde está prohibido el ingreso humano.",
+      "Un acuerdo secreto de monopolio tarifario entre dos aerolíneas internacionales."
+    ],
+    "respuesta_correcta": "Una concentración geográfica de empresas e instituciones conexas que compiten y colaboran simultáneamente para fortalecer el destino.",
+    "explicacion": "El clúster fomenta la coopetición: empresas que compiten entre sí pero cooperan para posicionar y hacer crecer el destino común."
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una ventaja principal de operar bajo un clúster turístico?",
+    "opciones": [
+      "Mayor eficiencia en el uso de recursos, innovación compartida y mayor poder de negociación.",
+      "Exención permanente del pago de todo tipo de impuestos federales y locales.",
+      "Obligación de que todos los restaurantes ofrezcan el mismo menú al mismo precio.",
+      "Eliminación total de la competencia entre hoteles locales."
+    ],
+    "respuesta_correcta": "Mayor eficiencia en el uso de recursos, innovación compartida y mayor poder de negociación.",
+    "explicacion": "Al agruparse geográficamente e interactuar, los actores logran economías de escala y mayor tracción de inversión."
+  },
+  {
+    "pregunta": "¿Cuáles son los cuatro elementos fundamentales del turismo concebido como sistema dinámico?",
+    "opciones": [
+      "Entradas (insumos), Procesos, Salidas (impactos y experiencias) y Retroalimentación.",
+      "Norte, Sur, Este y Oeste.",
+      "Hoteles, Aviones, Playas y Maletas.",
+      "Dinero, Boletos, Pasaportes y Fotos."
+    ],
+    "respuesta_correcta": "Entradas (insumos), Procesos, Salidas (impactos y experiencias) y Retroalimentación.",
+    "explicacion": "Como sistema abierto, el turismo recibe insumos del entorno, los transforma en vivencias y evalúa sus efectos."
+  },
+  {
+    "pregunta": "¿Qué implica 'pensar en red' al aplicar el enfoque industrial al marketing?",
+    "opciones": [
+      "Dejar de vender un servicio aislado y promover la experiencia articulada del destino completo.",
+      "Publicar anuncios publicitarios únicamente entre las 2:00 y las 4:00 de la madrugada.",
+      "Usar cables de red ethernet en lugar de wifi en las habitaciones de hotel.",
+      "Obligar a los turistas a usar redes sociales durante toda su estancia."
+    ],
+    "respuesta_correcta": "Dejar de vender un servicio aislado y promover la experiencia articulada del destino completo.",
+    "explicacion": "El visitante compra la vivencia total del territorio, por lo que las marcas deben integrarse en paquetes y rutas compartidas."
+  },
+  {
+    "pregunta": "En el ejercicio resuelto de diseño de clúster, ¿qué papel estratégico desempeña la universidad local?",
+    "opciones": [
+      "Aportar investigación de mercados aplicada, observatorios de tendencias y estudiantes en prácticas profesionales.",
+      "Cobrar cuotas de inscripción obligatorias a los turistas que visitan el mercado.",
+      "Prohibir que los jóvenes trabajen en el sector hotelero durante los fines de semana.",
+      "Encargarse del mantenimiento mecánico de las aeronaves en el aeropuerto."
+    ],
+    "respuesta_correcta": "Aportar investigación de mercados aplicada, observatorios de tendencias y estudiantes en prácticas profesionales.",
+    "explicacion": "La academia provee capital intelectual, investigación rigurosa y formación de talento calificado."
+  },
+  {
+    "pregunta": "¿Cuál es uno de los principales riesgos o desafíos que enfrenta un clúster turístico si no se gestiona adecuadamente?",
+    "opciones": [
+      "Riesgo de sobreexplotación turística (overtourism) y dependencia excesiva de un solo mercado.",
+      "Peligro de que los turistas aprendan a cocinar sus propios platillos regionales.",
+      "Riesgo de que el aeropuerto reciba demasiados vuelos internacionales puntuales.",
+      "Peligro de que la comunidad anfitriona reciba demasiados ingresos económicos."
+    ],
+    "respuesta_correcta": "Riesgo de sobreexplotación turística (overtourism) y dependencia excesiva de un solo mercado.",
+    "explicacion": "El éxito no planificado puede saturar los recursos bioculturales y hacer vulnerable al destino si cae el mercado emisor principal."
+  },
+  {
+    "pregunta": "En la cadena de valor, ¿qué representa el 'margen'?",
+    "opciones": [
+      "El valor generado por la diferencia entre lo que el visitante paga por la experiencia y lo que cuesta producirla.",
+      "La distancia física en kilómetros entre la playa y el hotel más cercano.",
+      "El porcentaje de equipaje que una aerolínea permite documentar sin costo.",
+      "El espacio en blanco alrededor de las hojas de un folleto publicitario."
+    ],
+    "respuesta_correcta": "El valor generado por la diferencia entre lo que el visitante paga por la experiencia y lo que cuesta producirla.",
+    "explicacion": "El margen refleja la rentabilidad y el valor percibido creado a lo largo de toda la cadena."
+  },
+  {
+    "pregunta": "¿Cuál es la reflexión central que resume el cierre de la unidad temática?",
+    "opciones": [
+      "El marketing turístico se aprende mirando el mundo con ojos de estratega y corazón de anfitrión.",
+      "El marketing solo consiste en gastar presupuesto en volantes impresos.",
+      "La teoría del aula es suficiente y nunca debe aplicarse en la vida real.",
+      "Las empresas turísticas deben esperar a que el gobierno les resuelva todos sus problemas comerciales."
+    ],
+    "respuesta_correcta": "El marketing turístico se aprende mirando el mundo con ojos de estratega y corazón de anfitrión.",
+    "explicacion": "El cierre enfatiza conjugar la visión analítica y cuantitativa con la genuina vocación de servicio humano."
+  }
+]

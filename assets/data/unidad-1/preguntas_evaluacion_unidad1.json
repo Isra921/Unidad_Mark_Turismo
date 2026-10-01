@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "category": "Fundamentos de Plan de Marketing",
+    "question": "En el diagnóstico de Valle Sereno, el hotel Casona de Piedra establece el objetivo: 'Aumentar las reservas directas en un 25% durante los próximos 18 meses mediante un nuevo motor web y programa de fidelización'. ¿Qué metodología de formulación de objetivos cumple este enunciado?",
+    "options": [
+      "Metodología SMART (Específico, Medible, Alcanzable, Relevante y con Límite de Tiempo)",
+      "Modelo de regresión econométrica cuadrática",
+      "Análisis heurístico no estructurado",
+      "Estrategia de penetración ciega de mercado"
+    ],
+    "answer": "Metodología SMART (Específico, Medible, Alcanzable, Relevante y con Límite de Tiempo)",
+    "explanation": "Un objetivo SMART define con precisión la meta (reservas directas), la magnitud cuantificable (25%), la viabilidad estratégica y el horizonte temporal exacto (18 meses)."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "category": "Fundamentos de Plan de Marketing",
+    "question": "Al estructurar la estrategia de Marketing Mix para comercializar experiencias culturales y gastronómicas en Valle Sereno durante días hábiles, ¿cuál de las siguientes acciones pertenece a la variable 'Producto' (Product)?",
+    "options": [
+      "Diseño y empaquetamiento del itinerario 'Ruta del Vino y Tradición Otomí' con cata guiada y taller artesanal",
+      "Descuento del 15% por pago anticipado en reservas de martes a jueves",
+      "Pauta publicitaria digital en redes sociales dirigida a audiencias de ciudades emisoras cercanas",
+      "Firma de convenio de comisión preferencial con agencias de viaje mayoristas"
+    ],
+    "answer": "Diseño y empaquetamiento del itinerario 'Ruta del Vino y Tradición Otomí' con cata guiada y taller artesanal",
+    "explanation": "El diseño y empaquetamiento de experiencias tangibles e intangibles constituye la configuración de la variable Producto dentro de la mezcla de mercadotecnia turística."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "category": "Notas de la OMT",
+    "question": "De acuerdo con las notas conceptuales y metodológicas de la Organización Mundial del Turismo (OMT), ¿cuál es la distinción técnica fundamental entre un 'turista' y un 'excursionista'?",
+    "options": [
+      "El turista pernocta al menos una noche en un alojamiento del destino, mientras que el excursionista es un visitante del mismo día sin pernocta",
+      "El turista viaja únicamente con fines recreativos, mientras que el excursionista viaja con motivos de negocios",
+      "El turista utiliza transporte aéreo internacional, mientras que el excursionista se desplaza exclusivamente en automóvil particular",
+      "El turista no genera derrama económica en el comercio local, a diferencia del excursionista"
+    ],
+    "answer": "El turista pernocta al menos una noche en un alojamiento del destino, mientras que el excursionista es un visitante del mismo día sin pernocta",
+    "explanation": "La OMT clasifica a los visitantes en dos categorías según la duración de la estancia: turistas (visitantes que pernoctan al menos una noche) y excursionistas (visitantes del mismo día sin pernocta)."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "category": "Notas de la OMT",
+    "question": "Valle Sereno registra una tasa de ocupación hotelera del 92% en fines de semana festivos pero sólo del 22% de lunes a jueves. ¿Qué fenómeno turístico describe esta problemática según los indicadores de la OMT y qué indicador permite medir su concentración temporal?",
+    "options": [
+      "Estacionalidad turística, medida a través del Índice de Estacionalidad y la curva de distribución de pernoctaciones mensuales y semanales",
+      "Paradoja de Giffen, medida mediante la curva de indiferencia del consumidor",
+      "Rendimientos marginales decrecientes del capital financiero",
+      "Inflexibilidad cambiaria de la balanza turística de pagos"
+    ],
+    "answer": "Estacionalidad turística, medida a través del Índice de Estacionalidad y la curva de distribución de pernoctaciones mensuales y semanales",
+    "explanation": "La estacionalidad turística representa la concentración asimétrica de la demanda en periodos específicos, evaluada formalmente mediante tasas de ocupación e índices de estacionalidad."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "category": "Empresa turística",
+    "question": "Las MiPyMEs de alojamiento y ecoturismo de Valle Sereno abonan hasta el 28% de su tarifa neta a plataformas intermediarias internacionales (OTAs). ¿Cuál es la estrategia recomendada en el plan de marketing para incrementar el margen operativo sin perder presencia de mercado?",
+    "options": [
+      "Implementar una estrategia de distribución omnicanal con incentivos de reserva directa (tarifas con valor añadido, cancelación flexible y fidelización) manteniendo las OTAs como vitrina de captación",
+      "Eliminar de inmediato y por completo la presencia digital en todos los motores de búsqueda y portales web",
+      "Aumentar el precio final de las OTAs en un 100% para compensar las comisiones sin previo estudio de demanda",
+      "Transformar la empresa hotelera en una agencia de viajes mayorista emisor exclusivamente"
+    ],
+    "answer": "Implementar una estrategia de distribución omnicanal con incentivos de reserva directa (tarifas con valor añadido, cancelación flexible y fidelización) manteniendo las OTAs como vitrina de captación",
+    "explanation": "Una estrategia omnicanal equilibrada aprovecha el efecto escaparate de las OTAs para captar nuevos clientes, al tiempo que convierte y fideliza al huésped a través del canal directo para retener el valor."
+  },
+  {
+    "id": 6,
+    "type": "ordenar_proceso",
+    "category": "Empresa turística",
+    "instruction": "Ordena cronológicamente los eslabones operativos en la experiencia integral del cliente dentro de la cadena de valor de una empresa turística receptiva:",
+    "segments": [
+      "Búsqueda, comparación e interacción en canales informativos y de reserva previa (Fase de inspiración y compra)",
+      "Recepción, check-in y prestación de los servicios nucleares de alojamiento y gastronomía",
+      "Consumo de experiencias complementarias in situ (tours guiados, artesanía y actividades locales)",
+      "Check-out, facturación, medición de satisfacción post-estancia y fidelización digital"
+    ],
+    "answer": [
+      "Búsqueda, comparación e interacción en canales informativos y de reserva previa (Fase de inspiración y compra)",
+      "Recepción, check-in y prestación de los servicios nucleares de alojamiento y gastronomía",
+      "Consumo de experiencias complementarias in situ (tours guiados, artesanía y actividades locales)",
+      "Check-out, facturación, medición de satisfacción post-estancia y fidelización digital"
+    ],
+    "explanation": "La cadena de valor de la experiencia turística fluye desde la fase previa (reserva e inspiración), pasando por los servicios principales y complementarios, hasta la fase post-viaje y fidelización."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "category": "Análisis de la oferta y la demanda",
+    "question": "En el análisis de la oferta turística de un destino como Valle Sereno, ¿cuál de los siguientes conjuntos clasifica correctamente los cuatro pilares fundamentales de la oferta?",
+    "options": [
+      "Atractivos turísticos (naturales y culturales), Planta turística (equipamiento de servicios), Infraestructura (redes viales, agua, energía) y Superestructura (instituciones y normativas)",
+      "Canales de televisión, satélites de comunicación, puertos marítimos de carga y refinerías de petróleo",
+      "Precios de boletos de avión, tipo de cambio bancario, inflación nacional y aranceles de exportación",
+      "Turismo de negocios, turismo de sol y playa, turismo de salud y turismo espacial"
+    ],
+    "answer": "Atractivos turísticos (naturales y culturales), Planta turística (equipamiento de servicios), Infraestructura (redes viales, agua, energía) y Superestructura (instituciones y normativas)",
+    "explanation": "La teoría turística y los manuales de planeación definen la oferta turística integral como la articulación de atractivos, planta turística, infraestructura básica y superestructura organizativa."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "category": "Análisis de la oferta y la demanda",
+    "question": "El centro histórico de Valle Sereno sufre congestión peatonal y saturación de servicios los fines de semana. ¿Qué concepto técnico define el número máximo de visitantes que pueden disfrutar de un sitio turístico sin degradar el entorno físico ni disminuir la calidad de la experiencia?",
+    "options": [
+      "Capacidad de carga turística (física, real y de manejo)",
+      "Punto de equilibrio contable de corto plazo",
+      "Elasticidad precio de la demanda de bienes suntuarios",
+      "Tasa interna de retorno ambiental acumulada"
+    ],
+    "answer": "Capacidad de carga turística (física, real y de manejo)",
+    "explanation": "La capacidad de carga turística establece el límite de tolerancia del ecosistema y de la comunidad receptora para asegurar la sustentabilidad y calidad de la experiencia del visitante."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "category": "El enfoque industrial del turismo",
+    "question": "Bajo el enfoque industrial, el turismo no se concibe como una actividad aislada, sino como un sistema económico multisectorial. ¿Qué fenómeno económico explica que cada peso gastado por un turista genere ingresos subsecuentes en la agricultura, el transporte y el comercio local?",
+    "options": [
+      "El efecto multiplicador del gasto turístico y los encadenamientos productivos hacia atrás y hacia adelante",
+      "La ley de rendimientos marginales nulos en servicios intangibles",
+      "El principio de exclusión mutua de bienes públicos puros",
+      "El déficit recurrente en la balanza comercial de manufacturas"
+    ],
+    "answer": "El efecto multiplicador del gasto turístico y los encadenamientos productivos hacia atrás y hacia adelante",
+    "explanation": "El gasto directo del turista se transfiere a proveedores locales de bienes y servicios (efecto indirecto) y a los salarios que recirculan en la economía local (efecto inducido), generando un efecto multiplicador positivo."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "category": "El enfoque industrial del turismo",
+    "question": "La conformación del Clúster Turístico Regional de Valle Sereno involucra a empresarios hoteleros, productores agroalimentarios, la Escuela Superior de Turismo (EST) y el gobierno municipal. ¿Cuál es el principal beneficio estratégico de esta articulación para el destino?",
+    "options": [
+      "Aumentar la competitividad colectiva, generar economías de escala, fortalecer la cadena de valor local y posicionar una marca turística con gobernanza compartida",
+      "Fijar precios monopolísticos obligatorios para eliminar por completo la competencia entre los negocios participantes",
+      "Sustituir los atractivos naturales y culturales del municipio por desarrollos industriales manufactureros",
+      "Garantizar subsidios estatales ilimitados a fondo perdido sin necesidad de evaluar resultados de mercado"
+    ],
+    "answer": "Aumentar la competitividad colectiva, generar economías de escala, fortalecer la cadena de valor local y posicionar una marca turística con gobernanza compartida",
+    "explanation": "Los clústeres turísticos potencian la competitividad sistémica mediante sinergias, innovación colaborativa, encadenamientos productivos y gobernanza público-privada transparente."
+  }
+]

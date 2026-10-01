@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Cuáles son los cinco componentes estructurales de la oferta turística?",
+    "opciones": [
+      "Recursos turísticos, infraestructura, superestructura, servicios complementarios y capital humano.",
+      "Hoteles, moteles, hostales, cabañas y departamentos.",
+      "Aeropuertos, carreteras, puertos, trenes y ciclovías.",
+      "Facebook, Instagram, TikTok, folletos y anuncios espectaculares."
+    ],
+    "respuesta_correcta": "Recursos turísticos, infraestructura, superestructura, servicios complementarios y capital humano.",
+    "explicacion": "La oferta comprende los atractivos base, la infraestructura de soporte, el equipamiento turístico, los servicios y el personal calificado."
+  },
+  {
+    "pregunta": "¿Qué significa que la oferta turística tenga la característica de 'rigidez'?",
+    "opciones": [
+      "Que no se puede aumentar rápidamente en el corto plazo ante incrementos repentinos de la demanda.",
+      "Que las camas de los hoteles deben tener colchones duros por normativa de salud.",
+      "Que los contratos laborales del personal no permiten otorgar días de descanso.",
+      "Que las tarifas hoteleras no pueden modificarse jamás por ley."
+    ],
+    "respuesta_correcta": "Que no se puede aumentar rápidamente en el corto plazo ante incrementos repentinos de la demanda.",
+    "explicacion": "Construir o ampliar infraestructura física (hoteles, aeropuertos, carreteras) requiere tiempo e inversiones cuantiosas."
+  },
+  {
+    "pregunta": "¿A qué tipo de demanda corresponden las personas que tienen la intención de viajar pero han tenido que postergar su viaje?",
+    "opciones": [
+      "Demanda diferida.",
+      "Demanda efectiva.",
+      "No demanda.",
+      "Demanda elástica."
+    ],
+    "respuesta_correcta": "Demanda diferida.",
+    "explicacion": "La demanda diferida pospone el consumo turístico por causas temporales laborales, familiares o de fuerza mayor."
+  },
+  {
+    "pregunta": "¿Qué herramienta permite a las empresas gestionar el desequilibrio entre oferta rígida y demanda volátil ajustando precios según la demanda?",
+    "opciones": [
+      "Yield management (gestión de ingresos o revenue management).",
+      "Auditoría contable tradicional.",
+      "Crédito hipotecario bancario.",
+      "Control de asistencia biométrico."
+    ],
+    "respuesta_correcta": "Yield management (gestión de ingresos o revenue management).",
+    "explicacion": "El yield management optimiza las tarifas en tiempo real según la ocupación proyectada y la anticipación de reserva."
+  },
+  {
+    "pregunta": "¿Cuál es la demanda efectiva en el mercado turístico?",
+    "opciones": [
+      "Las personas que realmente están viajando y consumiendo servicios turísticos en el momento.",
+      "Las personas que sueñan con viajar pero no tienen dinero suficiente.",
+      "Los residentes locales que nunca salen de su propia ciudad.",
+      "Los empleados contratados en el sector hotelero."
+    ],
+    "respuesta_correcta": "Las personas que realmente están viajando y consumiendo servicios turísticos en el momento.",
+    "explicacion": "La demanda efectiva es la demanda real contabilizada en llegadas y pernoctaciones."
+  },
+  {
+    "pregunta": "En el ejercicio resuelto del Pueblo Mágico (15 hoteles con 500 habitaciones, 60,000 turistas con 2 noches promedio), ¿cuál fue el promedio de habitaciones requeridas por noche?",
+    "opciones": [
+      "329 habitaciones ocupadas por noche.",
+      "500 habitaciones ocupadas por noche.",
+      "100 habitaciones ocupadas por noche.",
+      "1,000 habitaciones ocupadas por noche."
+    ],
+    "respuesta_correcta": "329 habitaciones ocupadas por noche.",
+    "explicacion": "120,000 pernoctaciones anuales divididas entre 365 días arrojan un promedio de 329 habitaciones por noche."
+  },
+  {
+    "pregunta": "En el ejercicio del Pueblo Mágico, ¿por qué se concluye que no existe equilibrio de mercado?",
+    "opciones": [
+      "Porque en temporada alta hay saturación (95% de ocupación) y en temporada baja cae drásticamente al 30% con habitaciones vacías.",
+      "Porque no hay turistas extranjeros registrados en los museos.",
+      "Porque los restaurantes no abren los días lunes.",
+      "Porque la zona arqueológica no cobra boleto de entrada."
+    ],
+    "respuesta_correcta": "Porque en temporada alta hay saturación (95% de ocupación) y en temporada baja cae drásticamente al 30% con habitaciones vacías.",
+    "explicacion": "La alta estacionalidad provoca extremos de sobresaturación y capacidad ociosa insostenible."
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una estrategia adecuada para equilibrar la demanda en temporada baja?",
+    "opciones": [
+      "Crear eventos, festivales culturales y paquetes especiales para residentes y mercados cercanos.",
+      "Aumentar las tarifas al doble para compensar los días con pocas ventas.",
+      "Suspender la publicidad y apagar la página web del destino.",
+      "Despedir a todo el personal de contacto para eliminar costos."
+    ],
+    "respuesta_correcta": "Crear eventos, festivales culturales y paquetes especiales para residentes y mercados cercanos.",
+    "explicacion": "Atraer nuevos segmentos (reuniones, turismo cultural, escapadas de fin de semana) suaviza los valles de demanda."
+  },
+  {
+    "pregunta": "Los cambios demográficos, los nuevos hábitos de viaje y la mayor conciencia ecológica de los turistas corresponden a factores de la demanda de tipo:",
+    "opciones": [
+      "Social.",
+      "Económico.",
+      "Político.",
+      "Sanitario."
+    ],
+    "respuesta_correcta": "Social.",
+    "explicacion": "Son variables sociológicas y culturales vinculadas a estilos de vida y valores generacionales."
+  },
+  {
+    "pregunta": "¿Qué rasgo caracteriza a la demanda turística frente a la oferta en el corto plazo?",
+    "opciones": [
+      "La demanda es altamente volátil y flexible, mientras que la oferta es rígida e inamovible.",
+      "La demanda es completamente rígida y la oferta se duplica automáticamente en 24 horas.",
+      "Ambas permanecen exactamente iguales los 365 días del año.",
+      "La demanda depende únicamente del clima lluvioso."
+    ],
+    "respuesta_correcta": "La demanda es altamente volátil y flexible, mientras que la oferta es rígida e inamovible.",
+    "explicacion": "El turista puede cambiar de fecha y destino instantáneamente, pero los hoteles e infraestructuras permanecen fijos."
+  }
+]

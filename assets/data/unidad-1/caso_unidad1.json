@@ -1,0 +1,56 @@
+{
+  "id": "caso_valle_sereno",
+  "title": "Diagnóstico y Plan de Marketing Turístico: Caso Destino Valle Sereno",
+  "summary": "El Comité de Turismo y la Asociación Empresarial de Valle Sereno estructuran un plan estratégico integral que articula indicadores OMT, diagnóstico de oferta y demanda, tipología de empresas locales y gobernanza de clúster para mitigar la estacionalidad y elevar la derrama económica local.",
+  "sections": [
+    {
+      "id": "contexto",
+      "title": "Contexto del Destino y Diagnóstico Situacional",
+      "icon": "fa-map-location-dot",
+      "content": "Valle Sereno es un destino histórico y de naturaleza con declaratoria de Pueblo Mágico. Cuenta con 45 establecimientos de hospedaje (desde hoteles boutique de gestión familiar hasta posadas tradicionales), 60 restaurantes y 12 operadores de ecoturismo y turismo cultural. A pesar de su riqueza patrimonial, el destino presenta una marcada estacionalidad: saturación de capacidad de carga los fines de semana (92% de ocupación) y un desplome crítico de lunes a jueves (22% de ocupación)."
+    },
+    {
+      "id": "plan_marketing",
+      "title": "Fundamentos del Plan de Marketing (Tema 1.1)",
+      "icon": "fa-bullseye",
+      "content": "El hotel emblemático Casona de Piedra y los operadores locales detectaron una creciente dependencia de las OTAs (agencias de viaje en línea), las cuales retienen comisiones del 22% al 28%. El plan de marketing estratégico busca reposicionar el destino mediante objetivos SMART: incrementar la estancia promedio de 1.4 a 2.6 noches, elevar el gasto medio diario en un 25% y consolidar canales directos de comercialización en un plazo de 18 meses mediante una propuesta de valor basada en experiencias auténticas."
+    },
+    {
+      "id": "indicadores_omt",
+      "title": "Notas Metodológicas e Indicadores OMT (Tema 1.2)",
+      "icon": "fa-chart-line",
+      "content": "Aplicando las directrices de la OMT / ONU Turismo, el diagnóstico reveló que el 68% de los visitantes de fin de semana son excursionistas (sin pernocta) cuyo gasto promedio es de  MXN, generando congestión vial sin derrama hotelera significativa. Por el contrario, los turistas con pernocta registran un gasto medio diario de ,150 MXN. La OMT recomienda diversificar la oferta para convertir excursionistas en turistas y crear productos de nicho (gastronomía, bienestar y convenciones medianas) para equilibrar el índice de estacionalidad."
+    },
+    {
+      "id": "empresa_turistica",
+      "title": "Clasificación y Cadena de Valor Empresarial (Tema 1.3)",
+      "icon": "fa-hotel",
+      "content": "El 88% de la planta turística local está constituida por micro, pequeñas y medianas empresas (MiPyMEs). La desarticulación entre los eslabones de alojamiento, restauración y actividades recreativas provocaba fugas económicas: los hoteles recomendaban paquetes de operadores foráneos mientras las cooperativas locales de guías carecían de reservas anticipadas. Se requiere estructurar una cadena de valor unificada con paquetes combinados y canales de reserva cruzada directa."
+    },
+    {
+      "id": "oferta_demanda",
+      "title": "Análisis de la Oferta, Demanda y Capacidad de Carga (Tema 1.4)",
+      "icon": "fa-scale-balanced",
+      "content": "La oferta turística cuenta con atractivos de jerarquía nacional, pero la infraestructura básica (estacionamientos periféricos, señalética y conectividad digital) presenta cuellos de botella. La demanda actual está concentrada en turismo de masas de fin de semana, lo que compromete la capacidad de carga ambiental en la reserva ecológica y el centro histórico. El análisis de demanda identifica un segmento emergente de alto valor: nómadas digitales y parejas de mediana edad interesados en cultura, descanso y naturaleza entre semana."
+    },
+    {
+      "id": "enfoque_industrial",
+      "title": "Enfoque Industrial y Articulación del Clúster Regional (Tema 1.5)",
+      "icon": "fa-network-wired",
+      "content": "Bajo el enfoque industrial del turismo, Valle Sereno implementó un Clúster Turístico que integra a empresas de servicios turísticos con proveedores agrícolas locales (vitivinícolas, queserías, huertos orgánicos) e instituciones públicas y académicas (SECTUR, EST-IPN). Esta sinergia genera un efecto multiplicador del gasto turístico de 1.72 en la economía local, reduce costos de abastecimiento y fortalece la marca destino mediante un sello de calidad gastronómica y sostenibilidad compartida."
+    }
+  ],
+  "resources": [
+    {
+      "title": "Directrices Metodológicas OMT",
+      "type": "PDF",
+      "url": "referencias.html"
+    },
+    {
+      "title": "Estructura del Clúster Turístico Regional",
+      "type": "Diagrama",
+      "url": "temas/tema-01-05.html"
+    }
+  ],
+  "resultsNarrative": "El caso Valle Sereno demuestra que la competitividad turística sostenible requiere la integración de planeación estratégica, medición rigurosa de flujos turísticos según la OMT, profesionalización de la MiPyME y gobernanza en clúster."
+}

@@ -1,0 +1,150 @@
+/* ==========================================================================
+   CATÁLOGO DE UNIDADES (unidades.html)
+   Requiere: unidades-base.css
+   ========================================================================== */
+
+/* ---------- Encabezado ---------- */
+.u-page-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px 32px;
+  margin-bottom: 32px;
+}
+.u-page-head__text { max-width: 680px; }
+.u-page-head h1 {
+  margin: 0 0 10px;
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -.01em;
+}
+.u-page-head__lead { margin: 0; color: var(--text-muted); font-size: 1.02rem; }
+
+.u-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 16px;
+  font-size: .85rem;
+  color: var(--text-muted);
+}
+.u-summary span { display: inline-flex; align-items: center; gap: 8px; }
+.u-summary span + span::before {
+  content: "";
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ---------- Rejilla ---------- */
+.u-units {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--u-gap);
+}
+
+/* ---------- Tarjeta de unidad ---------- */
+.u-unit-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 26px;
+  border-radius: var(--u-radius-card);
+  background: var(--u-card-bg);
+  border: 1px solid var(--u-card-border);
+  box-shadow: var(--u-shadow);
+  overflow: hidden;
+  animation: u-rise .6s var(--u-ease) both;
+  animation-delay: calc(var(--orden, 0) * 90ms);
+  transition: transform .35s var(--u-ease), box-shadow .35s var(--u-ease), border-color .3s ease;
+}
+.u-unit-card::before {
+  /* Brillo superior */
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: var(--cta-bg);
+  opacity: .85;
+}
+.u-unit-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--u-card-border-hover);
+  box-shadow: var(--u-shadow-hover);
+}
+
+.u-unit-card__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.u-unit-card__body { flex: 1; }
+.u-unit-card__title {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.u-unit-card__desc {
+  margin: 0 0 18px;
+  color: var(--text-muted);
+  font-size: .93rem;
+}
+
+.u-topic-mini {
+  list-style: none;
+  margin: 0;
+  padding: 14px;
+  display: grid;
+  gap: 8px;
+  border-radius: var(--u-radius-inner);
+  background: var(--u-inset);
+}
+.u-topic-mini li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-size: .9rem;
+}
+.u-topic-mini__num {
+  flex-shrink: 0;
+  min-width: 2.4em;
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.u-unit-card__foot {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.u-unit-card__meta { display: flex; flex-wrap: wrap; gap: 8px; }
+.u-unit-card__cta { align-self: stretch; }
+
+/* ---------- Vista de lista ---------- */
+.u-units.is-list { grid-template-columns: 1fr; }
+
+@media (min-width: 900px) {
+  .u-units.is-list .u-unit-card {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr) 260px;
+    align-items: start;
+    gap: 28px;
+  }
+  .u-units.is-list .u-unit-card__head { flex-direction: column; }
+  .u-units.is-list .u-numeral__value { font-size: 3.6rem; }
+  .u-units.is-list .u-topic-mini {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+  .u-units.is-list .u-unit-card__foot { height: 100%; justify-content: space-between; }
+}
+
+@media (max-width: 600px) {
+  .u-unit-card { padding: 22px 20px; }
+}

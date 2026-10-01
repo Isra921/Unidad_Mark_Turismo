@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../../assets/css/variables.css">
+  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad-final.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad final: Diagnóstico Integral de Marketing Turístico | EST</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+  <link rel="shortcut icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+</head>
+<body class="final-evaluation-page">
+    <header class="site-nav">
+        <a class="brand" href="../index.html">EST · Marketing<small>Unidad 1: Encuadre empresarial</small></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" onclick="const nav=document.getElementById('main-navigation'); nav.classList.toggle('is-open'); this.setAttribute('aria-expanded', nav.classList.contains('is-open'));">
+            <span class="sr-only">Abrir navegación</span><i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+        <nav id="main-navigation" aria-label="Navegación principal">
+            <a href="../index.html"><i class="fas fa-book" aria-hidden="true"></i> Unidad 1</a>
+            <a href="../referencias.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias</a>
+        </nav>
+    </header>
+    <div class="reading-progress" aria-hidden="true">
+        <div class="reading-progress-bar" id="readingProgressBar"></div>
+    </div>
+
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Volver al inicio">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <div class="evaluation-shell">
+        <header class="evaluation-header" id="inicio">
+            <div class="header-title-content">
+                <p class="eyebrow">UNIDAD 1 · EVALUACIÓN INTEGRADORA</p>
+                <h1>Actividad final: Diagnóstico Estratégico de Marketing Turístico y Clúster Regional</h1>
+                <div class="header-badges">
+                    <span class="header-badge header-badge-upcoming"><i class="fas fa-map-location-dot" aria-hidden="true"></i> Caso Integrador: Valle Sereno</span>
+                    <span class="header-badge"><i class="fas fa-chart-line" aria-hidden="true"></i> Simulación Estratégica &amp; Retos OMT</span>
+                    <span class="header-badge header-badge-accent"><i class="fas fa-award" aria-hidden="true"></i> Ponderación: 100%</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="activity-grid">
+                <!-- Columna principal (izquierda) -->
+                <div class="activity-main-col">
+                    <!-- Banner de presentación del caso -->
+                    <div class="network-legend-banner" role="status">
+                        <div class="legend-icon">
+                            <i class="fas fa-compass-drafting" aria-hidden="true"></i>
+                        </div>
+                        <div class="legend-content">
+                            <h3>
+                                <span>Caso de Estudio Integrador · Destino y Clúster Turístico "Valle Sereno"</span>
+                                <span class="legend-tag">Escenario de Aplicación</span>
+                            </h3>
+                            <p>
+                                En esta actividad integradora asumirás el rol de consultor estratégico para el Comité de Turismo y Desarrollo Empresarial de <strong>Valle Sereno</strong>. Aplicarás los fundamentos del plan de marketing, indicadores de la OMT, clasificación operativa de empresas turísticas, análisis de oferta y demanda y la articulación del clúster regional para resolver desequilibrios de estacionalidad y elevar la competitividad sostenible del destino.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta: Tablero Estratégico y Simulador de Decisiones -->
+                    <section class="workbench-card" aria-labelledby="workbenchTitle">
+                        <div class="workbench-header">
+                            <div class="workbench-title-group">
+                                <h2 id="workbenchTitle"><i class="fas fa-sliders" style="color:var(--accent);"></i> Tablero de Decisiones: Simulación de Estrategias de Marketing</h2>
+                                <p>Modela y proyecta el impacto de decisiones estratégicas sobre la ocupación hotelera, la derrama económica y la desestacionalización.</p>
+                            </div>
+                            <div class="workbench-status-badge" id="workbenchStatusBadge">
+                                <span class="status-dot"></span>
+                                <span id="workbenchStatusText">Listo para simular</span>
+                            </div>
+                        </div>
+
+                        <!-- Diagrama de Ecosistema Turístico -->
+                        <div class="topology-diagram">
+                            <div class="net-node-card">
+                                <div class="node-icon-box">
+                                    <i class="fas fa-users-viewfinder"></i>
+                                </div>
+                                <h4 id="segmentNodeTitle">Turista Cultural</h4>
+                                <p class="node-ip" id="segmentNodeSub">Segmento Prioritario</p>
+                                <span class="node-badge"><i class="fas fa-user-check"></i> Demanda Activa</span>
+                            </div>
+
+                            <div class="net-channel-card">
+                                <div class="channel-info" id="channelProtocolBadge">CANAL: Directo &amp; Clúster Local</div>
+                                <div class="channel-line">
+                                    <div class="channel-packet" id="netPacketAnim">VALOR</div>
+                                </div>
+                                <small style="color:var(--text-muted); font-size:0.75rem;">Flujo de Valor Turístico</small>
+                            </div>
+
+                            <div class="net-node-card">
+                                <div class="node-icon-box">
+                                    <i class="fas fa-hotel"></i>
+                                </div>
+                                <h4>Clúster Valle Sereno</h4>
+                                <p class="node-ip">Planta &amp; Atractivos</p>
+                                <span class="node-badge" style="background:color-mix(in srgb, #10b981 20%, transparent); border-color:#10b981; color:#34d399;"><i class="fas fa-circle-check"></i> Oferta Articulada</span>
+                            </div>
+                        </div>
+
+                        <!-- Controles de Simulación -->
+                        <div class="workbench-controls">
+                            <div class="control-field">
+                                <span class="control-label">Segmento objetivo de demanda</span>
+                                <div class="btn-group-toggle">
+                                    <button type="button" class="toggle-btn active" id="btnSegCultural" onclick="setSegmento('cultural')">
+                                        <i class="fas fa-landmark"></i> Cultural &amp; Gastronomía
+                                    </button>
+                                    <button type="button" class="toggle-btn" id="btnSegEco" onclick="setSegmento('ecoturismo')">
+                                        <i class="fas fa-leaf"></i> Ecoturismo &amp; Bienestar
+                                    </button>
+                                    <button type="button" class="toggle-btn" id="btnSegBleisure" onclick="setSegmento('bleisure')">
+                                        <i class="fas fa-briefcase"></i> Negocios &amp; Escapadas
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="control-field">
+                                <label class="control-label" for="strategySelect">Estrategia nuclear de Marketing Mix y Enfoque Industrial</label>
+                                <select class="select-input-styled" id="strategySelect" onchange="onStrategyChange()">
+                                    <option value="desestacionalizacion" selected>Estrategia A: Paquetes Entre Semana con Alianzas del Clúster (Desestacionalización)</option>
+                                    <option value="desintermediacion">Estrategia B: Campaña de Reserva Directa y Fidelización (Desintermediación OTAs)</option>
+                                    <option value="encadenamiento">Estrategia C: Integración de Productores Locales a la Cadena de Restauración y Alojamiento</option>
+                                    <option value="capacidad_carga">Estrategia D: Gestión Inteligente de Flujos y Protección de Capacidad de Carga</option>
+                                </select>
+                            </div>
+
+                            <div class="action-button-group">
+                                <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularEstrategia()">
+                                    <i class="fas fa-chart-pie"></i> Proyectar impacto estratégico
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Consola de Análisis en Tiempo Real -->
+                        <div class="net-console">
+                            <div class="console-topbar">
+                                <div class="console-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <span class="console-title">terminal://valle-sereno-sim-marketing</span>
+                                <button type="button" onclick="clearConsole()" style="background:transparent; border:none; color:var(--text-muted); cursor:pointer; font-size:0.75rem;" title="Limpiar consola">
+                                    <i class="fas fa-eraser"></i> Limpiar
+                                </button>
+                            </div>
+                            <div class="console-body" id="netConsoleBody">
+                                <div><span class="log-info">[INIT]</span> Tablero de decisiones listo. Selecciona segmento y estrategia para modelar proyecciones.</div>
+                                <div><span class="log-info">[DATOS BASE]</span> Ocupación Lunes-Jueves: 22% · Fines de semana: 92% · Gasto medio diario: $1,420 MXN · Comisión OTAs: 25%.</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Tarjeta: Retos Prácticos de Diagnóstico y Decisión -->
+                    <section class="challenges-card" aria-labelledby="challengesTitle">
+                        <div class="challenges-header">
+                            <h2 id="challengesTitle"><i class="fas fa-vial-circle-check" style="color:var(--accent);"></i> Retos Prácticos: Diagnóstico y Toma de Decisiones</h2>
+                            <p>Resuelve cada dilema estratégico seleccionando la alternativa fundamentada en los temas de la Unidad 1.</p>
+                        </div>
+
+                        <!-- Reto 1: Tema 1.1 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-bullseye"></i> Reto 1 · Fundamentos del Plan de Marketing</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 1.1</span>
+                            </div>
+                            <h3 class="challenge-title">Diagnóstico FODA y Objetivos para el Hotel "Casona de Piedra"</h3>
+                            <p class="challenge-desc">
+                                El hotel boutique de gestión familiar enfrenta saturación por tarifas agresivas de cadenas foráneas y comisiones excesivas en plataformas digitales. La administración busca reposicionarse. ¿Qué objetivo cumple cabalmente la metodología SMART para orientar su plan de marketing?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderReto(this, 1, false, 'Este enunciado es vago y ambiguo; carece de métricas específicas, porcentajes de avance y horizonte temporal definido.')">
+                                    <span><strong>A)</strong> Convertirse en el hotel preferido de los turistas de negocios mediante un servicio de calidad superior.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 1, true, 'Cumple la estructura SMART: define la meta cuantitativa (+25% en reservas directas), el plazo (18 meses) y los medios estratégicos (motor web y club de fidelización).')">
+                                    <span><strong>B)</strong> Incrementar las reservas directas en un 25% en 18 meses implementando un motor web propio y un programa de fidelización con beneficios exclusivos.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 1, false, 'Reducir tarifas sin análisis de estructura de costos deteriora los márgenes y no resuelve el posicionamiento de marca de un hotel boutique.')">
+                                    <span><strong>C)</strong> Bajar las tarifas un 50% de manera indefinida para expulsar del mercado a los competidores foráneos.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 1, false, 'Cerrar operaciones entre semana empeora los costos fijos y acentúa el problema de estacionalidad en lugar de resolverlo.')">
+                                    <span><strong>D)</strong> Operar únicamente de viernes a domingo para eliminar por completo los costos fijos de lunes a jueves.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner"></div>
+                        </article>
+
+                        <!-- Reto 2: Tema 1.2 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-chart-line"></i> Reto 2 · Notas Metodológicas de la OMT</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 1.2</span>
+                            </div>
+                            <h3 class="challenge-title">Gestión de la Estacionalidad y Tipología de Visitantes</h3>
+                            <p class="challenge-desc">
+                                La Dirección de Turismo reporta que el 68% de los visitantes de fin de semana son excursionistas sin pernocta con un gasto de $420 MXN, colapsando vías públicas pero generando poca derrama en la planta hotelera. Con base en las recomendaciones de la OMT, ¿cuál es la intervención idónea?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderReto(this, 2, false, 'Prohibir el acceso de visitantes de día viola regulaciones de libre tránsito y daña severamente el comercio y la gastronomía local.')">
+                                    <span><strong>A)</strong> Prohibir la entrada al municipio a excursionistas que no cuenten con reservación hotelera previa pagada.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 2, true, 'La OMT destaca la conversión de excursionistas en turistas mediante experiencias vespertinas/nocturnas y eventos de entre semana para elevar pernoctas y derrama.')">
+                                    <span><strong>B)</strong> Diseñar productos vespertinos y nocturnos (recorridos de leyendas, cenas maridaje, festivales culturales) para transformar excursionistas en turistas con pernocta y nivelar el índice de estacionalidad.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 2, false, 'El turismo masivo indiferenciado suele incrementar las externalidades negativas sin asegurar incremento en el gasto medio diario.')">
+                                    <span><strong>C)</strong> Subsidiar el transporte de autobuses masivos de fin de semana para duplicar el volumen absoluto de excursionistas.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 2, false, 'La balanza turística nacional no sustituye la planeación y diversificación de productos dentro del destino turístico receptor.')">
+                                    <span><strong>D)</strong> Exigir al gobierno federal una devaluación monetaria para abaratar artificialmente los precios del destino.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner"></div>
+                        </article>
+
+                        <!-- Reto 3: Tema 1.3 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-hotel"></i> Reto 3 · Empresa Turística y Cadena de Valor</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 1.3</span>
+                            </div>
+                            <h3 class="challenge-title">Desintermediación y Retención de Valor en MiPyMEs</h3>
+                            <p class="challenge-desc">
+                                Los prestadores de turismo de naturaleza y alojamiento independiente destinan el 28% de sus ingresos brutos al pago de comisiones de OTAs transnacionales. ¿Qué modelo de gestión comercial permite maximizar el margen retenido sin perder visibilidad en el mercado emisor?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderReto(this, 3, false, 'Dar de baja las plataformas digitales sin una base previa de tráfico propio genera una caída catastrófica e inmediata en las ventas.')">
+                                    <span><strong>A)</strong> Cancelar unilateralmente toda presencia en plataformas digitales y depender únicamente de folletos impresos en casetas de cobro.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 3, false, 'La fijación de precios duplicados sin diferenciación es castigada por los algoritmos de búsqueda y desalienta la conversión del consumidor.')">
+                                    <span><strong>B)</strong> Duplicar el precio al público en las OTAs para obligar al turista a comprar en ventanilla física al llegar al destino.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 3, true, 'El enfoque omnicanal aprovecha el efecto escaparate de las OTAs para captar prospectos, al tiempo que incentiva la reserva directa con valor agregado para fidelizar y retener margen.')">
+                                    <span><strong>C)</strong> Implementar una estrategia omnicanal equilibrada: utilizar las OTAs como canal de captación inicial y fidelizar al cliente con incentivos de valor agregado (desayuno artesanal, check-out tardío) para asegurar reservas directas futuras.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 3, false, 'Convertirse en mayorista emisor desvía la actividad central y no resuelve la rentabilidad operativa de la empresa receptora local.')">
+                                    <span><strong>D)</strong> Abandonar la actividad receptora y dedicarse exclusivamente a vender viajes internacionales como agencia emisora.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner"></div>
+                        </article>
+
+                        <!-- Reto 4: Tema 1.4 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-scale-balanced"></i> Reto 4 · Oferta, Demanda y Capacidad de Carga</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 1.4</span>
+                            </div>
+                            <h3 class="challenge-title">Equilibrio entre Capacidad de Carga y Flujos Turísticos</h3>
+                            <p class="challenge-desc">
+                                El atractivo nuclear (reserva natural de cascadas y callejones históricos) sobrepasa en 40% su capacidad de carga física los domingos, provocando deterioro ecológico y malestar vecinal, mientras que la planta turística permanece subutilizada el resto de la semana. ¿Qué medida estratégica equilibra oferta y demanda?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderReto(this, 4, true, 'La zonificación, turnos con reserva digital previa y tarifas dinámicas descongestionan las horas pico, cuidan el patrimonio y canalizan visitantes a días y atractivos complementarios.')">
+                                    <span><strong>A)</strong> Implementar un sistema de gestión de flujos con reserva digital previa, aforos máximos escalonados por turnos y precios diferenciados que premien la visita en días hábiles.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 4, false, 'Demoler patrimonio histórico para estacionamientos acelera la degradación urbana y despoja al destino de su autenticidad como Pueblo Mágico.')">
+                                    <span><strong>B)</strong> Pavimentar los callejones históricos y demoler inmuebles antiguos para construir estacionamientos masivos en el primer cuadro.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 4, false, 'Cerrar permanentemente los atractivos anula la economía turística del municipio y destruye las fuentes de empleo local.')">
+                                    <span><strong>C)</strong> Clausurar de forma indefinida todos los atractivos naturales y culturales para evitar cualquier interacción humana.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 4, false, 'La publicidad masiva sin gestión de flujos intensifica el colapso ambiental y acelera el deterioro del destino.')">
+                                    <span><strong>D)</strong> Lanzar una campaña de promoción masiva anunciando acceso libre e ilimitado exclusivamente los domingos a mediodía.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner"></div>
+                        </article>
+
+                        <!-- Reto 5: Tema 1.5 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-network-wired"></i> Reto 5 · El Enfoque Industrial del Turismo</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 1.5</span>
+                            </div>
+                            <h3 class="challenge-title">Gobernanza de Clúster y Efecto Multiplicador Regional</h3>
+                            <p class="challenge-desc">
+                                Los restaurantes del destino compran alimentos congelados a distribuidoras foráneas a 150 km, mientras los agricultores locales enfrentan precios castigados por falta de compradores. Bajo el enfoque industrial del turismo, ¿cómo debe estructurarse el encadenamiento del clúster?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderReto(this, 5, false, 'Fijar aranceles municipales de comercio interno es inconstitucional y no promueve la competitividad ni la calidad de los proveedores locales.')">
+                                    <span><strong>A)</strong> Establecer aduanas municipales que graven fuertemente el ingreso de alimentos de otros estados de la república.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 5, true, 'El enfoque industrial promueve encadenamientos productivos hacia atrás: articulando a productores agrícolas con la gastronomía turística mediante sellos de denominación de origen y compras consolidadas, maximizando el efecto multiplicador en la comunidad.')">
+                                    <span><strong>B)</strong> Articular la mesa de trabajo del Clúster Turístico para crear el sello "Kilómetro Cero · Valle Sereno": integrando a cooperativas agrícolas y queserías en el menú de los restaurantes con convenios de compra garantizada y capacitación técnica.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 5, false, 'Subcontratar la totalidad de servicios alimentarios al extranjero incrementa la fuga de divisas y destruye el tejido productivo regional.')">
+                                    <span><strong>C)</strong> Externalizar la totalidad de los servicios gastronómicos a franquicias internacionales de comida rápida para reducir costos de personal.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderReto(this, 5, false, 'Ignorar a los proveedores locales y operar de manera aislada reproduce la fragmentación tradicional que el enfoque de clúster busca erradicar.')">
+                                    <span><strong>D)</strong> Mantener la desarticulación actual argumentando que la agricultura y el turismo pertenecen a sectores económicos totalmente independientes.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner"></div>
+                        </article>
+                    </section>
+
+                    <!-- Tarjeta: Criterios de Evaluación Técnica -->
+                    <section class="activity-card" aria-labelledby="criteriosTitle">
+                        <h2 id="criteriosTitle" class="card-heading">Criterios de evaluación técnica</h2>
+                        <div class="table-responsive">
+                            <table class="evaluation-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">CRITERIO</th>
+                                        <th scope="col">DESCRIPCIÓN</th>
+                                        <th scope="col" class="th-val">VALOR</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Diagnóstico Estratégico y Plan de Marketing (Temas 1.1 y 1.3)</strong></td>
+                                        <td>Formulación rigurosa de objetivos SMART, estrategia de Marketing Mix (4P/7P) y modelo de omnicanalidad con desintermediación de OTAs.</td>
+                                        <td class="td-val">35%</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Análisis Cuantitativo OMT y Gestión de Demanda (Temas 1.2 y 1.4)</strong></td>
+                                        <td>Diferenciación técnica entre turistas y excursionistas, manejo del índice de estacionalidad y delimitación de la capacidad de carga.</td>
+                                        <td class="td-val">35%</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Articulación Industrial y Gestión de Clúster (Tema 1.5)</strong></td>
+                                        <td>Encadenamiento productivo local, efecto multiplicador del gasto turístico y gobernanza colaborativa público-privada.</td>
+                                        <td class="td-val">30%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Sección de Generación de Informe PDF -->
+                        <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--card-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+                            <div>
+                                <h4 style="color: var(--text-light); margin-bottom: 4px;"><i class="fas fa-file-pdf" style="color: var(--accent);"></i> Informe Académico de Resultados</h4>
+                                <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Genera tu comprobante formal de acreditación de la actividad integradora con el sello de la EST - IPN.</p>
+                            </div>
+                            <button type="button" class="btn-action-simulate" onclick="generarPDFFinal()" style="padding: 10px 20px; font-size: 0.9rem;">
+                                <i class="fas fa-download"></i> Descargar Reporte PDF
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Columna lateral (derecha) -->
+                <aside class="activity-sidebar-col" aria-label="Información complementaria de la actividad">
+                    <!-- Tarjeta: RESUMEN -->
+                    <div class="activity-card sidebar-card">
+                        <h3 class="sidebar-heading">RESUMEN DE EVALUACIÓN</h3>
+                        <ul class="summary-list">
+                            <li><span class="summary-label">Estado</span> <strong class="summary-val" style="color: #34D399;"><i class="fas fa-circle-check" aria-hidden="true"></i> Caso activo</strong></li>
+                            <li><span class="summary-label">Modalidad</span> <strong class="summary-val">Evaluación Integradora</strong></li>
+                            <li><span class="summary-label">Materia</span> <strong class="summary-val">Marketing</strong></li>
+                            <li><span class="summary-label">Unidad</span> <strong class="summary-val">1: Encuadre empresarial</strong></li>
+                            <li><span class="summary-label">Institución</span> <strong class="summary-val">EST · IPN</strong></li>
+                            <li><span class="summary-label">Ponderación</span> <strong class="summary-val">100%</strong></li>
+                        </ul>
+                    </div>
+
+                    <!-- Tarjeta: MATERIAL DE APOYO -->
+                    <div class="activity-card sidebar-card">
+                        <h3 class="sidebar-heading">TEMAS DE LA UNIDAD 1</h3>
+                        <ul class="support-links">
+                            <li><a href="../temas/tema-01-01.html" class="support-link-item"><i class="fas fa-bullseye" aria-hidden="true"></i> 1.1 Fundamentos de Plan de Mkt</a></li>
+                            <li><a href="../temas/tema-01-02.html" class="support-link-item"><i class="fas fa-chart-line" aria-hidden="true"></i> 1.2 Notas de la OMT</a></li>
+                            <li><a href="../temas/tema-01-03.html" class="support-link-item"><i class="fas fa-hotel" aria-hidden="true"></i> 1.3 Empresa turística</a></li>
+                            <li><a href="../temas/tema-01-04.html" class="support-link-item"><i class="fas fa-scale-balanced" aria-hidden="true"></i> 1.4 Oferta y demanda</a></li>
+                            <li><a href="../temas/tema-01-05.html" class="support-link-item"><i class="fas fa-network-wired" aria-hidden="true"></i> 1.5 Enfoque industrial</a></li>
+                            <li><a href="../referencias.html" class="support-link-item"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias Bibliográficas</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Tarjeta: GUÍA METODOLÓGICA -->
+                    <div class="activity-card dark-alert-card">
+                        <h3 class="dark-card-heading">GUÍA DE DECISIÓN ESTRATÉGICA</h3>
+                        <p class="dark-card-text">
+                            Recuerda que un destino competitivo equilibra la viabilidad económica de las empresas con la capacidad de carga ambiental y el bienestar de la comunidad receptora. Al modelar tus decisiones, prioriza siempre el gasto medio diario y la estancia prolongada sobre el volumen masivo no controlado.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <nav class="bottom-navigation" aria-label="Navegación de la actividad">
+            <a href="actividad-1-5.html" class="btn btn-nav"><i class="fas fa-arrow-left" aria-hidden="true"></i> Actividad 1.5</a>
+            <a href="../index.html" class="btn btn-nav">Volver a Unidad 1 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </nav>
+
+        <footer>
+            <p>Marketing · Unidad 1: Encuadre empresarial</p>
+            <p>Escuela Superior de Turismo · Instituto Politécnico Nacional · © 2026</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="../../../assets/js/paginas/unidades_unidad-01_actividades_actividad-final.js"></script>
+    <script src="../../../assets/js/nav-global.js"></script>
+</body>
+</html>

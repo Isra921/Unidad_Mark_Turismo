@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Cuál es el propósito central de formular objetivos bajo la metodología SMART en el Plan de Marketing Turístico?",
+    "opciones": [
+      "Definir metas Específicas, Medibles, Alcanzables, Relevantes y con Límite de Tiempo",
+      "Garantizar subsidios gubernamentales a fondo perdido",
+      "Eliminar la necesidad de realizar un estudio de mercado",
+      "Asegurar monopolios regionales obligatorios"
+    ],
+    "respuesta_correcta": "Definir metas Específicas, Medibles, Alcanzables, Relevantes y con Límite de Tiempo"
+  },
+  {
+    "pregunta": "En la mezcla de mercadotecnia (Marketing Mix) de servicios turísticos, ¿qué elemento representa el diseño de paquetes y experiencias experienciales?",
+    "opciones": [
+      "Producto (Product)",
+      "Plaza (Place)",
+      "Promoción (Promotion)",
+      "Precio (Price)"
+    ],
+    "respuesta_correcta": "Producto (Product)"
+  },
+  {
+    "pregunta": "De acuerdo con las notas metodológicas de la Organización Mundial del Turismo (OMT), ¿qué caracteriza al turista frente al excursionista?",
+    "opciones": [
+      "Pernocta al menos una noche en un establecimiento del destino visitado",
+      "Visita el destino sin realizar ningún gasto económico",
+      "Viaja exclusivamente por motivos laborales y de negocios",
+      "Se desplaza únicamente por vía aérea transcontinental"
+    ],
+    "respuesta_correcta": "Pernocta al menos una noche en un establecimiento del destino visitado"
+  },
+  {
+    "pregunta": "¿Qué indicador de la OMT permite cuantificar la concentración desproporcionada de la afluencia turística en ciertas épocas del año o días de la semana?",
+    "opciones": [
+      "Índice de Estacionalidad Turística",
+      "Tasa de inflación cambiaria",
+      "Balanza de pagos manufacturera",
+      "Coeficiente de Gini laboral"
+    ],
+    "respuesta_correcta": "Índice de Estacionalidad Turística"
+  },
+  {
+    "pregunta": "¿Qué estrategia comercial permite a una empresa turística reducir su dependencia y comisiones ante las OTAs (Online Travel Agencies)?",
+    "opciones": [
+      "Estrategia omnicanal con incentivos de valor agregado para reservas directas y programas de fidelización",
+      "Cierre inmediato de todos los canales de comercialización digital",
+      "Duplicación arbitraria de tarifas en mostrador físico",
+      "Abandono de la actividad hotelera para convertirse en mayorista emisor"
+    ],
+    "respuesta_correcta": "Estrategia omnicanal con incentivos de valor agregado para reservas directas y programas de fidelización"
+  },
+  {
+    "pregunta": "En la clasificación de la oferta turística, ¿cuál de los siguientes elementos forma parte de la superestructura turística?",
+    "opciones": [
+      "Organismos gubernamentales de turismo, asociaciones gremiales y marcos regulatorios",
+      "Redes de carreteras, aeropuertos y drenaje pluvial",
+      "Cadenas hoteleras y restaurantes gourmet",
+      "Montañas, playas y monumentos arqueológicos"
+    ],
+    "respuesta_correcta": "Organismos gubernamentales de turismo, asociaciones gremiales y marcos regulatorios"
+  },
+  {
+    "pregunta": "¿Qué concepto define el límite máximo de visitantes que puede recibir un destino o atractivo sin deteriorar sus recursos ni mermar la calidad de la experiencia?",
+    "opciones": [
+      "Capacidad de Carga Turística",
+      "Elasticidad ingreso de la demanda",
+      "Margen de contribución marginal",
+      "Tasa interna de rendimiento"
+    ],
+    "respuesta_correcta": "Capacidad de Carga Turística"
+  },
+  {
+    "pregunta": "Bajo el enfoque industrial del turismo, ¿a qué se refiere el encadenamiento productivo hacia atrás?",
+    "opciones": [
+      "A la articulación de hoteles y restaurantes con proveedores locales de insumos agrícolas, artesanales y de servicios",
+      "A la contratación exclusiva de empresas extranjeras de logística",
+      "A la venta directa de boletos aéreos a turistas emisores",
+      "Al cierre de actividades complementarias para priorizar el hospedaje"
+    ],
+    "respuesta_correcta": "A la articulación de hoteles y restaurantes con proveedores locales de insumos agrícolas, artesanales y de servicios"
+  },
+  {
+    "pregunta": "¿Qué fenómeno económico explica la recirculación del gasto turístico directo e indirecto en el producto interno bruto local?",
+    "opciones": [
+      "El efecto multiplicador del gasto turístico",
+      "La ley de Say en servicios",
+      "La depreciación acumulada de activos fijos",
+      "El desequilibrio de la balanza comercial"
+    ],
+    "respuesta_correcta": "El efecto multiplicador del gasto turístico"
+  },
+  {
+    "pregunta": "¿Cuál es el beneficio primordial de consolidar un clúster turístico regional con gobernanza compartida entre empresas, gobierno y academia (EST-IPN)?",
+    "opciones": [
+      "Generar ventajas competitivas sostenibles, economías de escala y una marca destino con identidad compartida",
+      "Eliminar la competencia leal y fijar tarifas monopólicas obligatorias",
+      "Sustituir los atractivos culturales por desarrollos industriales",
+      "Depender exclusivamente de subsidios públicos a fondo perdido"
+    ],
+    "respuesta_correcta": "Generar ventajas competitivas sostenibles, economías de escala y una marca destino con identidad compartida"
+  }
+]

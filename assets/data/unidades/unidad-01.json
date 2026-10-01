@@ -1,0 +1,90 @@
+{
+  "id": "unidad-01",
+  "numero": 1,
+  "titulo": "Encuadre empresarial",
+  "descripcion": "Analiza el encuadre empresarial con base en el enfoque industrial del turismo.",
+  "lema": "Mirando el mundo con ojos de estratega y corazón de anfitrión.",
+  "duracion_horas": 10,
+
+  "introduccion": [
+    "Bienvenidos a esta primera unidad. Quiero que se olviden por un momento de la idea de que el marketing es solo vender o promocionar. El marketing turístico es, antes que nada, una forma de pensar. Es una disciplina que nos obliga a entender a las personas, sus deseos, sus miedos, sus presupuestos y sus sueños. Y luego, con esa comprensión, construir experiencias que dejen algo en el visitante y en el destino.",
+    "En esta unidad vamos a sentar las bases. Vamos a entender qué es un plan de marketing y por qué en turismo se vuelve casi un instrumento de supervivencia. Vamos a revisar cómo la Organización Mundial del Turismo nos da un lenguaje común para medir y comparar. Vamos a estudiar a la empresa turística como organismo vivo, con características propias, metas, filosofía y retos. Y vamos a analizar la oferta y la demanda, no como conceptos abstractos, sino como fuerzas reales que se encuentran, a veces chocan y a veces se complementan. Finalmente, veremos el turismo como industria, como cadena productiva, como sistema interconectado donde nada funciona solo.",
+    "La invitación es a que lean con curiosidad, a que cuestionen, a que piensen en ejemplos de su propia región. Porque el marketing turístico se aprende mirando el mundo con ojos de estratega y corazón de anfitrión."
+  ],
+
+  "recorrido": "Recorre los cinco temas en orden: desde los fundamentos del plan de marketing y el encuadre de la OMT, pasando por la empresa turística y el análisis de la oferta y la demanda, hasta el enfoque industrial del turismo y su actividad integradora final.",
+
+  "temas": [
+    {
+      "numero": "1.1",
+      "nombre": "Fundamentos de Plan de Marketing",
+      "sintesis": "Concepto, importancia de la planeación estratégica en turismo, estructura detallada de un plan de marketing y caso práctico en hotelería.",
+      "url": "unidades/unidad-01/temas/tema-01-01.html",
+      "icono": "fa-clipboard-list",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.1",
+        "url": "unidades/unidad-01/actividades/actividad-1-1.html"
+      }
+    },
+    {
+      "numero": "1.2",
+      "nombre": "Encuadre basado en las notas metodológicas de la Organización Mundial del Turismo (OMT)",
+      "sintesis": "Definiciones técnicas de la OMT, diferenciación clave entre turista y excursionista, indicadores de medición y análisis de rentabilidad en destinos.",
+      "url": "unidades/unidad-01/temas/tema-01-02.html",
+      "icono": "fa-globe",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.2",
+        "url": "unidades/unidad-01/actividades/actividad-1-2.html"
+      }
+    },
+    {
+      "numero": "1.3",
+      "nombre": "Empresa turística",
+      "sintesis": "Características distintivas de los servicios turísticos, tipología y clasificación, metas y objetivos SMART, y filosofía empresarial.",
+      "url": "unidades/unidad-01/temas/tema-01-03.html",
+      "icono": "fa-hotel",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.3",
+        "url": "unidades/unidad-01/actividades/actividad-1-3.html"
+      }
+    },
+    {
+      "numero": "1.4",
+      "nombre": "Análisis de la oferta y la demanda",
+      "sintesis": "Componentes y rigidez de la oferta turística, elasticidad y tipología de la demanda, factores determinantes y gestión del equilibrio estacional.",
+      "url": "unidades/unidad-01/temas/tema-01-04.html",
+      "icono": "fa-chart-line",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.4",
+        "url": "unidades/unidad-01/actividades/actividad-1-4.html"
+      }
+    },
+    {
+      "numero": "1.5",
+      "nombre": "El enfoque industrial del turismo",
+      "sintesis": "El turismo como industria articulada, eslabones de la cadena de valor, ventajas y desafíos de los clústeres, el turismo como sistema y aplicación estratégica.",
+      "url": "unidades/unidad-01/temas/tema-01-05.html",
+      "icono": "fa-network-wired",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.5",
+        "url": "unidades/unidad-01/actividades/actividad-1-5.html"
+      }
+    }
+  ],
+
+  "actividad_final": {
+    "nombre": "Evaluación Integradora: Diagnóstico y Estrategia de Marketing Turístico",
+    "descripcion": "Aplica e integra de forma holística los conocimientos adquiridos en los cinco temas de la unidad.",
+    "url": "unidades/unidad-01/actividades/actividad-final.html"
+  },
+
+  "objetivo": "Analizar el encuadre empresarial y el contexto de la empresa turística con base en el enfoque industrial del turismo para el diseño estratégico de planes de marketing.",
+
+  "competencias": [
+    "Analiza el encuadre empresarial con base en el enfoque industrial del turismo."
+  ],
+
+  "material_apoyo": [
+    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-01/referencias.html" }
+  ]
+}
