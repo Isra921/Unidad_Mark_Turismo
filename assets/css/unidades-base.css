@@ -61,6 +61,7 @@ body.u-body {
 
 /* Tipografía: se hereda de global.css (la misma del inicio). Los botones no heredan la fuente por defecto. */
 :where(.u-page) button { font-family: inherit; }
+.u-page p { text-align: justify; hyphens: auto; }
 
 :where(.u-page) a:focus-visible,
 :where(.u-page) button:focus-visible {

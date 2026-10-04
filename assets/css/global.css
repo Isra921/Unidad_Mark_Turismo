@@ -21,6 +21,11 @@ body {
   line-height: 1.6;
 }
 
+p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 img {
   max-width: 100%;
   height: auto;
