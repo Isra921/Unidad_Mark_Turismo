@@ -71,7 +71,7 @@ function logToConsole(text, type = 'normal') {
     else if (type === 'warning') colorClass = 'log-warning';
     else if (type === 'header') colorClass = 'log-header';
 
-    line.innerHTML = `<span style="color:#64748b;">[${time}]</span> <span class="${colorClass}">${text}</span>`;
+    line.innerHTML = `<span class="log-time">[${time}]</span> <span class="${colorClass}">${text}</span>`;
     consoleBody.appendChild(line);
     consoleBody.scrollTop = consoleBody.scrollHeight;
 }

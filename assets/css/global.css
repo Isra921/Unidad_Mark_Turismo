@@ -3,7 +3,6 @@
    Asegura tipografía, esquemas de color, scrollbars y reseteos globales.
    ========================================================================== */
 
-@import url("variables.css");
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -28,13 +27,13 @@ img {
 }
 
 a {
-  color: var(--primary);
+  color: var(--text-link);
   text-decoration: none;
-  transition: color 0.2s ease, opacity 0.2s ease;
+  transition: color 0.2s ease, opacity 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 a:hover {
-  color: var(--primary-hover);
+  color: var(--text-link);
 }
 
 ::selection {
@@ -73,7 +72,7 @@ a:hover {
 }
 
 .error-page a {
-  color: var(--primary);
+  color: var(--text-link);
 }
 
 /* ==========================================================================
@@ -127,7 +126,7 @@ a:hover {
 
 .site-nav .brand small {
   display: block;
-  color: #FFFFFF !important;
+  color: var(--text-light) !important;
   opacity: 0.95;
   font-size: .62rem;
   font-weight: 500;
@@ -156,7 +155,7 @@ a:hover {
 
 .site-nav nav a:hover,
 .site-nav nav a.active {
-  color: #FFFFFF !important;
+  color: var(--text-light) !important;
 }
 
 .site-nav nav a.active::after {
@@ -174,7 +173,7 @@ a:hover {
   background: transparent;
   border: 1px solid var(--border-color);
   border-radius: 8px;
-  color: #FFFFFF;
+  color: var(--text-light);
   font-size: 1.1rem;
   cursor: pointer;
   padding: 6px 10px;

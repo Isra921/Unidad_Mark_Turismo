@@ -86,8 +86,43 @@
   --success: #34D399;
   --warning: #FBBF24;
   --danger: #F87171;
+  --success-strong: #10B981;   /* Verde intenso para bordes e indicadores (no texto) */
+  --danger-strong: #EF4444;    /* Rojo intenso para bordes e indicadores (no texto) */
+  --danger-light: #FCA5A5;     /* Rojo claro para texto de error sobre fondo oscuro */
+  --warning-strong: #F59E0B;
+  --highlight: #FDE047;        /* Amarillo de etiquetas destacadas (ej. "Caso Integrador") */
+  --info-light: #38BDF8;       /* Azul informativo (íconos y consola) */
   --quiz-correct: var(--success);
   --quiz-incorrect: var(--danger);
+
+  /* --- Consola simulada (actividad final) --- */
+  --console-bg: #080C14;
+  --console-bar: #0F172A;
+  --console-border: #1E293B;
+  --console-text: #CBD5E1;
+  --console-info: var(--info-light);
+  --console-success: #4ADE80;
+  --console-warning: var(--warning);
+  --console-header: #A78BFA;
+
+  /* --- Roles de Texto (Fase 2: sin colores "chillantes" en textos) ---
+     Los acentos verdes/turquesa se reservan para bordes, íconos, fondos suaves
+     y botones. Todo texto usa uno de estos roles. */
+  --text-heading: var(--text-light);   /* Títulos, encabezados de tabla, citas destacadas */
+  --text-label: var(--text-light);     /* Etiquetas pequeñas en mayúsculas (eyebrows, nombres de sección) */
+  --text-number: var(--text-light);    /* Numeración de temas y subtemas (1.1, 1.1.1) */
+  --text-link: var(--text-light);      /* Enlaces dentro del contenido */
+  --text-subtle: #94A3B8;              /* Texto secundario sobre fondos muy oscuros (consola) */
+  --link-underline: color-mix(in srgb, var(--text-light) 45%, transparent);
+  --link-underline-hover: var(--text-light);
+  --link-underline-offset: 3px;
+
+  /* --- Etiquetas tipo píldora (tags neutros) ---
+     Más tenues que el texto principal para que no compitan con el título
+     que acompañan (ej. "Reto 1 · …" sobre el título del reto). */
+  --tag-bg: color-mix(in srgb, var(--text-light) 5%, transparent);
+  --tag-border: color-mix(in srgb, var(--text-light) 10%, transparent);
+  --tag-text: color-mix(in srgb, var(--text-light) 70%, transparent);
 
   /* --- Compatibilidad Legacy --- */
   --azul: var(--primary);

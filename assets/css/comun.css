@@ -1,0 +1,21 @@
+/* ==========================================================================
+   ESTILOS COMUNES · Punto de entrada único para TODAS las páginas
+   --------------------------------------------------------------------------
+   Cada HTML enlaza solo este archivo (más el CSS propio de su tipo de página:
+   unidad.css, tema.css, actividad.css, referencias.css, actividad-final.css).
+
+   Para agregar un componente global (ej. una nueva ventana emergente):
+   1. Crea su archivo en assets/css/.
+   2. Agrega su @import al final de esta lista. No hay que tocar ningún HTML.
+
+   Reglas de @import:
+   - Deben ir al inicio del archivo, antes de cualquier otra regla.
+   - Las rutas son relativas a ESTE archivo, no a la página que lo carga.
+   - El orden importa: variables primero, porque los demás usan sus tokens.
+   ========================================================================== */
+
+@import url("variables.css");     /* Paleta, radios y sombras (tokens) */
+@import url("global.css");        /* Reseteo, tipografía y barra de navegación */
+@import url("ventana-modal.css"); /* Componente base: ventanas emergentes */
+@import url("autores-modal.css"); /* Contenido de la ventana de Autores */
+@import url("glosario-modal.css");/* Contenido de la ventana de Glosario */

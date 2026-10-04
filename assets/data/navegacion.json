@@ -1,0 +1,30 @@
+{
+  "marca": {
+    "titulo": "EST · Marketing",
+    "subtitulo": "Unidad 1: Encuadre empresarial",
+    "url": "unidades/unidad-01/index.html"
+  },
+  "boton_menu": "Abrir navegación",
+  "enlaces": [
+    {
+      "texto": "Unidad 1",
+      "icono": "fa-book",
+      "url": "unidades/unidad-01/index.html"
+    },
+    {
+      "texto": "Referencias",
+      "icono": "fa-bookmark",
+      "url": "unidades/unidad-01/referencias.html"
+    },
+    {
+      "texto": "Glosario",
+      "icono": "fa-book-open",
+      "modal": "glosario"
+    },
+    {
+      "texto": "Autores",
+      "icono": "fa-users",
+      "modal": "autores"
+    }
+  ]
+}
