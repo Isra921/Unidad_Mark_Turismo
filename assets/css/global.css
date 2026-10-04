@@ -3,7 +3,6 @@
    Asegura tipografía, esquemas de color, scrollbars y reseteos globales.
    ========================================================================== */
 
-@import url("variables.css");
 
 *, *::before, *::after {
   box-sizing: border-box;
