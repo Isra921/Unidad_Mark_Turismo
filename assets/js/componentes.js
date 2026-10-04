@@ -17,6 +17,7 @@
 (function () {
     const COMPONENTES = [
         'nav-global.js',     // Menú superior generado desde navegacion.json
+        'ventana-modal.js',  // Base de las ventanas emergentes (debe ir antes que ellas)
         'autores-modal.js'   // Ventana emergente de Autores
     ];
 

@@ -16,4 +16,5 @@
 
 @import url("variables.css");     /* Paleta, radios y sombras (tokens) */
 @import url("global.css");        /* Reseteo, tipografía y barra de navegación */
-@import url("autores-modal.css"); /* Componente: ventana emergente de Autores */
+@import url("ventana-modal.css"); /* Componente base: ventanas emergentes */
+@import url("autores-modal.css"); /* Contenido de la ventana de Autores */
