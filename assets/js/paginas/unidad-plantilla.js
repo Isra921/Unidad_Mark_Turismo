@@ -97,7 +97,7 @@
         const chipPendiente = disponible ? '' : '<span class="u-pending-label u-topic-card__pending">Próximamente</span>';
 
         const botonTema = disponible
-            ? `<a class="u-topic-card__link" href="${UI.esc(DataManager.ruta(tema.url))}">Ver tema</a>`
+            ? `<a class="u-topic-card__link" href="${UI.esc(DataManager.ruta(tema.url))}" aria-label="Ver tema ${UI.esc(tema.numero)}: ${UI.esc(tema.nombre)}">Ver tema</a>`
             : `<span class="u-topic-card__link is-pending" aria-disabled="true">Ver tema</span>`;
 
         // La actividad solo se habilita si el tema y la actividad tienen página.
@@ -116,9 +116,7 @@
                 </div>
                 <div class="u-topic-card__body">
                     ${chipPendiente}
-                    <h3 class="u-topic-card__title">${disponible
-                        ? `<a class="u-topic-card__title-link" href="${UI.esc(DataManager.ruta(tema.url))}">${UI.esc(tema.nombre)}</a>`
-                        : UI.esc(tema.nombre)}</h3>
+                    <h3 class="u-topic-card__title">${UI.esc(tema.nombre)}</h3>
                     ${tema.sintesis ? `<p class="u-topic-card__summary">${UI.esc(tema.sintesis)}</p>` : ''}
                 </div>
                 <div class="u-topic-card__foot">
