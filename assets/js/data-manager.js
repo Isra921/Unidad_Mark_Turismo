@@ -21,6 +21,7 @@ const DataManager = {
     CARPETA_UNIDADES: 'assets/data/unidades/',
     PATRON_PAGINA_UNIDAD: id => `unidades/${id}/index.html`,
     PAGINA_REFERENCIAS: 'referencias.html',
+    RUTA_REFERENCIAS_CONFIG: 'assets/data/referencias-config.json',
     PATRON_URL_ABSOLUTA: /^(?:[a-z]+:)?\/\//i,
 
     _cache: new Map(),

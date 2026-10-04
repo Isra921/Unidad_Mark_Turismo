@@ -487,15 +487,33 @@ body:has(.t-viewer[open]) { overflow: hidden; }
   text-align: center;
 }
 .t-figure__placeholder i { font-size: 2rem; color: var(--primary); opacity: .75; }
+/* Pie de figura en formato APA 7: número y título arriba, nota abajo (tema-plantilla.js) */
 .t-figure figcaption {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--u-card-border);
+  font-size: .88rem;
+  line-height: 1.5;
+  color: var(--text-light);
+}
+.t-figure__num {
+  display: block;
+  color: var(--text-heading);
+  font-weight: 700;
+}
+.t-figure__titulo {
+  display: block;
+  font-style: italic;
+}
+.t-figure__nota {
+  margin: 0;
   padding: 10px 16px;
   border-top: 1px solid var(--u-card-border);
   font-size: .8rem;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   color: var(--text-muted);
 }
-.t-figure figcaption strong { color: var(--text-light); }
+.t-figure__nota em { color: var(--text-light); }
 
 /* Notas y ejemplos: destacan sin romper el hilo de la lectura */
 .t-callout {

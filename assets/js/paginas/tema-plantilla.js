@@ -213,6 +213,82 @@
         });
     }
 
+    // ---------- Figuras: número, título y nota (APA 7) ----------
+    // Cada figura del tema se marca así (las fuentes son los "id" de referencias.json):
+    //   <figure class="t-figure" data-fuentes="kotler-2017 middleton-2009">
+    //     <figcaption>Título de la figura</figcaption>
+    //     <div class="t-figure__media"><img …></div>
+    //   </figure>
+    // Arriba queda "Figura 1.1" + título en cursiva; abajo, "Nota. Elaboración propia
+    // con base en Kotler et al. (2017) y Middleton et al. (2009)."
+    // La numeración es continua en la unidad: se cuentan las figuras de los temas
+    // anteriores (en el orden de la lista "temas" del JSON de la unidad).
+
+    const SELECTOR_FIGURA = 'figure.t-figure[data-fuentes]';
+
+    /** Une una lista con comas y el conector final: "A, B y C". */
+    function unir(lista, conector) {
+        if (lista.length <= 1) return lista.join('');
+        return `${lista.slice(0, -1).join(', ')} ${conector} ${lista[lista.length - 1]}`;
+    }
+
+    /** Cuenta las figuras de los temas anteriores al actual (null si alguno no se pudo leer). */
+    async function figurasPrevias(temas, temaActual) {
+        const anteriores = temas.slice(0, temas.indexOf(temaActual)).filter(t => t.url);
+        const conteos = await Promise.all(anteriores.map(async t => {
+            const respuesta = await fetch(DataManager.ruta(t.url));
+            if (!respuesta.ok) throw new Error(`No se pudo leer ${t.url} para numerar las figuras.`);
+            const html = new DOMParser().parseFromString(await respuesta.text(), 'text/html');
+            return html.querySelectorAll(SELECTOR_FIGURA).length;
+        }));
+        return conteos.reduce((total, n) => total + n, 0);
+    }
+
+    async function prepararFiguras(unidad, temaActual) {
+        const figuras = [...document.querySelectorAll(`.t-article ${SELECTOR_FIGURA}`)];
+        if (!figuras.length) return;
+
+        const [config, datos, previas] = await Promise.all([
+            DataManager.getArchivo(DataManager.RUTA_REFERENCIAS_CONFIG),
+            unidad.referencias ? DataManager.getArchivo(unidad.referencias) : { referencias: [] },
+            figurasPrevias(UI.lista(unidad.temas), temaActual).catch(error => {
+                console.error(error);
+                return null; // sin conteo confiable no se numera, pero sí se pone la nota
+            })
+        ]);
+        const notas = config.notas;
+
+        figuras.forEach((figura, indice) => {
+            const pie = figura.querySelector('figcaption');
+            if (pie) {
+                const titulo = document.createElement('span');
+                titulo.className = 't-figure__titulo';
+                titulo.textContent = pie.textContent.trim();
+                pie.replaceChildren(titulo);
+                if (previas !== null) {
+                    const numero = document.createElement('strong');
+                    numero.className = 't-figure__num';
+                    numero.textContent = `${notas.figura} ${unidad.numero}.${previas + indice + 1}`;
+                    pie.prepend(numero);
+                }
+            }
+
+            const citas = figura.dataset.fuentes.split(/\s+/).filter(Boolean).map(id => {
+                const ref = datos.referencias.find(r => r.id === id);
+                if (!ref) console.warn(`[Figura] La fuente "${id}" no existe en ${unidad.referencias}.`);
+                return ref ? ref.cita : null;
+            }).filter(Boolean);
+            if (!citas.length) return;
+
+            const nota = document.createElement('p');
+            nota.className = 't-figure__nota';
+            const etiqueta = document.createElement('em');
+            etiqueta.textContent = notas.nota;
+            nota.append(etiqueta, ` ${notas.nota_prefijo} ${unir(citas, notas.conector)}.`);
+            figura.querySelector('.t-figure__media').after(nota);
+        });
+    }
+
     // ---------- Arranque ----------
 
     document.addEventListener('DOMContentLoaded', async () => {
@@ -241,6 +317,7 @@
                 iniciarIndiceDesplegable(contenedorIndice);
             }
             if (contenedorNavegacion) contenedorNavegacion.innerHTML = navegacion(unidad, tema);
+            await prepararFiguras(unidad, tema);
         } catch (error) {
             // Se conservan los enlaces de respaldo escritos en el HTML.
             console.error(error);
