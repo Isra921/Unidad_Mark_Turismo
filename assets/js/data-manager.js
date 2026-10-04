@@ -20,6 +20,7 @@ const DataManager = {
     RUTA_CATALOGO: 'assets/data/unidades-data.json',
     CARPETA_UNIDADES: 'assets/data/unidades/',
     PATRON_PAGINA_UNIDAD: id => `unidades/${id}/index.html`,
+    PAGINA_REFERENCIAS: 'referencias.html',
     PATRON_URL_ABSOLUTA: /^(?:[a-z]+:)?\/\//i,
 
     _cache: new Map(),
@@ -87,6 +88,18 @@ const DataManager = {
     /** Cualquier otro JSON del sitio (ej. bancos de preguntas de las actividades). */
     async getArchivo(rutaDesdeRaiz) {
         return this._cargarJSON(rutaDesdeRaiz);
+    },
+
+    /**
+     * Ruta hacia la página de referencias, opcionalmente filtrada
+     * (ej. referencias.html?unidad=unidad-01&tema=1.2).
+     */
+    urlReferencias(idUnidad, tema) {
+        const params = new URLSearchParams();
+        if (idUnidad) params.set('unidad', idUnidad);
+        if (tema) params.set('tema', tema);
+        const consulta = params.toString();
+        return this.ruta(this.PAGINA_REFERENCIAS) + (consulta ? `?${consulta}` : '');
     },
 
     /** Ruta (ya ajustada a la página actual) hacia la página de una unidad. */

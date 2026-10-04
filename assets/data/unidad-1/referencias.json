@@ -1,0 +1,348 @@
+{
+  "referencias": [
+    {
+      "id": "kotler-2015",
+      "categoria": "basica",
+      "temas": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "referencia": "Kotler, P., Bowen, J., Makens, J., y Baloglu, S. (2015). *Marketing turístico* (6.ª ed.). Pearson Educación.",
+      "cita": "Kotler et al. (2015)",
+      "descripcion": "Obra fundamental para el entendimiento de las características diferenciales de los servicios turísticos (intangibilidad, inseparabilidad, caducidad y variabilidad), la fidelización del huésped y el diseño del plan de mercadotecnia para empresas de hospitalidad.",
+      "etiquetas": [
+        "Marketing de hospitalidad",
+        "Mezcla de mercadotecnia",
+        "Segmentación"
+      ]
+    },
+    {
+      "id": "cohen-2013",
+      "categoria": "basica",
+      "temas": [
+        "1.1"
+      ],
+      "referencia": "Cohen, W. (2013). *Plan de mercadotecnia* (2.ª ed.). Grupo Editorial Patria Cultural.",
+      "cita": "Cohen (2013)",
+      "descripcion": "Guía metodológica paso a paso para la formulación, ejecución y control de planes estratégicos de mercadotecnia: diagnóstico de la situación actual, auditoría del entorno, determinación de metas SMART y presupuestación comercial.",
+      "etiquetas": [
+        "Plan de marketing",
+        "Objetivos SMART",
+        "Diagnóstico FODA"
+      ]
+    },
+    {
+      "id": "martos-2015",
+      "categoria": "basica",
+      "temas": [
+        "1.3",
+        "1.4",
+        "1.5"
+      ],
+      "referencia": "Martos, L. (2015). *Marketing en el sector turístico*. Editorial Síntesis.",
+      "cita": "Martos (2015)",
+      "descripcion": "Enfoque aplicado al análisis de la oferta y demanda en destinos turísticos, canales de distribución, intermediación tradicional y digital (OTAs, GDS) y estrategias de promoción integrada en empresas del sector.",
+      "etiquetas": [
+        "Sector turístico",
+        "Canales de distribución",
+        "Oferta y demanda"
+      ]
+    },
+    {
+      "id": "fisher-2011",
+      "categoria": "basica",
+      "temas": [
+        "1.1",
+        "1.4"
+      ],
+      "referencia": "Fisher, L., y Espejo, J. (2011). *Mercadotecnia* (4.ª ed.). McGraw-Hill Interamericana.",
+      "cita": "Fisher y Espejo (2011)",
+      "descripcion": "Texto referente en México y Latinoamérica sobre el estudio del mercado consumidor, segmentación demográfica y psicográfica, ciclo de vida del producto y estrategias de comercialización adaptadas al contexto empresarial regional.",
+      "etiquetas": [
+        "Fundamentos",
+        "Comportamiento del consumidor",
+        "Investigación de mercados"
+      ]
+    },
+    {
+      "id": "kerin-2018",
+      "categoria": "basica",
+      "temas": [
+        "1.1",
+        "1.3"
+      ],
+      "referencia": "Kerin, R. A., y Hartley, S. W. (2018). *Marketing* (13.ª ed.). McGraw-Hill Educación.",
+      "cita": "Kerin y Hartley (2018)",
+      "descripcion": "Análisis contemporáneo del valor para el cliente, la gestión de relaciones (CRM), la toma de decisiones basada en métricas y el desarrollo de ventajas competitivas sostenibles en entornos dinámicos de servicios.",
+      "etiquetas": [
+        "Creación de valor",
+        "Estrategia corporativa",
+        "CRM"
+      ]
+    },
+    {
+      "id": "stanton-2004",
+      "categoria": "basica",
+      "temas": [
+        "1.1",
+        "1.4"
+      ],
+      "referencia": "Stanton, W. J., Etzel, M. J., y Walker, B. J. (2004). *Fundamentos de marketing* (14.ª ed.). McGraw-Hill Interamericana.",
+      "cita": "Stanton et al. (2004)",
+      "descripcion": "Tratado clásico que aborda las 4P del marketing, los canales de distribución mayoristas y minoristas, y la determinación estratégica de precios en mercados competitivos con elasticidad de demanda.",
+      "etiquetas": [
+        "4P",
+        "Fijación de precios",
+        "Canales de distribución"
+      ]
+    },
+    {
+      "id": "santesmases-2014",
+      "categoria": "basica",
+      "temas": [
+        "1.1",
+        "1.3"
+      ],
+      "referencia": "Santesmases, M., Valderrey, F. J., y Sánchez, A. (2014). *Fundamentos de mercadotecnia*. Grupo Editorial Patria.",
+      "cita": "Santesmases et al. (2014)",
+      "descripcion": "Estructuración formal del marketing estratégico frente al marketing operativo, tipología empresarial, auditoría del entorno y técnicas de posicionamiento de marca orientadas a pequeñas y medianas empresas.",
+      "etiquetas": [
+        "Marketing estratégico",
+        "Marketing operativo",
+        "Posicionamiento"
+      ]
+    },
+    {
+      "id": "lamb-2018",
+      "categoria": "basica",
+      "temas": [
+        "1.1",
+        "1.4"
+      ],
+      "referencia": "Lamb, C. W., Hair, J. F., y McDaniel, C. (2018). *Marketing* (11.ª ed.). Cengage Learning.",
+      "cita": "Lamb et al. (2018)",
+      "descripcion": "Análisis de la planeación estratégica de mercado, la mezcla promocional (comunicación integral de marketing) y la evaluación del entorno global competitivo en servicios y productos de consumo.",
+      "etiquetas": [
+        "Planeación estratégica",
+        "Mezcla promocional",
+        "Análisis competitivo"
+      ]
+    },
+    {
+      "id": "coto-2008",
+      "categoria": "consulta",
+      "temas": [
+        "1.1",
+        "1.3"
+      ],
+      "referencia": "Coto, M. (2008). *El plan de marketing digital: Guía práctica para atraer y fidelizar clientes en Internet*. Prentice Hall.",
+      "cita": "Coto (2008)",
+      "descripcion": "Diseño e implementación de estrategias comerciales en entornos digitales: motores de búsqueda, conversión web, captación de prospectos y desintermediación para prestadores de servicios.",
+      "etiquetas": [
+        "Marketing digital",
+        "Desintermediación",
+        "Comercio electrónico"
+      ]
+    },
+    {
+      "id": "kotler-2022-mkt5",
+      "categoria": "consulta",
+      "temas": [
+        "1.1",
+        "1.3",
+        "1.5"
+      ],
+      "referencia": "Kotler, P., Kartajaya, H., y Setiawan, I. (2022). *Marketing 5.0: Tecnología para la humanidad*. Editorial Almuzara.",
+      "cita": "Kotler, Kartajaya y Setiawan (2022)",
+      "descripcion": "Integración de tecnologías predictivas, inteligencia artificial, hiperpersonalización y análisis de datos con la experiencia humana y la sostenibilidad. Citada en el contenido de los temas 1.1, 1.3 y 1.5.",
+      "etiquetas": [
+        "Marketing 5.0",
+        "Analítica de datos",
+        "Sostenibilidad"
+      ]
+    },
+    {
+      "id": "kotler-2017",
+      "categoria": "consulta",
+      "temas": [
+        "1.1"
+      ],
+      "referencia": "Kotler, P., Bowen, J. T., Makens, J. C., y Baloglu, S. (2017). *Marketing for hospitality and tourism* [Marketing para la hospitalidad y el turismo] (7.ª ed.). Pearson.",
+      "cita": "Kotler et al. (2017)",
+      "descripcion": "Manual de referencia en marketing de hospitalidad y turismo: análisis del entorno, estrategia de marketing y elaboración del plan de marketing anual.",
+      "etiquetas": [
+        "Plan de marketing",
+        "Análisis FODA",
+        "Hospitalidad"
+      ]
+    },
+    {
+      "id": "kotler-2022",
+      "categoria": "consulta",
+      "temas": [
+        "1.2"
+      ],
+      "referencia": "Kotler, P., Bowen, J. T., y Baloglu, S. (2022). *Marketing for hospitality and tourism* [Marketing para la hospitalidad y el turismo] (8.ª ed.). Pearson.",
+      "cita": "Kotler, Bowen y Baloglu (2022)",
+      "descripcion": "Edición actualizada con énfasis en la creación de valor y el compromiso del cliente; desarrolla la estrategia de marketing orientada al cliente, la segmentación y el mercado meta.",
+      "etiquetas": [
+        "Segmentación",
+        "Mercado meta",
+        "Estrategia"
+      ]
+    },
+    {
+      "id": "morrison-2023",
+      "categoria": "consulta",
+      "temas": [
+        "1.2"
+      ],
+      "referencia": "Morrison, A. M. (2023). *Marketing and managing tourism destinations* [Marketing y gestión de destinos turísticos] (3.ª ed.). Routledge.",
+      "cita": "Morrison (2023)",
+      "descripcion": "Gestión y marketing de destinos turísticos: planificación, gobernanza, posicionamiento, segmentación de mercados y medición del desempeño de los destinos.",
+      "etiquetas": [
+        "Destinos turísticos",
+        "Gobernanza",
+        "Posicionamiento"
+      ]
+    },
+    {
+      "id": "middleton-2009",
+      "categoria": "consulta",
+      "temas": [
+        "1.1"
+      ],
+      "referencia": "Middleton, V. T. C., Fyall, A., Morgan, M., y Ranchhod, A. (2009). *Marketing in travel and tourism* [Marketing en viajes y turismo] (4.ª ed.). Butterworth-Heinemann.",
+      "cita": "Middleton et al. (2009)",
+      "descripcion": "Marketing aplicado a viajes y turismo: características de los servicios turísticos, segmentación, mezcla de marketing y proceso de planificación del marketing.",
+      "etiquetas": [
+        "Planificación de marketing",
+        "Segmentación",
+        "Servicios turísticos"
+      ]
+    },
+    {
+      "id": "olmos-2023",
+      "categoria": "consulta",
+      "temas": [
+        "1.3",
+        "1.4"
+      ],
+      "referencia": "Olmos Juárez, L., y García Cebrián, R. (2023). *Estructura del mercado turístico* (3.ª ed.). Ediciones Paraninfo.",
+      "cita": "Olmos Juárez y García Cebrián (2023)",
+      "descripcion": "Estructura del sector turístico: entidades públicas y privadas, oferta básica (alojamiento, intermediación y transporte), oferta complementaria y caracterización y análisis de la demanda turística.",
+      "etiquetas": [
+        "Empresa turística",
+        "Oferta turística",
+        "Demanda turística"
+      ]
+    },
+    {
+      "id": "martin-2023",
+      "categoria": "consulta",
+      "temas": [
+        "1.4"
+      ],
+      "referencia": "Martín Martín, J. M. (2023). *Estructura económica del turismo*. Editorial Técnica Avicam.",
+      "cita": "Martín Martín (2023)",
+      "descripcion": "Análisis económico de la actividad turística: funcionamiento del mercado, oferta y demanda y sus efectos en la economía.",
+      "etiquetas": [
+        "Economía del turismo",
+        "Oferta y demanda"
+      ]
+    },
+    {
+      "id": "omt-2020",
+      "categoria": "organismo",
+      "temas": [
+        "1.2"
+      ],
+      "referencia": "Organización Mundial del Turismo. (2020). *Notas metodológicas de la base de datos de estadísticas de turismo* (Ed. 2020). https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2020-02/methodological_notes_2020.pdf",
+      "cita": "Organización Mundial del Turismo (2020)",
+      "descripcion": "Notas metodológicas oficiales que acompañan a las estadísticas de turismo de la OMT: definiciones de llegadas, pernoctaciones, gasto turístico y demás indicadores por país.",
+      "etiquetas": [
+        "Indicadores OMT",
+        "Estadísticas de turismo"
+      ],
+      "enlace": {
+        "texto": "Documento OMT",
+        "url": "https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2020-02/methodological_notes_2020.pdf"
+      }
+    },
+    {
+      "id": "omt-2019",
+      "categoria": "organismo",
+      "temas": [
+        "1.2"
+      ],
+      "referencia": "Organización Mundial del Turismo. (2019). *Definiciones de turismo de la OMT*. https://doi.org/10.18111/9789284420858",
+      "cita": "Organización Mundial del Turismo [OMT] (2019)",
+      "descripcion": "Definiciones oficiales de la OMT sobre turismo, visitante, turista y excursionista. Citada en el contenido del tema 1.2.",
+      "etiquetas": [
+        "Definiciones",
+        "Tipología de visitantes"
+      ],
+      "enlace": {
+        "texto": "Ver publicación",
+        "url": "https://doi.org/10.18111/9789284420858"
+      }
+    },
+    {
+      "id": "naciones-unidas-2010",
+      "categoria": "organismo",
+      "temas": [
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5"
+      ],
+      "referencia": "Naciones Unidas. (2010). *Recomendaciones internacionales para estadísticas de turismo 2008*. https://unstats.un.org/unsd/publication/Seriesm/SeriesM_83rev1s.pdf",
+      "cita": "Naciones Unidas (2010)",
+      "descripcion": "Marco internacional para la medición del turismo: conceptos de visitante, turista y excursionista, formas de turismo y clasificación de las actividades características del turismo.",
+      "etiquetas": [
+        "Estadísticas de turismo",
+        "Conceptos básicos"
+      ],
+      "enlace": {
+        "texto": "Documento ONU",
+        "url": "https://unstats.un.org/unsd/publication/Seriesm/SeriesM_83rev1s.pdf"
+      }
+    },
+    {
+      "id": "onu-turismo-2024",
+      "categoria": "organismo",
+      "temas": [
+        "1.1",
+        "1.4",
+        "1.5"
+      ],
+      "referencia": "ONU Turismo. (2024). *Panorama del turismo internacional, edición 2024*.",
+      "cita": "ONU Turismo (2024)",
+      "descripcion": "Panorama anual de las tendencias del turismo internacional: llegadas, ingresos y comportamiento de los mercados emisores y receptores.",
+      "etiquetas": [
+        "Tendencias",
+        "Turismo internacional"
+      ]
+    },
+    {
+      "id": "sectur-2024",
+      "categoria": "organismo",
+      "temas": [
+        "1.4",
+        "1.5"
+      ],
+      "referencia": "Secretaría de Turismo. (2024). *Compendio estadístico del turismo en México 2024*. DataTur. https://datatur.sectur.gob.mx/SitePages/compendioestadistico.aspx",
+      "cita": "Secretaría de Turismo (2024)",
+      "descripcion": "Compendio oficial de estadísticas del turismo en México: oferta y demanda de alojamiento, llegadas de visitantes, gasto y otros indicadores del sector.",
+      "etiquetas": [
+        "Estadísticas nacionales",
+        "Oferta y demanda"
+      ],
+      "enlace": {
+        "texto": "DataTur",
+        "url": "https://datatur.sectur.gob.mx/SitePages/compendioestadistico.aspx"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "pagina": {
+    "encabezado": {
+      "eyebrow": "Acervo y fuentes académicas",
+      "etiqueta": "Marketing · EST - IPN",
+      "titulo": "Referencias bibliográficas",
+      "descripcion": "Bibliografía oficial, fuentes de consulta y documentos de organismos que sustentan el contenido de cada unidad. Todas las referencias siguen el formato APA 7.ª edición. Las fuentes de cada figura y video aparecen en su nota, dentro del tema correspondiente."
+    },
+    "textos": {
+      "buscador_etiqueta": "Buscar referencias",
+      "buscador_placeholder": "Buscar por autor, título, año o palabra clave…",
+      "filtro_unidad": "Unidad",
+      "filtro_tema": "Tema",
+      "opcion_unidad": "Unidad {numero}: {titulo}",
+      "opcion_todos_temas": "Todos los temas",
+      "opcion_tema": "{numero} {nombre}",
+      "contador_total": "{total} referencias",
+      "contador_filtrado": "{visibles} de {total} referencias",
+      "sin_resultados": "No se encontraron referencias que coincidan con tu búsqueda o filtro.",
+      "sin_referencias": "Esta unidad todavía no tiene referencias registradas.",
+      "temas_singular": "Tema",
+      "temas_plural": "Temas",
+      "copiar": "Cita APA",
+      "copiado": "¡Copiado!",
+      "copiar_aria": "Copiar referencia en formato APA"
+    }
+  },
+  "categorias": [
+    {
+      "id": "basica",
+      "nombre": "Bibliografía básica",
+      "icono": "fa-book"
+    },
+    {
+      "id": "consulta",
+      "nombre": "Libros de consulta",
+      "icono": "fa-book-bookmark"
+    },
+    {
+      "id": "organismo",
+      "nombre": "Organismos y estadísticas",
+      "icono": "fa-globe"
+    }
+  ],
+  "notas": {
+    "figura": "Figura",
+    "nota": "Nota.",
+    "nota_prefijo": "Elaboración propia con base en",
+    "conector": "y"
+  }
+}

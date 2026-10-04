@@ -223,6 +223,11 @@
         const contenedorNavegacion = document.getElementById('temaNavegacion');
         const { unidad: idUnidad, tema: numeroTema } = document.body.dataset;
 
+        // "Ver lista completa" abre Referencias filtrada por esta unidad y tema
+        document.querySelectorAll('[data-enlace-referencias]').forEach(enlace => {
+            enlace.href = DataManager.urlReferencias(idUnidad, numeroTema);
+        });
+
         try {
             const unidad = await DataManager.getUnidad(idUnidad);
             const tema = UI.lista(unidad.temas).find(t => t.numero === numeroTema);

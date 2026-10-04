@@ -84,7 +84,9 @@
     "Analiza el encuadre empresarial con base en el enfoque industrial del turismo."
   ],
 
+  "referencias": "assets/data/unidad-1/referencias.json",
+
   "material_apoyo": [
-    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-01/referencias.html" }
+    { "nombre": "Referencias bibliográficas de la unidad", "url": "referencias.html?unidad=unidad-01" }
   ]
 }

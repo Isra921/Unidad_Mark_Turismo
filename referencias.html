@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referencias bibliográficas | Marketing | EST</title>
+  <meta name="description" content="Referencias bibliográficas de las unidades de Marketing - Escuela Superior de Turismo (EST - IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/comun.css">
+  <link rel="stylesheet" href="assets/css/unidades-base.css">
+  <link rel="stylesheet" href="assets/css/referencias.css">
+
+  <link rel="icon" type="image/jpeg" href="assets/img/EST.jpeg">
+</head>
+
+<!--
+  PÁGINA DE REFERENCIAS (una sola para todas las unidades)
+  - data-config: textos de la página, categorías y textos de notas (ruta desde la raíz).
+  - Las referencias de cada unidad se leen del campo "referencias" de su JSON
+    (assets/data/unidades/unidad-XX.json). Ver assets/js/paginas/referencias.js.
+  - Se puede abrir filtrada: referencias.html?unidad=unidad-01&tema=1.2
+-->
+<body class="u-body" data-root="" data-config="assets/data/referencias-config.json">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page" id="referencias-app" aria-busy="true">
+    <p class="u-loading">Cargando referencias…</p>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Marketing · Escuela Superior de Turismo (EST - IPN)</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-manager.js?v=20260930"></script>
+  <script src="assets/js/componentes.js"></script>
+  <script src="assets/js/paginas/referencias.js"></script>
+</body>
+
+</html>
