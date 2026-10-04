@@ -42,8 +42,12 @@ function closeModal() {
 
 document.querySelectorAll('[data-modal]').forEach(button => {
     button.addEventListener('click', event => {
+        const modalId = button.dataset.modal;
+        if (modalId === 'autores' || modalId === 'glosario' || modalId === 'actividades') {
+            return;
+        }
         event.preventDefault();
-        openModal(button.dataset.modal);
+        openModal(modalId);
     });
 });
 
@@ -116,22 +120,6 @@ function toggleCreadoresView(viewId) {
 }
 
 
-// --- 5. BARRA DE NAVEGACIÓN ---
-const siteNav = document.querySelector('.site-nav');
-const navToggle = document.querySelector('.nav-toggle');
-const mainNavigation = document.getElementById('main-navigation');
-
-if (navToggle && mainNavigation) {
-    navToggle.addEventListener('click', () => {
-        const open = mainNavigation.classList.toggle('is-open');
-        navToggle.setAttribute('aria-expanded', String(open));
-    });
-
-    mainNavigation.addEventListener('click', () => {
-        mainNavigation.classList.remove('is-open');
-        navToggle.setAttribute('aria-expanded', 'false');
-    });
-}
 
 
 // --- 6. REPRODUCTOR DE VIDEO ---

@@ -2,24 +2,39 @@
   "marca": {
     "titulo": "EST · Marketing",
     "subtitulo": "Unidad 1: Encuadre empresarial",
-    "url": "unidades/unidad-01/index.html"
+    "url": "index.html",
+    "logo_izq": {
+      "src": "assets/img/IPNb.png",
+      "alt": "Instituto Politécnico Nacional",
+      "clase": "brand-logo--ipn"
+    },
+    "logo_der": {
+      "src": "assets/img/EST.jpeg",
+      "alt": "Escuela Superior de Turismo",
+      "clase": "brand-logo--est"
+    }
   },
   "boton_menu": "Abrir navegación",
   "enlaces": [
+    {
+      "texto": "Inicio",
+      "icono": "fa-home",
+      "url": "index.html"
+    },
     {
       "texto": "Unidad 1",
       "icono": "fa-book",
       "url": "unidades/unidad-01/index.html"
     },
     {
-      "texto": "Referencias",
-      "icono": "fa-bookmark",
-      "url": "unidades/unidad-01/referencias.html"
-    },
-    {
       "texto": "Glosario",
       "icono": "fa-book-open",
       "modal": "glosario"
+    },
+    {
+      "texto": "Referencias",
+      "icono": "fa-bookmark",
+      "url": "unidades/unidad-01/referencias.html"
     },
     {
       "texto": "Autores",

@@ -6,28 +6,15 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Marketing · Unidad 1: Encuadre empresarial | Escuela Superior de Turismo (EST - IPN)</title>
     <meta content="Recurso didáctico interactivo de la Unidad 1: Encuadre empresarial de la materia de Marketing en la Escuela Superior de Turismo (EST - IPN)." name="description" />
-    <link href="assets/css/variables.css" rel="stylesheet" />
-    <link href="assets/css/global.css" rel="stylesheet" />
+    <link href="assets/css/comun.css" rel="stylesheet" />
     <link href="assets/css/inicio.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
     <link href="assets/img/EST.jpeg" rel="icon" type="image/png" />
     <link href="assets/img/EST.jpeg" rel="shortcut icon" type="image/png" />
 </head>
 
-<body>
-    <header class="site-nav">
-        <a class="brand" href="index.html">EST · Polilibro académico<small>Marketing</small></a>
-        <button aria-controls="main-navigation" aria-expanded="false" class="nav-toggle"
-            onclick="const nav=document.getElementById('main-navigation'); nav.classList.toggle('is-open'); this.setAttribute('aria-expanded', nav.classList.contains('is-open'));"
-            type="button">
-            <span class="sr-only">Abrir navegación</span><i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-        <nav aria-label="Navegación principal" id="main-navigation">
-            <a class="active" href="index.html"><i aria-hidden="true" class="fas fa-home"></i> Inicio</a>
-            <a href="unidades/unidad-01/index.html"><i aria-hidden="true" class="fas fa-book"></i> Unidad 1</a>
-            <a href="unidades/unidad-01/referencias.html"><i aria-hidden="true" class="fas fa-bookmark"></i> Referencias</a>
-        </nav>
-    </header>
+<body data-root="">
+    <header class="site-nav" data-componente="navegacion"></header>
     <main class="container">
         <section class="hero-section">
             <img alt="Instituto Politécnico Nacional" class="hero-emblem hero-emblem-ipn" src="assets/img/IPNb.png" />
@@ -56,10 +43,12 @@
             <div class="welcome-copy">
                 <h2>Bienvenida</h2>
                 <div aria-label="Bienvenida completa" class="welcome-content" role="region" tabindex="0">
-                    <p><strong>Marketing · Unidad 1: Encuadre empresarial</strong> (recurso didáctico digital), fue diseñado para la <strong>Escuela Superior de Turismo (EST - IPN)</strong> con el objetivo de acompañar a las y los estudiantes en la comprensión integral de los fundamentos del marketing turístico y su aplicación en la toma de decisiones empresariales estratégicas.</p>
-                    <p>A lo largo de esta unidad analizarás el encuadre empresarial y el contexto operativo de las empresas de servicios turísticos, considerando las notas y directrices metodológicas de la Organización Mundial del Turismo (OMT), la tipología de las organizaciones turísticas, el diagnóstico de la oferta y la demanda, y el enfoque industrial a través de clústeres regionales y cadenas de valor articuladas.</p>
-                    <p>Cada tema integra explicaciones teóricas sustentadas en la literatura oficial, casos de aplicación contextualizados en destinos y empresas del sector, bancos de reactivos interactivos con retroalimentación inmediata y una actividad integradora final con simulador de escenarios estratégicos.</p>
-                    <p>Bienvenido a esta experiencia formativa donde la teoría mercadológica, los datos cuantitativos del turismo y la planeación sostenible convergen para impulsar el desarrollo del sector turístico en México.</p>
+                    <p>Es un placer acompañarlos en este recorrido por la unidad I: “Encuadre empresarial”, parte del objeto de aprendizaje digital de la unidad de aprendizaje Plan de marketing. Esta unidad es una de cinco que conforman el programa correspondiente séptimo semestre de la licenciatura en turismo en la EST-IPN, y esta diseñada para brindarles una herramienta en el ámbito turístico que es clave en su formación profesional.</p>
+                    <p><strong>¿Qué lograrán en esta unidad?</strong><br />
+                    Adquirir conocimiento en la comprensión de los temas del plan de marketing y su importancia en el turismo. A través de actividades individuales y colaborativas, en donde se analizará el encuadre empresarial con base en el enfoque industrial del turismo para que con ello identifiquen las oportunidades que existen para la toma decisiones y proponer acciones que respondan a las necesidades del mercado.</p>
+                    <p>Como su facilitador(ra) estaré guiándolos en cada paso, así que atiendan a las indicaciones y no duden en consultar sus dudas.</p>
+                    <p>Su entusiasmo, participación y dedicación serán claves para alcanzar los objetivos. Juntos, construiremos un espacio de aprendizaje dinámico y enriquecedor con la consulta de este material y las clases en el aula.</p>
+                    <p>¡Comencemos con energía!, les deseo mucho éxito en esta unidad de aprendizaje y en el semestre.</p>
                 </div>
             </div>
             <div class="material-panel" id="material">
@@ -67,19 +56,19 @@
                 <div class="quick-links">
                     <button class="quick-link" data-modal="introduccion" type="button">
                         <i aria-hidden="true" class="fas fa-lightbulb"></i>
-                        <span>Introducción<small>Contexto y objetivos de la materia.</small></span>
+                        <span>Intensión educativa<small>Perfil de egreso y diseño del recurso didáctico.</small></span>
                     </button>
                     <button class="quick-link" data-modal="programa" type="button">
                         <i aria-hidden="true" class="fas fa-file-alt"></i>
-                        <span>Programa académico<small>Propósitos y organización del curso.</small></span>
+                        <span>Unidad de Competencia<small>Enfoque industrial y encuadre empresarial.</small></span>
                     </button>
                     <button class="quick-link" data-modal="metodologia" type="button">
                         <i aria-hidden="true" class="fas fa-sitemap"></i>
-                        <span>Metodología<small>Estrategia y métodos de aprendizaje.</small></span>
+                        <span>Propósito de la unidad de aprendizaje<small>Evaluación de planes de marketing y mezcla turística.</small></span>
                     </button>
                     <button class="quick-link" data-modal="examen" type="button">
                         <i aria-hidden="true" class="fas fa-file-signature"></i>
-                        <span>Examen diagnóstico<small>Revisa tus conocimientos previos.</small></span>
+                        <span>Metodología<small>Orientación didáctica y modalidades de trabajo.</small></span>
                     </button>
                     <button class="quick-link" data-modal="actividades" type="button">
                         <i aria-hidden="true" class="fas fa-gamepad"></i>
@@ -89,7 +78,7 @@
                         <i aria-hidden="true" class="fas fa-book"></i>
                         <span>Glosario de términos<small>Consulta los conceptos principales.</small></span>
                     </button>
-                    <button class="quick-link" data-modal="creadores" type="button">
+                    <button class="quick-link" data-modal="autores" type="button">
                         <i aria-hidden="true" class="fas fa-users"></i>
                         <span>Autores y colaboradores<small>Conoce al equipo del polilibro.</small></span>
                     </button>
@@ -113,310 +102,195 @@
             </button>
             <div class="modal-body prose">
                 <div class="modal-section" id="modal-introduccion">
-                    <h3>Introducción</h3>
-                    <p style="text-align: justify;"><strong>Aplicaciones para Comunicaciones en Red</strong> (polilibro
-                        académico), Aplicaciones para Comunicaciones en Red, Aborda el estudio de Aplicaciones para
-                        Comunicaciones en Red que constituye uno de los pilares fundamentales en la formación dentro del
-                        área de la computación,
-                        ya que permite comprender cómo se organiza, se procesa y se recupera la información dentro de
-                        los sistemas informáticos. En el contexto actual, donde el manejo eficiente de los datos es
-                        esencial para el desarrollo de soluciones tecnológicas, este recurso didáctico digital
-                        Contenidos almacena y
-                        recupera Datos (polilibro académico) ha sido diseñado como una herramienta innovadora orientada
-                        al aprendizaje activo, con el propósito de fortalecer el pensamiento lógico, el análisis
-                        estructurado y la capacidad para resolver problemas mediante el uso de Aplicaciones para
-                        Comunicaciones en Red.
-                        A través de este material, el estudiantado desarrollará competencias que le permitirán
-                        comprender el funcionamiento interno de los programas y la manera en que la información puede
-                        ser organizada y manipulada de forma eficiente.</p>
-                    <h3>Objetivo general</h3>
-                    <p style="text-align: justify;">Desarrollar en el estudiante de Ingeniería en Sistemas
-                        Computacionales las habilidades necesarias para el manejo eficiente de datos en memoria mediante
-                        el uso de Aplicaciones para Comunicaciones en Red, incluyendo técnicas de organización de
-                        información y búsqueda aplicadas en sistemas computacionales, contribuyendo al perfil de egreso
-                        profesional. Asimismo,
-                        fomentar habilidades transversales como el trabajo en equipo, la comunicación efectiva, la ética
-                        profesional, la resolución de problemas, la creatividad y el ingenio, necesarias para proponer
-                        soluciones tecnológicas en contextos reales.</p>
-                    <p style="text-align: justify;"><strong>En la primera unidad</strong> se aborda a los contenidos
-                        fundamentales en donde se tiene como propósito que el estudiantado identifique contenidos
-                        fundamentales de la computación con base en sus órdenes de organización, analizando su
-                        comportamiento, eficiencia y aplicación en la solución de problemas. </p>
-                    <p style="text-align: justify;"><strong>En la segunda unidad</strong> se aborda las recursos
-                        digitales lineales, se busca que el estudiantado analice y programe diferentes tipos de recursos
-                        digitales lineales a partir de especificaciones genéricas, comprendiendo la forma en que se
-                        organizan los datos de manera secuencial para facilitar su almacenamiento y recuperación.
-                        Finalmente</p>
-                    <p style="text-align: justify;"><strong>En la tercera unidad</strong> se centra las recursos
-                        digitales no lineales, la competencia se orienta a que el estudiantado analice y programe
-                        recursos digitales no lineales a partir de sus aplicaciones, organización y representaciones,
-                        permitiendo diseñar soluciones para problemas más complejos y optimizar el manejo de la
-                        información.
-                        De esta manera, el recorrido por estas unidades favorece el desarrollo del pensamiento
-                        computacional y la capacidad para generar soluciones eficientes en distintos contextos
-                        tecnológicos.</p>
+                    <h3>Intensión educativa</h3>
+                    <p style="text-align: justify;">Aporta al perfil de egreso de la Licenciatura en Turismo, brindando conocimientos sobre Plan de marketing, fomentando el desarrollo de las habilidades de administración y diseño de productos turísticos basados en la investigación de mercados y la mezcla de mercadotecnia. Asimismo, fomenta el liderazgo y la toma de decisiones de comercialización en empresas turísticas.</p>
+                    <p style="text-align: justify;">El recurso didáctico digital como objeto de aprendizaje corresponde a la unidad I, titulada “Encuadre empresarial”, y ha sido diseñada especialmente para ustedes, estudiantados, con el objetivo de facilitar su proceso de aprendizaje y reforzamiento de los conocimientos.</p>
+                    <p style="text-align: justify; font-weight: 600; color: var(--accent);">¡Te invitamos a que disfrutes de esta experiencia didáctica!</p>
                 </div>
                 <div class="modal-section" id="modal-programa">
-                    <div class="text-center" style="margin-bottom: 2rem;">
-                        <div
-                            style="width: 8rem; height: 8rem; background: linear-gradient(135deg, var(--surface-hover), var(--surface-hover)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
-                            <i class="fas fa-file-alt" style="font-size: 4rem; color: var(--white);"></i>
-                        </div>
-                        <h3>Programa de la unidad de aprendizaje</h3>
-                    </div>
-                    <div class="prose">
+                    <h3>Unidad de Competencia</h3>
+                    <div class="prose" style="margin-top: 1rem;">
                         <div class="program-card">
                             <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
-                                <span class="program-card-ipn">IPN</span>
-                                <span style="font-weight: 600; color: var(--accent);">Instituto Politécnico
-                                    Nacional</span>
+                                <span class="program-card-ipn">EST</span>
+                                <span style="font-weight: 600; color: var(--accent);">Escuela Superior de Turismo · IPN</span>
                             </div>
-                            <div style="color: var(--accent);">
-                                <p style="margin: 0;"><strong>Secretaría Académica</strong></p>
-                                <p style="margin: 0;"><strong>Dirección de Educación Superior</strong></p>
-                                <p style="margin-top: 0.5rem; font-size: 1.25rem; font-weight: 600;">Programa sintético
-                                </p>
-                                <a href="unidades/unidad-01/referencias.html">Consultar recursos de ejemplo de la
-                                    unidad</a>
+                            <div style="color: var(--text-light);">
+                                <p style="margin: 0; font-size: 1.15rem; font-weight: 600;">Licenciatura en Turismo</p>
+                                <p style="margin: 0.25rem 0 0; color: var(--text-muted-light);">Unidad de Aprendizaje: Plan de marketing (7° Semestre)</p>
                             </div>
                         </div>
-                        <div class="program-details-grid">
-                            <div class="program-details-card">
-                                <div><strong>Unidad Académica:</strong> Escuela Superior de Cómputo</div>
-                                <div><strong>Programa Académico:</strong> Ingeniería en sistemas computacionales</div>
-                                <div><strong>Unidad de Aprendizaje:</strong> Aplicaciones para Comunicaciones en Red
-                                </div>
-                                <div><strong>Semestre:</strong> II</div>
-                            </div>
-                            <div class="program-details-card">
-                                <div><strong>Modalidad:</strong> escolarizada</div>
-                                <div><strong>Tipo:</strong> teórica-práctica / obligatoria</div>
-                                <div><strong>Vigencia:</strong> agosto 2020</div>
-                                <div><strong>Créditos SATCA:</strong> 5.9</div>
-                                <div><strong>Créditos TEPIC:</strong> 7.5</div>
-                            </div>
-                        </div>
-                        <div
-                            style="margin-top: 1.5rem; padding: 1.5rem; border: 1px solid var(--border-color); border-radius: 0.75rem;">
-                            <h4 style="color: #FFFFFF; margin-bottom: 0.75rem;">
-                                Propósito de la unidad de aprendizaje
+                        <div style="margin-top: 1.5rem; padding: 1.5rem; border: 1px solid var(--border-color); border-radius: 0.75rem; background: var(--surface);">
+                            <h4 style="color: #FFFFFF; margin-bottom: 0.75rem; font-size: 1.1rem;">
+                                Unidad de competencia
                             </h4>
-                            <p>
-                                Utiliza Aplicaciones para Comunicaciones en Red con base en sus órdenes de organización
-                                y características.
+                            <p style="font-size: 1.05rem; line-height: 1.6; color: var(--text-soft); margin: 0;">
+                                Analiza el encuadre empresarial con base en el enfoque industrial del turismo.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="modal-section" id="modal-metodologia">
-                    <h3>Metodología</h3>
-                    <p style="text-align: justify;"><strong>Aplicaciones para Comunicaciones en Red</strong> (polilibro
-                        académico), se diseñó como un recurso didáctico innovador para las y los estudiantes de
-                        Ingeniería en Sistemas Computacionales de la Escuela Superior de Cómputo del Instituto
-                        Politécnico Nacional,
-                        con el propósito de fortalecer el aprendizaje en la unidad de Contenidos y Estructuras de Datos
-                        desde un enfoque tecnológico y actual. Este material impulsa el desarrollo del pensamiento
-                        lógico y el análisis algorítmico, permitiendo comprender cómo los datos se almacenan, organizan
-                        y
-                        recuperan de forma eficiente. A través de una propuesta interactiva y a la vanguardia, promueve
-                        el aprendizaje activo y la formación de competencias esenciales para la solución de problemas en
-                        entornos computacionales modernos. </p>
-                    <h4>Contexto académico</h4>
-                    <p style="text-align: justify;"> <strong>Aplicaciones para Comunicaciones en Red</strong> (polilibro
-                        académico) forma parte del material académico de apoyo para la unidad de aprendizaje Contenidos
-                        y Estructuras de Datos, dirigido a las y los estudiantes de Ingeniería en Sistemas
-                        Computacionales de la Escuela Superior de Cómputo del Instituto Politécnico Nacional.
-                        Este recurso se integra como una herramienta complementaria dentro de la modalidad presencial,
-                        bajo una estrategia de aprendizaje orientada a proyectos, con el propósito de fortalecer el
-                        desarrollo del pensamiento lógico, el análisis algorítmico y la comprensión de cómo los datos se
-                        almacenan, organizan y
-                        recuperan de manera eficiente en los sistemas computacionales actuales.</p>
-                    <p style="text-align: justify;"> A través del uso de este polilibro académico, las y los estudiantes
-                        resolverán problemas reales y aplicarán sus conocimientos en situaciones prácticas relacionadas
-                        con Contenidos y Estructuras de Datos, trabajando de manera colaborativa para enfrentar retos y
-                        desarrollar soluciones tecnológicas. Esta dinámica
-                        favorece el trabajo en equipo, el aprendizaje cooperativo y la evaluación continua, promoviendo
-                        un aprendizaje significativo, adaptativo y alineado con las exigencias tecnológicas y académicas
-                        de la formación profesional en el área de la computación.</p>
-                    <h4>Objetivos específicos</h4>
-                    <ul type="circle">
-                        <li>
-                            <p style="text-align: justify;"> Identificar los contenidos fundamentales de la computación
-                                analizando sus características y evaluando sus órdenes de organización, con el fin de
-                                seleccionar la alternativa más eficiente para la solución de problemas. </p>
-                        </li>
-                        <li>
-                            <p style="text-align: justify;"> Construir recursos digitales lineales a partir de
-                                especificaciones genéricas, aplicando principios de organización, almacenamiento y
-                                recuperación de información en sistemas computacionales.</p>
-                        </li>
-                        <li>
-                            <p style="text-align: justify;"> Manipular recursos digitales no lineales considerando sus
-                                aplicaciones, representaciones y organización, para optimizar el procesamiento de datos
-                                en distintos contextos de la computación.</p>
-                        </li>
-                        <li>
-                            <p style="text-align: justify;"> Aplicar Aplicaciones para Comunicaciones en Red de acuerdo
-                                con sus características y órdenes de organización, para diseñar soluciones eficientes,
-                                optimizadas y acordes a los requerimientos de los sistemas computacionales.</p>
-                        </li>
-                    </ul>
-                    <h3>Duración y modalidad</h3>
-                    <ul type="square">
-                        <li><strong>Duración total estimada</strong>: 81 horas</li>
-                        <li><strong>Distribución sugerida</strong>: 4.5 horas de teoría- práctica a la semana con el
-                            Polilibro Académico. 4.5 horas a la semana presenciales con acompañamiento del docente para
-                            análisis de casos, resolución de problemas y retroalimentación.</li>
-                        <li><strong>Modalidad presencial</strong>. Se recomienda que el estudiante dedique mínimo 2.0
-                            horas a la semana para la revisión de contenidos del Polilibro Académico previos a la sesión
-                            presencial.</li>
-                    </ul>
-                    <h3>Estrategias de aprendizaje</h3>
-                    <ul type="disc">
-                        <li>
-                            <p style="text-align: justify;"> <strong>Aprendizaje basado en proyectos</strong>. Las y los
-                                estudiantes, a través de una serie de etapas, y guiados por el o la docente, colaboran
-                                para responder a una problemática o resolver una situación en el ámbito de los
-                                Aplicaciones para Comunicaciones en Red.</p>
-                        </li>
-                        <li>
-                            <p style="text-align: justify;"> <strong>Aprendizaje autónomo</strong>. El o la estudiante
-                                navega de forma autogestionada por el contenido del Polilibro Académico, apoyándose en
-                                recursos interactivos, lecturas clave y ejemplos guiados.</p>
-                        </li>
-                        <li>
-                            <p style="text-align: justify;"> <strong>Aprendizaje basado en problemas</strong>. Los y las
-                                estudiantes resuelven problemas desafiantes y auténticos en el ámbito de los
-                                Aplicaciones para Comunicaciones en Red, buscan soluciones de manera colaborativa
-                                analizando y resolviendo problemas reales en el uso de la memoria y de los sistemas
-                                computacionales </p>
-                        </li>
-                    </ul>
+                    <h3>Propósito de la unidad de aprendizaje</h3>
+                    <div class="prose" style="margin-top: 1rem;">
+                        <div style="padding: 1.5rem; border: 1px solid var(--border-color); border-radius: 0.75rem; background: var(--surface);">
+                            <h4 style="color: #FFFFFF; margin-bottom: 0.75rem; font-size: 1.1rem;">
+                                Propósito general
+                            </h4>
+                            <p style="font-size: 1.05rem; line-height: 1.6; color: var(--text-soft); margin: 0;">
+                                Evalúa planes de marketing de diversos productos turísticos, con base en la investigación de mercados y la mezcla de mercadotecnia.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-section" id="modal-examen">
-                    <h3>Examen diagnóstico</h3>
-                    <p><strong>Examen diagnóstico para la unidad de aprendizaje Aplicaciones para Comunicaciones en
-                            Red.</strong></p>
-                    <h4>Instrucciones</h4>
-                    <p style="text-align: justify;">
-                        El presente examen diagnóstico de la Unidad de Aprendizaje Aplicaciones para Comunicaciones en
-                        Red tiene como propósito identificar los conocimientos previos del estudiantado sobre
-                        contenidos, organización y recursos digitales. Los resultados permitirán al docente ajustar las
-                        estrategias de enseñanza y fortalecer el proceso de aprendizaje.
-                    </p>
-                    <p style="text-align: justify;">
-                        El examen se aplicará durante la primera sesión del curso, con una duración aproximada de 30 a
-                        45 minutos. Incluye 12 reactivos de opción múltiple seleccionados aleatoriamente de un banco de
-                        15 preguntas. No se permite el uso de apuntes ni dispositivos electrónicos, salvo indicación del
-                        docente.
-                        <strong>Este instrumento NO TIENE VALOR EN LA CALIFICACIÓN FINAL</strong>, ya que su finalidad
-                        es exclusivamente diagnóstica.
-                    </p>
-                    <p style="text-align: justify;">
-                        Tu participación en este examen diagnóstico es fundamental para construir un aprendizaje
-                        significativo y fortalecer tu formación en el área de Aplicaciones para Comunicaciones en Red,
-                        base esencial en tu desarrollo como futuro profesional en ingeniería.
-                    </p>
-                    <hr />
-                    <div class="diagnostic-notice">
-                        <p class="diagnostic-notice-title">
-                            <i class="fas fa-exclamation-circle"></i> Antes de iniciar:
-                        </p>
-                        <p class="diagnostic-notice-text">Antes de contestar los 12 reactivos, completa los siguientes
-                            datos de identificación:</p>
-                        <ul class="diagnostic-list">
-                            <li>Escribe tu número de <strong>boleta</strong>.</li>
-                            <li>Escribe tu <strong>nombre completo</strong>.</li>
-                        </ul>
-                    </div>
-                    <div class="diagnostic-exam"
-                        data-question-file="assets/data/examen-diagnostico-contenidos-estructuras-datos.json"
-                        id="diagnostic-exam">
-                        <div class="diagnostic-status" id="diagnostic-loading" role="status">
-                            <i aria-hidden="true" class="fas fa-spinner fa-spin"></i>
-                            Preparando el examen
-                        </div>
-                        <div class="diagnostic-status diagnostic-status-error" hidden="" id="diagnostic-error"
-                            role="alert">
-                            <i aria-hidden="true" class="fas fa-triangle-exclamation"></i>
-                            <span id="diagnostic-error-text">No fue posible cargar el examen.</span>
-                        </div>
-                        <form hidden="" id="diagnostic-form" novalidate="">
-                            <section aria-labelledby="diagnostic-identification-title" class="diagnostic-panel">
-                                <h4 id="diagnostic-identification-title">Datos del estudiante</h4>
-                                <p class="diagnostic-privacy">
-                                    <i aria-hidden="true" class="fas fa-shield-halved"></i>
-                                    Durante esta aplicación los datos permanecen únicamente en esta pestaña y no se
-                                    envían ni se almacenan.
-                                </p>
-                                <div class="diagnostic-fields">
-                                    <label>
-                                        <span>Boleta <strong aria-hidden="true">*</strong></span>
-                                        <input autocomplete="off" id="diagnostic-student-id" inputmode="numeric"
-                                            maxlength="20" name="boleta" required="" type="text" />
-                                    </label>
-                                    <label>
-                                        <span>Nombre completo <strong aria-hidden="true">*</strong></span>
-                                        <input autocomplete="name" id="diagnostic-student-name" maxlength="120"
-                                            name="nombreCompleto" required="" type="text" />
-                                    </label>
-                                </div>
-                            </section>
-                            <div aria-live="polite" class="diagnostic-progress">
-                                <div class="diagnostic-progress-copy">
-                                    <span id="diagnostic-progress-text">0 de 0 reactivos respondidos</span>
-                                    <span id="diagnostic-progress-percent">0%</span>
-                                </div>
-                                <div aria-hidden="true" class="diagnostic-progress-track">
-                                    <span id="diagnostic-progress-bar"></span>
-                                </div>
-                            </div>
-                            <div class="diagnostic-questions" id="diagnostic-questions"></div>
-                            <div class="diagnostic-actions">
-                                <button class="diagnostic-primary-button" id="diagnostic-submit" type="submit">
-                                    <i aria-hidden="true" class="fas fa-paper-plane"></i>
-                                    Finalizar examen
-                                </button>
-                                <p class="diagnostic-form-message" id="diagnostic-form-message" role="alert"></p>
-                            </div>
-                        </form>
-                        <section aria-live="polite" class="diagnostic-panel diagnostic-result" hidden=""
-                            id="diagnostic-result">
-                            <i aria-hidden="true" class="fas fa-circle-check diagnostic-result-icon"></i>
-                            <h4>Examen finalizado</h4>
-                            <p id="diagnostic-result-summary"></p>
-                            <p class="diagnostic-privacy">Resultado de demostración: no se envió información a ningún
-                                servidor.</p>
-                            <button class="diagnostic-secondary-button" id="diagnostic-restart" type="button">Realizar
-                                otra prueba</button>
-                        </section>
+                    <h3>Metodología</h3>
+                    <div class="prose">
+                        <p style="text-align: justify;">Este recurso didáctico digital, tiene como objetivo complementar el curso presencial, proporcionando acceso ágil a los recursos y actividades. Es fundamental que sigas las instrucciones y comunicados del docente.</p>
+                        <p style="text-align: justify;">Es importante destacar que este Recurso Didáctico Digital (Objeto de Aprendizaje), es material de apoyo sin valor en la calificación parcial y final; su único propósito es servir como una herramienta de apoyo en conocimientos para reforzar el aprendizaje que ha desarrollado durante el curso.</p>
+
+                        <h4>Beneficios del uso del recurso</h4>
+                        <p style="text-align: justify;">La principal función de este es fomentar tu aprendizaje, ayudando en la adquisición y refuerzo de los contenidos temáticos de la asignatura mediante actividades diseñadas específicamente para este fin. Por ello, es esencial que comprendas la importancia de este recurso digital.</p>
+
+                        <h4>Orientación didáctica</h4>
+                        <p style="text-align: justify;">Este recurso digital como objeto de aprendizaje se basa en la estrategia de enseñanza mediante actividades de cada una de las partes que conforman la unidad así como una actividad final en donde te permitirá reflexionar, analizar y realizar actividades propias de un licenciado en turismo.</p>
+                        <p style="text-align: justify;">Del curso llevarás a cabo diversas actividades, cómo consultar y analizar los recursos teóricos y didácticos proporcionados. Además, analizarás de manera individual la actividad final y, mediante trabajo colaborativo, propondrás un análisis a un plan de marketing, sus características, clasificación y relación con otras áreas de servicio en el ramo turístico.</p>
+                        <p style="text-align: justify;">Es importante tu participación en clase, lo cual enriquecerá tu aprendizaje. Las actividades en el aula son de suma importancia junto con las tareas de aprendizaje autónomo te ayudarán a lograr los objetivos de la unidad de aprendizaje.</p>
+                        <p style="text-align: justify;">Este recurso didáctico digital complementa tu curso, permitiendo el desarrollo de los contenidos y actividades tanto en el aula como bajo la supervisión del docente para alcanzar las competencias esperadas.</p>
+                        <p style="text-align: justify;">Podrás acceder al recurso, consultar los contenidos de la unidad y realizar las actividades según las instrucciones del docente.</p>
+
+                        <h4>Modalidades de trabajo</h4>
+                        <ol style="padding-left: 1.25rem;">
+                            <li style="margin-bottom: 0.75rem; text-align: justify;"><strong>Individual:</strong> dedica al menos 4:30 h de estudio a la semana correspondiente a las horas de clase, para leer y analizar los recursos didácticos digitales en las actividades de aprendizaje que contiene este recurso, en donde te proporcionará el conocimiento teórico necesario para desarrollar en el aula de clase las evidencias de aprendizaje y entregarlas o en su momento aclarando dudas que tengas.</li>
+                            <li style="margin-bottom: 0.75rem; text-align: justify;"><strong>Colaborativo:</strong> participa en debates y comparte en el aula de clase con tus compañeros tus reflexiones sobre los temas. Esta interacción fomentará una retroalimentación conjunta que ayudará a aclarar dudas y enriquecer tu aprendizaje dentro del aula de clase.</li>
+                        </ol>
+
+                        <h4>Recomendaciones</h4>
+                        <p style="text-align: justify;">Es fundamental que te comprometas con tu aprendizaje, dedicando tiempo y entusiasmo a las actividades que contiene el material, con el fin de desarrollar las habilidades, actitudes y conocimientos necesarios.</p>
+                        <p style="text-align: justify;">Para facilitar tu progreso te sugerimos leer y seguir cuidadosamente las recomendaciones que te guiarán en tu proceso de aprendizaje tanto individual como colaborativo, apoyándote en este recurso digital.</p>
+                        <p style="text-align: justify;">Este recurso sirve de apoyo a tus clases, por lo que debes de estar atento a las indicaciones del docente. Realiza las actividades en tiempo y forma, ya que esto contribuirá al desarrollo de las competencias establecidas.</p>
+
+                        <h4>Comunicación</h4>
+                        <p style="text-align: justify;">La forma de comunicación con el docente será mediante correo electrónico donde se te responderá en un plazo no mayor de 48 horas o en el aula de clase.</p>
                     </div>
                 </div>
                 <div class="modal-section" id="modal-actividades">
-                    <h3>Actividades</h3>
+                    <h3>Actividades de aprendizaje</h3>
                     <div aria-label="Categorías de actividades" class="activity-subsections"><button
                             aria-controls="activities-topics" aria-pressed="true" class="modal-subsection active"
-                            data-activity-panel="activities-topics" type="button">Actividades de temas</button><button
+                            data-activity-panel="activities-topics" type="button">Actividades por tema</button><button
                             aria-controls="activities-finals" aria-pressed="false" class="modal-subsection"
-                            data-activity-panel="activities-finals" type="button">Actividades finales</button></div>
+                            data-activity-panel="activities-finals" type="button">Evaluación Integradora</button></div>
                     <div id="activities-topics">
-                        <h4>Unidad 1: Encuadre empresarial</h4>
-                        <ul class="video-list">
-                            <li><a href="unidades/unidad-01/actividades/actividad-1-1.html"><i aria-hidden="true" class="fas fa-gamepad"></i> Actividad 1.1: Fundamentos de Plan de Marketing</a></li>
-                            <li><a href="unidades/unidad-01/actividades/actividad-1-2.html"><i aria-hidden="true" class="fas fa-gamepad"></i> Actividad 1.2: Notas de la OMT</a></li>
-                            <li><a href="unidades/unidad-01/actividades/actividad-1-3.html"><i aria-hidden="true" class="fas fa-gamepad"></i> Actividad 1.3: Empresa turística</a></li>
-                            <li><a href="unidades/unidad-01/actividades/actividad-1-4.html"><i aria-hidden="true" class="fas fa-gamepad"></i> Actividad 1.4: Análisis de la oferta y la demanda</a></li>
-                            <li><a href="unidades/unidad-01/actividades/actividad-1-5.html"><i aria-hidden="true" class="fas fa-gamepad"></i> Actividad 1.5: El enfoque industrial del turismo</a></li>
-                        </ul>
+                        <p class="act-panel__desc">Ejercicios interactivos con retroalimentación inmediata para reforzar los conceptos clave de cada tema.</p>
+                        <div class="act-grid">
+                            <article class="act-card">
+                                <div class="act-card__head">
+                                    <span class="act-chip">Tema 1.1</span>
+                                    <div class="act-card__meta">
+                                        <span class="act-meta"><i class="fas fa-list-ol"></i> 10 reactivos</span>
+                                        <span class="act-meta"><i class="far fa-clock"></i> 10 min</span>
+                                    </div>
+                                </div>
+                                <div class="act-card__body">
+                                    <h4 class="act-card__titulo">Actividad 1.1: Fundamentos de Plan de Marketing</h4>
+                                    <p class="act-card__desc">Estructura, justificación y aplicación estratégica de las 7P en servicios turísticos.</p>
+                                </div>
+                                <div class="act-card__foot">
+                                    <a class="act-btn" href="unidades/unidad-01/actividades/actividad-1-1.html"><i class="fas fa-gamepad"></i> Iniciar actividad</a>
+                                </div>
+                            </article>
+                            <article class="act-card">
+                                <div class="act-card__head">
+                                    <span class="act-chip">Tema 1.2</span>
+                                    <div class="act-card__meta">
+                                        <span class="act-meta"><i class="fas fa-list-ol"></i> 10 reactivos</span>
+                                        <span class="act-meta"><i class="far fa-clock"></i> 10 min</span>
+                                    </div>
+                                </div>
+                                <div class="act-card__body">
+                                    <h4 class="act-card__titulo">Actividad 1.2: Notas y directrices de la OMT</h4>
+                                    <p class="act-card__desc">Conceptos, normalización estadística y directrices metodológicas de la Organización Mundial del Turismo.</p>
+                                </div>
+                                <div class="act-card__foot">
+                                    <a class="act-btn" href="unidades/unidad-01/actividades/actividad-1-2.html"><i class="fas fa-gamepad"></i> Iniciar actividad</a>
+                                </div>
+                            </article>
+                            <article class="act-card">
+                                <div class="act-card__head">
+                                    <span class="act-chip">Tema 1.3</span>
+                                    <div class="act-card__meta">
+                                        <span class="act-meta"><i class="fas fa-list-ol"></i> 10 reactivos</span>
+                                        <span class="act-meta"><i class="far fa-clock"></i> 10 min</span>
+                                    </div>
+                                </div>
+                                <div class="act-card__body">
+                                    <h4 class="act-card__titulo">Actividad 1.3: Tipología de la Empresa Turística</h4>
+                                    <p class="act-card__desc">Clasificación de organizaciones de alojamiento, intermediación, transporte y servicios complementarios.</p>
+                                </div>
+                                <div class="act-card__foot">
+                                    <a class="act-btn" href="unidades/unidad-01/actividades/actividad-1-3.html"><i class="fas fa-gamepad"></i> Iniciar actividad</a>
+                                </div>
+                            </article>
+                            <article class="act-card">
+                                <div class="act-card__head">
+                                    <span class="act-chip">Tema 1.4</span>
+                                    <div class="act-card__meta">
+                                        <span class="act-meta"><i class="fas fa-list-ol"></i> 10 reactivos</span>
+                                        <span class="act-meta"><i class="far fa-clock"></i> 10 min</span>
+                                    </div>
+                                </div>
+                                <div class="act-card__body">
+                                    <h4 class="act-card__titulo">Actividad 1.4: Diagnóstico de la Oferta y la Demanda</h4>
+                                    <p class="act-card__desc">Segmentación del mercado, motivaciones de viaje y estacionalidad turística.</p>
+                                </div>
+                                <div class="act-card__foot">
+                                    <a class="act-btn" href="unidades/unidad-01/actividades/actividad-1-4.html"><i class="fas fa-gamepad"></i> Iniciar actividad</a>
+                                </div>
+                            </article>
+                            <article class="act-card">
+                                <div class="act-card__head">
+                                    <span class="act-chip">Tema 1.5</span>
+                                    <div class="act-card__meta">
+                                        <span class="act-meta"><i class="fas fa-list-ol"></i> 10 reactivos</span>
+                                        <span class="act-meta"><i class="far fa-clock"></i> 10 min</span>
+                                    </div>
+                                </div>
+                                <div class="act-card__body">
+                                    <h4 class="act-card__titulo">Actividad 1.5: El Enfoque Industrial del Turismo</h4>
+                                    <p class="act-card__desc">Clústeres regionales, cadenas de valor articuladas y desarrollo territorial del sector.</p>
+                                </div>
+                                <div class="act-card__foot">
+                                    <a class="act-btn" href="unidades/unidad-01/actividades/actividad-1-5.html"><i class="fas fa-gamepad"></i> Iniciar actividad</a>
+                                </div>
+                            </article>
+                        </div>
                     </div>
                     <div hidden="" id="activities-finals">
-                        <h4>Evaluación Integradora</h4>
-                        <ul class="video-list">
-                            <li><a href="unidades/unidad-01/actividades/actividad-final.html"><i aria-hidden="true" class="fas fa-trophy"></i> Evaluación Integradora: Caso Valle Sereno</a></li>
-                        </ul>
+                        <p class="act-panel__desc">Simulador de toma de decisiones estratégicas aplicadas a un caso real de destino turístico.</p>
+                        <div class="act-grid">
+                            <article class="act-card act-card--destacada">
+                                <div class="act-card__head">
+                                    <span class="act-chip act-chip--destacada">Caso Integrador</span>
+                                    <div class="act-card__meta">
+                                        <span class="act-meta"><i class="fas fa-trophy"></i> Simulación y retos</span>
+                                        <span class="act-meta"><i class="fas fa-award"></i> Ponderación 100%</span>
+                                    </div>
+                                </div>
+                                <div class="act-card__body">
+                                    <h4 class="act-card__titulo">Diagnóstico Estratégico y Simulación: Caso Valle Sereno</h4>
+                                    <p class="act-card__desc">Aplica los conceptos de encuadre empresarial, notas OMT, oferta-demanda y clústeres para resolver desafíos y maximizar el desempeño del destino.</p>
+                                </div>
+                                <div class="act-card__foot">
+                                    <a class="act-btn act-btn--destacada" href="unidades/unidad-01/actividades/actividad-final.html"><i class="fas fa-trophy"></i> Comenzar evaluación integradora</a>
+                                </div>
+                            </article>
+                        </div>
                     </div>
-                    <p>Estas actividades no son parte de la evaluación, funcionan únicamente como una manera de reforzar
-                        tu aprendizaje.</p>
+                    <div class="act-nota">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Estas actividades son formativas y no tienen límite de intentos para reforzar tu aprendizaje.</span>
+                    </div>
                 </div>
                 <div class="modal-section" id="modal-glosario">
                     <div class="modal-tabs" style="display: flex; gap: 10px; margin-bottom: 20px;">
@@ -520,7 +394,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-section" id="modal-creadores">
+                <div class="modal-section" id="modal-autores">
                     <div class="modal-subsection-nav" style="display: flex; gap: 10px; margin-bottom: 20px;">
                         <button class="modal-subsection active" id="tab-autores"
                             onclick="toggleCreadoresView('autores')" type="button">Autores principales</button>
@@ -530,45 +404,41 @@
                     <div class="prose" id="seccion-autores">
                         <h3>Autores</h3>
                         <div class="creator-block">
-                            <img alt="Yaxin Flores Mendoza" src="assets/img/Yaxkin.png" />
+                            <img alt="Dr. Roberto Patiño Abuela" src="assets/img/autores/patino_abuela_roberto.jpeg" />
                             <div class="creator-info">
-                                <h4>Yaxkin Flores Mendoza</h4>
-                                <p class="email">yfloresme@ipn.mx</p>
-                                <p style="text-align: justify;"><strong>Semblanza:</strong> Yaxkin Flores Mendoza.
-                                    Ingeniero en sistemas computacionales, maestro en ciencias de la computación y
-                                    doctor en educación. Docente de tiempo completo del departamento de Ciencias e
-                                    Ingeniería de la Computación de la Escom.</p>
-                                <p style="text-align: justify;"><strong>Áreas de interés:</strong> Neurociencia de la
-                                    Educación y Redes Neuronales, Metodología de la Investigación, Educación en Línea
-                                    con plataformas virtuales.</p>
-                            </div>
-                        </div>
-                        <div class="creator-block">
-                            <img alt="Israel Salas Ramírez" src="assets/img/isr.png" />
-                            <div class="creator-info">
-                                <h4>Israel Salas Ramírez</h4>
-                                <p class="email">isalasr@ipn.mx</p>
-                                <p style="text-align: justify;"><strong>Semblanza:</strong> docente en la Escuela
-                                    Superior de Cómputo del Instituto Politécnico Nacional, es doctor y maestro en
-                                    ciencias de la educación, ingeniero en comunicaciones y electrónica de la ESIME
-                                    Zacatenco, ha trabajado como responsable de unidades de Informática y generación de
-                                    proyectos de Inversión Tecnológica.</p>
-                                <p style="text-align: justify;"><strong>Áreas de interés:</strong> Sistemas Operativos,
-                                    Administración de Redes, Neurociencia en la Educación, Redes Neuronales, Generación
-                                    de Simuladores Médicos y Plataformas Virtuales Aplicados a la Educación.</p>
+                                <h4>Dr. Roberto Patiño Abuela</h4>
+                                <p style="text-align: justify;"><strong>Semblanza:</strong> Profesor-investigador de la Escuela Superior de Turismo del Instituto Politécnico Nacional (IPN), con más de 30 años de experiencia académica y profesional. Es licenciado en Administración de Empresas y especialista en Mercadotecnia por la UNITEC, maestro en Administración por la UNAM y doctor en Ciencias Sociales por la UAM-X. Su trayectoria destaca por sus aportaciones en desarrollo económico, cooperación internacional, competitividad, innovación turística y sostenibilidad.</p>
+                                <p style="text-align: justify;"><strong>Áreas de interés:</strong> Desarrollo económico, Cooperación internacional, Competitividad, Innovación turística, Sostenibilidad.</p>
                             </div>
                         </div>
                         <hr />
                         <div class="creator-block">
-                            <img alt="Daniel Cruz García" src="assets/img/Daniel_Cruz_Garcia.png" />
+                            <img alt="Dr. Yaxkin Flores Mendoza" src="assets/img/autores/flores_mendoza_yaxkin.png" />
                             <div class="creator-info">
-                                <h4>Daniel Cruz García</h4>
+                                <h4>Dr. Yaxkin Flores Mendoza</h4>
+                                <p class="email">yfloresme@ipn.mx</p>
+                                <p style="text-align: justify;"><strong>Semblanza:</strong> Ingeniero en sistemas computacionales, maestro en ciencias de la computación y doctor en educación. Docente de tiempo completo del departamento de Ciencias e Ingeniería de la Computación de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN). Cuenta con amplia trayectoria en innovación tecnológica aplicada a modelos pedagógicos y entornos virtuales de aprendizaje.</p>
+                                <p style="text-align: justify;"><strong>Áreas de interés:</strong> Neurociencia de la educación, Redes neuronales, Metodología de la investigación, Educación en línea con plataformas virtuales.</p>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="creator-block">
+                            <img alt="D. en E. Israel Salas Ramírez" src="assets/img/autores/salas_ramirez_israel.png" />
+                            <div class="creator-info">
+                                <h4>D. en E. Israel Salas Ramírez</h4>
+                                <p class="email">isalasr@ipn.mx</p>
+                                <p style="text-align: justify;"><strong>Semblanza:</strong> Reconocido por su compromiso con la excelencia académica, la innovación educativa y la formación de profesionales altamente competentes en el ámbito de las tecnologías de la información, docente de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN). Es Doctor y Maestro en Ciencias de la Educación, además de Ing. en Comunicaciones y Electrónica por la Escuela Superior de Ingeniería Mecánica y Eléctrica del IPN, combinación que le permite integrar una sólida preparación tecnológica con una visión pedagógica orientada al aprendizaje significativo, el desarrollo de competencias y la transformación digital de la educación.</p>
+                                <p style="text-align: justify;"><strong>Áreas de interés:</strong> Sistemas operativos, Administración de redes, Neurociencia en la educación, Redes neuronales, Generación de simuladores médicos, Plataformas virtuales aplicadas a la educación.</p>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="creator-block">
+                            <img alt="M. en C. Daniel Cruz García" src="assets/img/autores/cruz_garcia_daniel.png" />
+                            <div class="creator-info">
+                                <h4>M. en C. Daniel Cruz García</h4>
                                 <p class="email">dcruzg@ipn.mx</p>
-                                <p style="text-align: justify;"><strong>Semblanza:</strong> Profesor de tiempo completo
-                                    en la Escuela Superior de Cómputo, Ingeniería en Sistemas Computacionales, maestro
-                                    en ciencias en la especialidad de Ingeniería Eléctrica, opción Computación.</p>
-                                <p style="text-align: justify;"><strong>Áreas de interés:</strong> Sistemas
-                                    Distribuidos, Redes, Seguridad e Inteligencia Artificial.</p>
+                                <p style="text-align: justify;"><strong>Semblanza:</strong> Profesor de tiempo completo en la Escuela Superior de Cómputo (ESCOM - IPN). Ingeniero en Sistemas Computacionales y Maestro en Ciencias en la especialidad de Ingeniería Eléctrica, opción Computación. Cuenta con amplia experiencia docente e investigadora en tecnologías de la información, redes y sistemas inteligentes.</p>
+                                <p style="text-align: justify;"><strong>Áreas de interés:</strong> Sistemas distribuidos, Redes, Seguridad, Inteligencia artificial.</p>
                             </div>
                         </div>
                         <hr />
@@ -619,9 +489,7 @@
                     <p style="text-align: center;">
                         <i class="fab fa-creative-commons" style="font-size: 5rem; color: var(--primary);"></i>
                     </p>
-                    <p><a href="index.html">Aplicaciones para Comunicaciones en Red (polilibro académico), Aplicaciones
-                            para Comunicaciones en Red</a> © 2026 by <a href="index.html">Yaxkin Flores Mendoza, Israel
-                            Salas Ramirez y Daniel Cruz García</a> is licensed under <a
+                    <p><a href="index.html">Plan de marketing · Unidad I: Encuadre empresarial (Recurso Didáctico Digital / Objeto de Aprendizaje)</a> © 2026 by <a href="index.html">Escuela Superior de Turismo (EST - IPN)</a> is licensed under <a
                             href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img alt=""
                             src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
                             style="max-width: 1em;max-height:1em;margin-left: .2em;" /><img alt=""
@@ -645,7 +513,8 @@
                 style="width: 100%; height: 100%; border: none;"></iframe>
         </div>
     </div>
-    <script src="assets/js/nav-global.js"></script>
+    <script src="assets/js/data-manager.js"></script>
+    <script src="assets/js/componentes.js"></script>
     <script src="assets/js/paginas/index.js"></script>
 </body>
 

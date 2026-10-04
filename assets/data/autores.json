@@ -29,6 +29,55 @@
             "Innovación turística",
             "Sostenibilidad"
           ]
+        },
+        {
+          "grado": "Dr.",
+          "nombre": "Yaxkin Flores Mendoza",
+          "correo": "yfloresme@ipn.mx",
+          "foto": "assets/img/autores/flores_mendoza_yaxkin.png",
+          "semblanza": [
+            "Ingeniero en sistemas computacionales, maestro en ciencias de la computación y doctor en educación. Docente de tiempo completo del departamento de Ciencias e Ingeniería de la Computación de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN). Cuenta con amplia trayectoria en innovación tecnológica aplicada a modelos pedagógicos y entornos virtuales de aprendizaje."
+          ],
+          "areas": [
+            "Neurociencia de la educación",
+            "Redes neuronales",
+            "Metodología de la investigación",
+            "Educación en línea con plataformas virtuales"
+          ]
+        },
+        {
+          "grado": "D. en E.",
+          "nombre": "Israel Salas Ramírez",
+          "correo": "isalasr@ipn.mx",
+          "foto": "assets/img/autores/salas_ramirez_israel.png",
+          "semblanza": [
+            "Reconocido por su compromiso con la excelencia académica, la innovación educativa y la formación de profesionales altamente competentes en el ámbito de las tecnologías de la información, docente de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN). Es Doctor y Maestro en Ciencias de la Educación, además de Ing. en Comunicaciones y Electrónica por la Escuela Superior de Ingeniería Mecánica y Eléctrica del IPN, combinación que le permite integrar una sólida preparación tecnológica con una visión pedagógica orientada al aprendizaje significativo, el desarrollo de competencias y la transformación digital de la educación.",
+            "A lo largo de su trayectoria ha desempeñado diversos cargos en el sector público y en la iniciativa privada, experiencia que ha enriquecido su práctica docente mediante la vinculación entre el conocimiento académico y la solución de problemáticas reales; asimismo, ha participado en el diseño, desarrollo e implementación de materiales y recursos digitales para diversas unidades académicas del IPN, entre ellas la Escuela Superior de Cómputo, la Escuela Nacional de Medicina y Homeopatía y la Escuela Superior de Turismo, contribuyendo al fortalecimiento de ambientes virtuales de aprendizaje y a la incorporación de tecnologías educativas.",
+            "Su impacto en la educación superior ha sido relevante al impulsar estrategias pedagógicas innovadoras que fortalecen la calidad educativa, promueven la integración efectiva de las tecnologías digitales en los procesos de enseñanza-aprendizaje y contribuyen a la formación de profesionistas capaces de responder a los desafíos científicos, tecnológicos y sociales de la actualidad."
+          ],
+          "areas": [
+            "Sistemas operativos",
+            "Administración de redes",
+            "Neurociencia en la educación",
+            "Redes neuronales",
+            "Generación de simuladores médicos",
+            "Plataformas virtuales aplicadas a la educación"
+          ]
+        },
+        {
+          "grado": "M. en C.",
+          "nombre": "Daniel Cruz García",
+          "correo": "dcruzg@ipn.mx",
+          "foto": "assets/img/autores/cruz_garcia_daniel.png",
+          "semblanza": [
+            "Profesor de tiempo completo en la Escuela Superior de Cómputo (ESCOM - IPN). Ingeniero en Sistemas Computacionales y Maestro en Ciencias en la especialidad de Ingeniería Eléctrica, opción Computación. Cuenta con amplia experiencia docente e investigadora en tecnologías de la información, redes y sistemas inteligentes."
+          ],
+          "areas": [
+            "Sistemas distribuidos",
+            "Redes",
+            "Seguridad",
+            "Inteligencia artificial"
+          ]
         }
       ]
     },
@@ -59,27 +108,6 @@
   ],
   "pendientes_confirmar": {
     "_nota": "Personas cuya participación falta confirmar con el equipo. El código NO las muestra. Para publicar a alguien, mueve su bloque a 'personas' de la sección indicada en 'seccion'.",
-    "personas": [
-      {
-        "seccion": "docentes",
-        "grado": "D. en E.",
-        "nombre": "Israel Salas Ramírez",
-        "correo": "isalasr@ipn.mx",
-        "foto": "assets/img/autores/salas_ramirez_israel.png",
-        "semblanza": [
-          "Reconocido por su compromiso con la excelencia académica, la innovación educativa y la formación de profesionales altamente competentes en el ámbito de las tecnologías de la información, docente de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN). Es Doctor y Maestro en Ciencias de la Educación, además de Ing. en Comunicaciones y Electrónica por la Escuela Superior de Ingeniería Mecánica y Eléctrica del IPN, combinación que le permite integrar una sólida preparación tecnológica con una visión pedagógica orientada al aprendizaje significativo, el desarrollo de competencias y la transformación digital de la educación.",
-          "A lo largo de su trayectoria ha desempeñado diversos cargos en el sector público y en la iniciativa privada, experiencia que ha enriquecido su práctica docente mediante la vinculación entre el conocimiento académico y la solución de problemáticas reales; asimismo, ha participado en el diseño, desarrollo e implementación de materiales y recursos digitales para diversas unidades académicas del IPN, entre ellas la Escuela Superior de Cómputo, la Escuela Nacional de Medicina y Homeopatía y la Escuela Superior de Turismo, contribuyendo al fortalecimiento de ambientes virtuales de aprendizaje y a la incorporación de tecnologías educativas.",
-          "Su impacto en la educación superior ha sido relevante al impulsar estrategias pedagógicas innovadoras que fortalecen la calidad educativa, promueven la integración efectiva de las tecnologías digitales en los procesos de enseñanza-aprendizaje y contribuyen a la formación de profesionistas capaces de responder a los desafíos científicos, tecnológicos y sociales de la actualidad."
-        ],
-        "areas": [
-          "Sistemas operativos",
-          "Administración de redes",
-          "Neurociencia en la educación",
-          "Redes neuronales",
-          "Generación de simuladores médicos",
-          "Plataformas virtuales aplicadas a la educación"
-        ]
-      }
-    ]
+    "personas": []
   }
 }
