@@ -8,7 +8,7 @@
 // - Comportamiento: contracción al hacer scroll, reaparición al acercar el
 //   cursor al borde superior y menú desplegable en pantallas pequeñas.
 // - Los enlaces con "modal" no navegan: emiten [data-modal="<id>"] para que
-//   el componente de ventana emergente correspondiente la abra.
+//   el componente correspondiente (ej. autores-modal.js) abra su ventana.
 // ==========================================================================
 (function () {
     const RUTA_DATOS = 'assets/data/navegacion.json';

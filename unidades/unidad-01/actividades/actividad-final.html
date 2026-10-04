@@ -11,17 +11,8 @@
   <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
   <link rel="shortcut icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
 </head>
-<body class="final-evaluation-page">
-    <header class="site-nav">
-        <a class="brand" href="../index.html">EST · Marketing<small>Unidad 1: Encuadre empresarial</small></a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" onclick="const nav=document.getElementById('main-navigation'); nav.classList.toggle('is-open'); this.setAttribute('aria-expanded', nav.classList.contains('is-open'));">
-            <span class="sr-only">Abrir navegación</span><i class="fas fa-bars" aria-hidden="true"></i>
-        </button>
-        <nav id="main-navigation" aria-label="Navegación principal">
-            <a href="../index.html"><i class="fas fa-book" aria-hidden="true"></i> Unidad 1</a>
-            <a href="../referencias.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias</a>
-        </nav>
-    </header>
+<body class="final-evaluation-page" data-root="../../../">
+    <header class="site-nav" data-componente="navegacion"></header>
     <div class="reading-progress" aria-hidden="true">
         <div class="reading-progress-bar" id="readingProgressBar"></div>
     </div>
@@ -396,8 +387,9 @@
     </div>
 
     <!-- Scripts -->
+    <script src="../../../assets/js/data-manager.js?v=20260930"></script>
+    <script src="../../../assets/js/nav-global.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="../../../assets/js/paginas/unidades_unidad-01_actividades_actividad-final.js"></script>
-    <script src="../../../assets/js/nav-global.js"></script>
 </body>
 </html>
