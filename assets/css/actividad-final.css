@@ -162,11 +162,11 @@ a {
 .header-badge-upcoming {
     background: color-mix(in srgb, var(--warning) 22%, transparent);
     border-color: color-mix(in srgb, var(--warning) 50%, transparent);
-    color: #FDE047;
+    color: var(--highlight);
 }
 
 .header-badge-upcoming i {
-    color: #FDE047 !important;
+    color: var(--highlight) !important;
 }
 
 .breadcrumb {
@@ -369,7 +369,7 @@ a {
 .badge-tag-upcoming {
     background: color-mix(in srgb, var(--warning) 22%, transparent);
     border-color: color-mix(in srgb, var(--warning) 50%, transparent);
-    color: #FDE047;
+    color: var(--highlight);
 }
 
 .sample-question-box {
@@ -2204,8 +2204,8 @@ footer {
 
         /* Workbench Card */
         .workbench-card {
-            background: var(--surface, #1e293b);
-            border: 1px solid var(--card-border, #334155);
+            background: var(--surface);
+            border: 1px solid var(--card-border);
             border-radius: var(--radius-lg, 18px);
             padding: 24px;
             margin-bottom: 24px;
@@ -2220,7 +2220,7 @@ footer {
             gap: 12px;
             margin-bottom: 20px;
             padding-bottom: 14px;
-            border-bottom: 1px solid var(--card-border, #334155);
+            border-bottom: 1px solid var(--card-border);
         }
 
         .workbench-title-group h2 {
@@ -2246,15 +2246,15 @@ footer {
             font-weight: 600;
             padding: 5px 12px;
             border-radius: 999px;
-            background: color-mix(in srgb, #10b981 15%, transparent);
-            border: 1px solid color-mix(in srgb, #10b981 40%, transparent);
-            color: #34d399;
+            background: color-mix(in srgb, var(--success-strong) 15%, transparent);
+            border: 1px solid color-mix(in srgb, var(--success-strong) 40%, transparent);
+            color: var(--success);
         }
 
         .workbench-status-badge.transmitting {
             background: color-mix(in srgb, var(--accent) 20%, transparent);
             border-color: var(--accent);
-            color: var(--accent-light, #38bdf8);
+            color: var(--info-light);
         }
 
         .status-dot {
@@ -2271,8 +2271,8 @@ footer {
             grid-template-columns: 1fr 140px 1fr;
             gap: 16px;
             align-items: center;
-            background: var(--bg-deep, #0b0f19);
-            border: 1px solid var(--card-border, #334155);
+            background: var(--bg-deep);
+            border: 1px solid var(--card-border);
             border-radius: var(--radius-md, 14px);
             padding: 20px;
             margin-bottom: 22px;
@@ -2281,8 +2281,8 @@ footer {
         }
 
         .net-node-card {
-            background: var(--surface, #1e293b);
-            border: 1px solid var(--card-border, #334155);
+            background: var(--surface);
+            border: 1px solid var(--card-border);
             border-radius: var(--radius-sm, 10px);
             padding: 16px;
             text-align: center;
@@ -2304,7 +2304,7 @@ footer {
             display: grid;
             place-items: center;
             font-size: 1.4rem;
-            color: var(--accent-light, #38bdf8);
+            color: var(--info-light);
         }
 
         .net-node-card h4 {
@@ -2326,8 +2326,8 @@ footer {
             font-weight: 700;
             padding: 3px 8px;
             border-radius: 6px;
-            background: color-mix(in srgb, var(--primary, #6366f1) 20%, transparent);
-            border: 1px solid color-mix(in srgb, var(--primary, #6366f1) 40%, transparent);
+            background: color-mix(in srgb, var(--primary) 20%, transparent);
+            border: 1px solid color-mix(in srgb, var(--primary) 40%, transparent);
             color: var(--text-light);
         }
 
@@ -2361,7 +2361,7 @@ footer {
             display: grid;
             place-items: center;
             font-size: 0.65rem;
-            color: var(--bg-deep, #0b0f19);
+            color: var(--bg-deep);
             font-weight: 900;
             opacity: 0;
             pointer-events: none;
@@ -2375,8 +2375,8 @@ footer {
 
         .channel-packet.active-left {
             opacity: 1;
-            background: #10b981;
-            box-shadow: 0 0 12px #10b981;
+            background: var(--success-strong);
+            box-shadow: 0 0 12px var(--success-strong);
             animation: sendPacketLeft 1.6s ease-in-out infinite;
         }
 
@@ -2458,7 +2458,7 @@ footer {
         .toggle-btn.active,
         .toggle-btn:hover {
             background: var(--accent);
-            color: var(--bg-deep, #0b0f19);
+            color: var(--bg-deep);
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
         }
 
@@ -2487,7 +2487,7 @@ footer {
             width: 100%;
             padding: 9px 16px;
             background: var(--cta-bg, var(--accent));
-            color: var(--bg-deep, #0b0f19);
+            color: var(--bg-deep);
             font-weight: 700;
             font-size: 0.92rem;
             border: none;
@@ -2508,8 +2508,8 @@ footer {
 
         /* CLI Console */
         .net-console {
-            background: #080c14;
-            border: 1px solid #1e293b;
+            background: var(--console-bg);
+            border: 1px solid var(--console-border);
             border-radius: var(--radius-sm, 10px);
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
             overflow: hidden;
@@ -2521,8 +2521,8 @@ footer {
             align-items: center;
             justify-content: space-between;
             padding: 8px 14px;
-            background: #0f172a;
-            border-bottom: 1px solid #1e293b;
+            background: var(--console-bar);
+            border-bottom: 1px solid var(--console-border);
         }
 
         .console-dots {
@@ -2537,9 +2537,9 @@ footer {
             display: inline-block;
         }
 
-        .console-dots span:nth-child(1) { background: #ef4444; }
-        .console-dots span:nth-child(2) { background: #f59e0b; }
-        .console-dots span:nth-child(3) { background: #10b981; }
+        .console-dots span:nth-child(1) { background: var(--danger-strong); }
+        .console-dots span:nth-child(2) { background: var(--warning-strong); }
+        .console-dots span:nth-child(3) { background: var(--success-strong); }
 
         .console-title {
             font-size: 0.75rem;
@@ -2558,21 +2558,21 @@ footer {
             overflow-y: auto;
             font-size: 0.82rem;
             line-height: 1.6;
-            color: #cbd5e1;
+            color: var(--console-text);
             margin: 0;
             white-space: pre-wrap;
             word-break: break-word;
         }
 
-        .console-body .log-info { color: #38bdf8; }
-        .console-body .log-success { color: #4ade80; }
-        .console-body .log-warning { color: #fbbf24; }
-        .console-body .log-header { color: #a78bfa; font-weight: bold; }
+        .console-body .log-info { color: var(--console-info); }
+        .console-body .log-success { color: var(--console-success); }
+        .console-body .log-warning { color: var(--console-warning); }
+        .console-body .log-header { color: var(--console-header); font-weight: bold; }
 
         /* Challenges Section */
         .challenges-card {
-            background: var(--surface, #1e293b);
-            border: 1px solid var(--card-border, #334155);
+            background: var(--surface);
+            border: 1px solid var(--card-border);
             border-radius: var(--radius-lg, 18px);
             padding: 24px;
             margin-bottom: 24px;
@@ -2622,6 +2622,12 @@ footer {
             align-items: center;
             justify-content: space-between;
             margin-bottom: 10px;
+        }
+
+        .node-badge--ok {
+            background: color-mix(in srgb, var(--success-strong) 20%, transparent);
+            border-color: var(--success-strong);
+            color: var(--text-light);
         }
 
         .challenge-topic {
@@ -2684,15 +2690,15 @@ footer {
         }
 
         .option-btn.correct {
-            border-color: #10b981 !important;
-            background: color-mix(in srgb, #10b981 18%, var(--bg-deep)) !important;
-            color: #34d399 !important;
+            border-color: var(--success-strong) !important;
+            background: color-mix(in srgb, var(--success-strong) 18%, var(--bg-deep)) !important;
+            color: var(--success) !important;
         }
 
         .option-btn.incorrect {
-            border-color: #ef4444 !important;
-            background: color-mix(in srgb, #ef4444 18%, var(--bg-deep)) !important;
-            color: #f87171 !important;
+            border-color: var(--danger-strong) !important;
+            background: color-mix(in srgb, var(--danger-strong) 18%, var(--bg-deep)) !important;
+            color: var(--danger) !important;
         }
 
         .feedback-banner {
@@ -2710,15 +2716,15 @@ footer {
         }
 
         .feedback-banner.success {
-            background: color-mix(in srgb, #10b981 15%, transparent);
-            border: 1px solid #10b981;
-            color: #34d399;
+            background: color-mix(in srgb, var(--success-strong) 15%, transparent);
+            border: 1px solid var(--success-strong);
+            color: var(--success);
         }
 
         .feedback-banner.error {
-            background: color-mix(in srgb, #ef4444 15%, transparent);
-            border: 1px solid #ef4444;
-            color: #fca5a5;
+            background: color-mix(in srgb, var(--danger-strong) 15%, transparent);
+            border: 1px solid var(--danger-strong);
+            color: var(--danger-light);
         }
 
         @media (max-width: 640px) {

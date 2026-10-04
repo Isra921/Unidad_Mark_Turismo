@@ -86,8 +86,24 @@
   --success: #34D399;
   --warning: #FBBF24;
   --danger: #F87171;
+  --success-strong: #10B981;   /* Verde intenso para bordes e indicadores (no texto) */
+  --danger-strong: #EF4444;    /* Rojo intenso para bordes e indicadores (no texto) */
+  --danger-light: #FCA5A5;     /* Rojo claro para texto de error sobre fondo oscuro */
+  --warning-strong: #F59E0B;
+  --highlight: #FDE047;        /* Amarillo de etiquetas destacadas (ej. "Caso Integrador") */
+  --info-light: #38BDF8;       /* Azul informativo (íconos y consola) */
   --quiz-correct: var(--success);
   --quiz-incorrect: var(--danger);
+
+  /* --- Consola simulada (actividad final) --- */
+  --console-bg: #080C14;
+  --console-bar: #0F172A;
+  --console-border: #1E293B;
+  --console-text: #CBD5E1;
+  --console-info: var(--info-light);
+  --console-success: #4ADE80;
+  --console-warning: var(--warning);
+  --console-header: #A78BFA;
 
   /* --- Roles de Texto (Fase 2: sin colores "chillantes" en textos) ---
      Los acentos verdes/turquesa se reservan para bordes, íconos, fondos suaves
