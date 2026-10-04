@@ -15,6 +15,11 @@
       "texto": "Referencias",
       "icono": "fa-bookmark",
       "url": "unidades/unidad-01/referencias.html"
+    },
+    {
+      "texto": "Autores",
+      "icono": "fa-users",
+      "modal": "autores"
     }
   ]
 }

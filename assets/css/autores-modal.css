@@ -1,0 +1,286 @@
+/* ==========================================================================
+   COMPONENTE GLOBAL · VENTANA EMERGENTE DE AUTORES (.au-*)
+   Se usa desde cualquier página que incluya assets/js/autores-modal.js.
+   Textos en blanco; los verdes solo se usan en bordes y fondos suaves.
+   ========================================================================== */
+
+:root {
+  --au-ancho-max: 920px;
+  --au-alto-max: 88vh;
+  --au-foto-docente: 150px;
+  --au-foto-colaborador: 96px;
+  --au-overlay: color-mix(in srgb, var(--shadow-color) 70%, transparent);
+  --au-capa: 2000; /* por encima de la barra de navegación (z-index 1000) */
+}
+
+body.au-modal-abierto {
+  overflow: hidden;
+}
+
+/* ---------- Fondo y caja ---------- */
+.au-modal {
+  position: fixed;
+  inset: 0;
+  z-index: var(--au-capa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: var(--au-overlay);
+  opacity: 0;
+  transition: opacity .2s ease;
+}
+
+.au-modal[hidden] {
+  display: none;
+}
+
+.au-modal.is-open {
+  opacity: 1;
+}
+
+.au-modal__dialog {
+  width: min(100%, var(--au-ancho-max));
+  max-height: var(--au-alto-max);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-main);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.au-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 24px;
+  background: var(--bg-section);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.au-modal__title {
+  margin: 0;
+  color: var(--text-light);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.au-modal__close {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--text-light);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-pill);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background .2s ease;
+}
+
+.au-modal__close:hover,
+.au-modal__close:focus-visible {
+  background: var(--surface-hover);
+}
+
+/* ---------- Pestañas ---------- */
+.au-modal__tabs {
+  display: flex;
+  gap: 4px;
+  padding: 0 24px;
+  background: var(--bg-section);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.au-tab {
+  padding: 12px 16px;
+  background: transparent;
+  color: var(--text-muted-light);
+  border: 0;
+  border-bottom: 3px solid transparent;
+  font: inherit;
+  font-size: .9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.au-tab:hover {
+  color: var(--text-light);
+}
+
+.au-tab[aria-selected="true"] {
+  color: var(--text-light);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+/* ---------- Contenido ---------- */
+.au-modal__body {
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.au-panel__titulo {
+  margin: 0 0 12px;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.au-panel__descripcion {
+  margin: 0 0 20px;
+  color: var(--text-muted-light);
+}
+
+.au-nombre {
+  margin: 0 0 4px;
+  color: var(--text-light);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.au-correo {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--text-muted-light);
+  font-size: .9rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.au-correo:hover {
+  color: var(--text-light);
+}
+
+.au-texto {
+  margin: 0 0 12px;
+  color: var(--text-soft);
+  line-height: 1.65;
+  text-align: justify;
+}
+
+.au-texto strong,
+.au-areas__titulo {
+  color: var(--text-light);
+}
+
+/* ---------- Docentes ---------- */
+.au-lista-docentes {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.au-docente {
+  display: grid;
+  grid-template-columns: var(--au-foto-docente) 1fr;
+  gap: 24px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.au-docente__foto {
+  width: var(--au-foto-docente);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border-soft);
+}
+
+.au-areas__lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.au-chip {
+  padding: 4px 12px;
+  background: var(--primary-soft);
+  color: var(--text-light);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-pill);
+  font-size: .82rem;
+}
+
+/* ---------- Equipo de desarrollo ---------- */
+.au-lista-colaboradores {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.au-colaborador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.au-colaborador__foto {
+  width: var(--au-foto-colaborador);
+  height: var(--au-foto-colaborador);
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--border-soft);
+}
+
+.au-colaborador .au-correo {
+  margin-bottom: 0;
+  word-break: break-all;
+}
+
+/* Marcador cuando no hay fotografía */
+.au-foto--vacia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-section);
+  color: var(--text-muted-light);
+  font-size: 2rem;
+}
+
+.au-docente__foto.au-foto--vacia {
+  height: auto;
+}
+
+/* ---------- Responsivo ---------- */
+@media (max-width: 640px) {
+  .au-modal {
+    padding: 8px;
+  }
+  .au-modal__header,
+  .au-modal__body {
+    padding: 16px;
+  }
+  .au-modal__tabs {
+    padding: 0 8px;
+  }
+  .au-docente {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .au-texto {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .au-modal {
+    transition: none;
+  }
+}
