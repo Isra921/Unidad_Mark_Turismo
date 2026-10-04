@@ -18,7 +18,8 @@
     const COMPONENTES = [
         'nav-global.js',     // Menú superior generado desde navegacion.json
         'ventana-modal.js',  // Base de las ventanas emergentes (debe ir antes que ellas)
-        'autores-modal.js'   // Ventana emergente de Autores
+        'autores-modal.js',  // Ventana emergente de Autores
+        'glosario-modal.js'  // Ventana emergente de Glosario
     ];
 
     // Carpeta de este archivo; así las rutas no dependen de la profundidad de la página

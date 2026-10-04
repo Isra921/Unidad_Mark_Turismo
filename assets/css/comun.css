@@ -18,3 +18,4 @@
 @import url("global.css");        /* Reseteo, tipografía y barra de navegación */
 @import url("ventana-modal.css"); /* Componente base: ventanas emergentes */
 @import url("autores-modal.css"); /* Contenido de la ventana de Autores */
+@import url("glosario-modal.css");/* Contenido de la ventana de Glosario */

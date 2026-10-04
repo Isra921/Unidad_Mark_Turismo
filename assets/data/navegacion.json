@@ -17,6 +17,11 @@
       "url": "unidades/unidad-01/referencias.html"
     },
     {
+      "texto": "Glosario",
+      "icono": "fa-book-open",
+      "modal": "glosario"
+    },
+    {
       "texto": "Autores",
       "icono": "fa-users",
       "modal": "autores"
