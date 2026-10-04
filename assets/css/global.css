@@ -27,13 +27,13 @@ img {
 }
 
 a {
-  color: var(--primary);
+  color: var(--text-link);
   text-decoration: none;
-  transition: color 0.2s ease, opacity 0.2s ease;
+  transition: color 0.2s ease, opacity 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 a:hover {
-  color: var(--primary-hover);
+  color: var(--text-link);
 }
 
 ::selection {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .error-page a {
-  color: var(--primary);
+  color: var(--text-link);
 }
 
 /* ==========================================================================

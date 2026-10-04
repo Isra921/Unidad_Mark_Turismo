@@ -111,7 +111,7 @@ a {
 }
 
 .header-title-content .eyebrow {
-    color: var(--accent);
+    color: var(--text-label);
     font-size: 0.85rem;
     font-weight: 800;
     letter-spacing: 0.12em;
@@ -182,7 +182,7 @@ a {
 }
 
 .breadcrumb a {
-    color: var(--accent);
+    color: var(--text-muted);
     text-decoration: none;
     display: inline-flex;
     align-items: center;
@@ -191,7 +191,7 @@ a {
 
 .breadcrumb a:hover {
     text-decoration: underline;
-    color: var(--accent-hover);
+    color: var(--text-light);
 }
 
 /* --- Cuadrícula de 2 Columnas de la Actividad Final --- */
@@ -303,7 +303,7 @@ a {
 
 .evaluation-table th {
     padding: 10px 14px;
-    color: var(--accent);
+    color: var(--text-heading);
     font-size: 0.78rem;
     font-weight: 800;
     letter-spacing: 0.08em;
@@ -334,7 +334,7 @@ a {
 
 .td-val {
     font-weight: 750;
-    color: var(--accent) !important;
+    color: var(--text-heading) !important;
 }
 
 /* --- Tarjeta de Demostración / Ejemplo Interactivo --- */
@@ -497,7 +497,7 @@ a {
 
 /* Barra lateral: Resumen, Material de apoyo, Antes de iniciar */
 .sidebar-heading {
-    color: var(--accent);
+    color: var(--text-label);
     font-size: 0.8rem;
     font-weight: 800;
     letter-spacing: 0.1em;
@@ -580,7 +580,7 @@ a {
 }
 
 .dark-card-heading {
-    color: var(--accent);
+    color: var(--text-label);
     font-size: 0.8rem;
     font-weight: 800;
     letter-spacing: 0.1em;
@@ -621,7 +621,7 @@ a {
 }
 
 .eyebrow {
-    color: var(--accent);
+    color: var(--text-label);
     font-size: 0.82rem;
     font-weight: 800;
     letter-spacing: 0.08em;
@@ -2093,15 +2093,16 @@ footer {
         }
 
         .final-evaluation-page .breadcrumb a {
-            color: var(--accent);
+            color: var(--text-muted);
         }
 
         .final-evaluation-page .breadcrumb a:hover {
-            color: var(--accent-hover);
+            color: var(--text-light);
         }
 
         .final-evaluation-page .breadcrumb > span[aria-hidden="true"] {
-            color: color-mix(in srgb, var(--accent) 60%, transparent);
+            color: var(--text-muted);
+            opacity: .6;
         }
 
         .final-evaluation-page .breadcrumb > span:last-child {
@@ -2188,7 +2189,7 @@ footer {
             text-transform: uppercase;
             letter-spacing: 0.08em;
             background: color-mix(in srgb, var(--accent) 25%, transparent);
-            color: var(--accent-light, #38bdf8);
+            color: var(--text-label);
             padding: 2px 8px;
             border-radius: 999px;
             border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
@@ -2398,7 +2399,7 @@ footer {
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.08em;
-            color: var(--accent);
+            color: var(--text-label);
             background: color-mix(in srgb, var(--accent) 15%, transparent);
             padding: 2px 8px;
             border-radius: 999px;
@@ -2546,6 +2547,10 @@ footer {
             letter-spacing: 0.05em;
         }
 
+        .console-body .log-time {
+            color: var(--text-subtle);
+        }
+
         .console-body {
             padding: 14px;
             min-height: 130px;
@@ -2619,16 +2624,22 @@ footer {
             margin-bottom: 10px;
         }
 
+        .challenge-topic {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-label);
+        }
+
         .challenge-tag {
             font-size: 0.72rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.08em;
-            background: color-mix(in srgb, var(--primary) 20%, transparent);
-            color: var(--primary-light, #818cf8);
+            background: var(--tag-bg);
+            color: var(--tag-text);
             padding: 3px 9px;
             border-radius: 999px;
-            border: 1px solid color-mix(in srgb, var(--primary) 35%, transparent);
+            border: 1px solid var(--tag-border);
         }
 
         .challenge-title {

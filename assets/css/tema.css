@@ -52,7 +52,7 @@
   font-weight: 600;
   letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--text-label);
 }
 .t-index__unit {
   display: block;
@@ -99,7 +99,7 @@
   min-width: 2em;
   font-size: .78rem;
   font-weight: 600;
-  color: var(--primary);
+  color: var(--text-number);
 }
 a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light); }
 
@@ -226,7 +226,7 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
 .t-section__num {
   margin-right: 8px;
   font-size: .8em;
-  color: var(--primary);
+  color: var(--text-number);
 }
 
 .t-prose code {
@@ -261,7 +261,7 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
   font-size: .72rem;
   letter-spacing: .1em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--text-heading);
 }
 .t-table tr:last-child td { border-bottom: 0; }
 
@@ -402,7 +402,7 @@ body:has(.t-viewer[open]) { overflow: hidden; }
   cursor: pointer;
   transition: background .2s ease, opacity .2s ease;
 }
-.t-viewer__tools button:hover:not(:disabled) { background: var(--primary-soft); color: var(--primary); }
+.t-viewer__tools button:hover:not(:disabled) { background: var(--primary-soft); color: var(--text-light); }
 .t-viewer__tools button:disabled { opacity: .35; cursor: default; }
 .t-viewer__tools button:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
 .t-viewer__level {
@@ -522,11 +522,11 @@ body:has(.t-viewer[open]) { overflow: hidden; }
   border-color: color-mix(in srgb, var(--primary) 30%, transparent);
 }
 .t-callout--note .t-callout__icon,
-.t-callout--note .t-callout__label { color: var(--primary); }
+.t-callout--note .t-callout__label { color: var(--text-label); }
 
 .t-callout--example { background: transparent; }
-.t-callout--example .t-callout__icon,
-.t-callout--example .t-callout__label { color: var(--accent); }
+.t-callout--example .t-callout__icon { color: var(--accent); }
+.t-callout--example .t-callout__label { color: var(--text-label); }
 
 /* Video explicativo */
 .t-video {
@@ -640,6 +640,16 @@ body:has(.t-viewer[open]) { overflow: hidden; }
 }
 .t-refs__title { margin: 0 0 4px; font-size: .82rem; font-weight: 600; color: var(--text-light); }
 .t-refs a { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; }
+
+/* Enlaces dentro del contenido: blancos y subrayados (sin cambiar de color al pasar el cursor) */
+.t-prose a,
+.t-refs a {
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-underline-offset: var(--link-underline-offset);
+}
+.t-prose a:hover,
+.t-refs a:hover { text-decoration-color: var(--link-underline-hover); }
 
 /* ---------- Responsivo ---------- */
 

@@ -155,7 +155,7 @@
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1;
-  color: var(--tono);
+  color: var(--text-number);
 }
 .u-topic-card__icon {
   display: grid;
@@ -174,8 +174,7 @@
   min-width: 0;
 }
 .u-topic-card__pending { margin: 0 0 2px; }
-.u-topic-card__title-link { color: inherit; }
-.u-topic-card__title-link:hover { color: var(--tono); }
+.u-topic-card__title-link { color: inherit; text-decoration: none; }
 .u-topic-card__title {
   margin: 0;
   font-size: 1.05rem;
@@ -353,7 +352,7 @@ a.u-topic-card__activity:hover {
   font-weight: 600;
   letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--text-label);
 }
 .u-side-subtitle {
   margin: 12px 0 4px;
@@ -414,7 +413,7 @@ button.u-side-link {
   min-width: 2.2em;
   font-size: .78rem;
   font-weight: 600;
-  color: var(--primary);
+  color: var(--text-number);
 }
 a.u-side-link:hover,
 button.u-side-link:hover { background: var(--primary-soft); color: var(--text-light); }

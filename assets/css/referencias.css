@@ -46,10 +46,7 @@
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  background: linear-gradient(135deg, var(--title-mid), var(--title-end) 60%, var(--accent));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--text-heading);
 }
 
 .r-hero__lead {
@@ -254,7 +251,7 @@
 }
 
 .r-card__citation em {
-  color: var(--accent);
+  color: var(--text-heading);
   font-style: italic;
 }
 
@@ -310,7 +307,7 @@
 
 .r-btn-copy:hover {
   background: var(--surface-hover);
-  color: var(--primary);
+  color: var(--text-light);
   border-color: var(--primary);
 }
 
@@ -328,7 +325,7 @@
   border-radius: var(--radius-pill);
   border: 1px solid color-mix(in srgb, var(--primary) 35%, transparent);
   background: var(--primary-soft);
-  color: var(--primary);
+  color: var(--text-light);
   font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;

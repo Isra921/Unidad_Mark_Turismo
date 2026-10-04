@@ -79,8 +79,8 @@ body.u-body {
   color: var(--text-muted);
   margin-bottom: 18px;
 }
-.u-breadcrumb a { color: var(--text-muted); }
-.u-breadcrumb a:hover { color: var(--primary); }
+.u-breadcrumb a { color: var(--text-muted); text-decoration: none; }
+.u-breadcrumb a:hover { color: var(--text-light); text-decoration: underline; }
 .u-breadcrumb [aria-current] { color: var(--text-light); font-weight: 700; }
 .u-breadcrumb span[aria-hidden] { opacity: .5; }
 
@@ -91,7 +91,7 @@ body.u-body {
   font-weight: 600;
   letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--text-label);
 }
 
 .u-muted { color: var(--text-muted); margin: 0 0 18px; }
@@ -113,10 +113,7 @@ body.u-body {
   font-weight: 700;
   font-size: 3rem;
   letter-spacing: -.02em;
-  background: linear-gradient(135deg, var(--title-mid), var(--title-end) 55%, var(--accent));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--text-heading);
 }
 
 /* ---------- Botones ---------- */
