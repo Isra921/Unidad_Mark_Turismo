@@ -18,7 +18,7 @@
     const COMPONENTES = [
         'nav-global.js',     // Menú superior generado desde navegacion.json
         'ventana-modal.js',  // Base de las ventanas emergentes (debe ir antes que ellas)
-        'autores-modal.js',     // Ventana emergente de Autores
+        'autores-modal.js?v=20261005_roberto1',     // Ventana emergente de Autores
         'glosario-modal.js',    // Ventana emergente de Glosario
         'actividades-modal.js', // Ventana emergente de Actividades
         'plan-estudios-modal.js'// Ventana emergente de Plan de Estudios
