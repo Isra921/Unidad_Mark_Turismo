@@ -16,22 +16,6 @@
       "personas": [
         {
           "grado": "Dr.",
-          "nombre": "Roberto Patiño Abuela",
-          "correo": "",
-          "foto": "assets/img/autores/patino_abuela_roberto.jpeg",
-          "semblanza": [
-            "Profesor-investigador de la Escuela Superior de Turismo del Instituto Politécnico Nacional (IPN), con más de 30 años de experiencia académica y profesional. Es licenciado en Administración de Empresas y especialista en Mercadotecnia por la UNITEC, maestro en Administración por la UNAM y doctor en Ciencias Sociales por la UAM-X. Su trayectoria destaca por sus aportaciones en desarrollo económico, cooperación internacional, competitividad, innovación turística y sostenibilidad. Es integrante de la Red de Desarrollo Económico del IPN y fue asesor de la Mejor Tesis de Licenciatura en Ciencias Sociales del IPN en 2019. Ha participado como conferencista en foros nacionales e internacionales, además de colaborar en proyectos de investigación, consultoría y vinculación con instituciones públicas y privadas, contribuyendo al fortalecimiento académico y al desarrollo estratégico del sector turístico."
-          ],
-          "areas": [
-            "Desarrollo económico",
-            "Cooperación internacional",
-            "Competitividad",
-            "Innovación turística",
-            "Sostenibilidad"
-          ]
-        },
-        {
-          "grado": "Dr.",
           "nombre": "Edgardo Adrián Franco Martínez",
           "correo": "edfrancom@ipn.mx",
           "foto": "assets/img/autores/franco_martinez_edgardo.jpg",
@@ -46,7 +30,23 @@
           ]
         },
         {
-          "grado": "D. en E.",
+          "grado": "Dr.",
+          "nombre": "Roberto Patiño Abuela",
+          "correo": "rpatinoa@ipn.mx",
+          "foto": "assets/img/autores/patino_abuela_roberto.jpeg",
+          "semblanza": [
+            "Profesor-investigador de la Escuela Superior de Turismo del Instituto Politécnico Nacional (IPN), con más de 30 años de experiencia académica y profesional. Es licenciado en Administración de Empresas y especialista en Mercadotecnia por la UNITEC, maestro en Administración por la UNAM y doctor en Ciencias Sociales por la UAM-X. Su trayectoria destaca por sus aportaciones en desarrollo económico, cooperación internacional, competitividad, innovación turística y sostenibilidad. Es integrante de la Red de Desarrollo Económico del IPN y fue asesor de la Mejor Tesis de Licenciatura en Ciencias Sociales del IPN en 2019. Ha participado como conferencista en foros nacionales e internacionales, además de colaborar en proyectos de investigación, consultoría y vinculación con instituciones públicas y privadas, contribuyendo al fortalecimiento académico y al desarrollo estratégico del sector turístico."
+          ],
+          "areas": [
+            "Desarrollo económico",
+            "Cooperación internacional",
+            "Competitividad",
+            "Innovación turística",
+            "Sostenibilidad"
+          ]
+        },
+        {
+          "grado": "Dr. en E.",
           "nombre": "Israel Salas Ramírez",
           "correo": "isalasr@ipn.mx",
           "foto": "assets/img/autores/salas_ramirez_israel.png",

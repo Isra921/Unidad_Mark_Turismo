@@ -43,7 +43,7 @@ function closeModal() {
 document.querySelectorAll('[data-modal]').forEach(button => {
     button.addEventListener('click', event => {
         const modalId = button.dataset.modal;
-        if (modalId === 'autores' || modalId === 'glosario' || modalId === 'actividades') {
+        if (modalId === 'autores' || modalId === 'glosario' || modalId === 'actividades' || modalId === 'plan-estudios') {
             return;
         }
         event.preventDefault();

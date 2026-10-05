@@ -92,9 +92,10 @@
 .u-intro.is-hidden { visibility: hidden; }
 .u-intro__text {
   margin: 0 0 10px;
-  max-width: 72ch;
+  max-width: 100%;
   color: var(--text-soft);
   line-height: 1.7;
+  text-align: justify;
 }
 .u-intro__text:last-child { margin-bottom: 0; }
 
