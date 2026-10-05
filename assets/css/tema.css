@@ -510,9 +510,11 @@ body:has(.t-viewer[open]) { overflow: hidden; }
   border-top: 1px solid var(--u-card-border);
   font-size: .8rem;
   line-height: 1.5;
-  text-align: left;
   color: var(--text-muted);
 }
+/* La nota va alineada a la izquierda (en celular, justificada abre huecos).
+   Más específico que ".u-page p" de unidades-base.css. */
+.u-page .t-figure__nota { text-align: left; hyphens: manual; }
 .t-figure__nota em { color: var(--text-light); }
 
 /* Notas y ejemplos: destacan sin romper el hilo de la lectura */

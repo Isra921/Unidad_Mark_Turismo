@@ -249,8 +249,13 @@
   font-weight: 500;
   color: var(--text-light);
   line-height: 1.5;
-  text-align: justify;
-  hyphens: auto;
+}
+
+/* APA 7: las referencias van alineadas a la izquierda (justificadas, las URL abren
+   huecos enormes). Más específico que ".u-page p" de unidades-base.css. */
+.u-page .r-card__citation {
+  text-align: left;
+  hyphens: manual;
 }
 
 .r-card__citation em {
