@@ -308,23 +308,7 @@ body.u-body {
   .u-video__close { top: 8px; right: 8px; }
 }
 
-/* ---------- Pie de página ---------- */
-.u-footer {
-  border-top: 1px solid var(--border-color);
-  background: var(--footer-bg);
-  color: var(--text-muted);
-  font-size: .8rem;
-}
-.u-footer__inner {
-  max-width: calc(var(--u-max-width) + 2 * var(--u-gutter));
-  margin: 0 auto;
-  padding: 20px var(--u-gutter);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 8px 24px;
-}
-.u-footer p { margin: 0; }
+/* ---------- Pie de página: gobernado globalmente por global.css (.u-footer) ---------- */
 
 /* ---------- Entrada suave ---------- */
 @keyframes u-rise {
