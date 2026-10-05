@@ -270,4 +270,75 @@ main.container:not(:has(.hero-section)) {
   padding-top: 88px;
 }
 
+/* ==========================================================================
+   PIE DE PÁGINA GLOBAL UNIFICADO (.u-footer)
+   Licenciamiento oficial con iconos Creative Commons y sombreado institucional
+   ========================================================================== */
+.u-footer, footer.u-footer {
+  border-top: 1px solid var(--border-color);
+  background: color-mix(in srgb, var(--footer-bg) 95%, #000);
+  box-shadow: 0 -8px 24px color-mix(in srgb, var(--shadow-color) 40%, transparent);
+  color: var(--text-soft);
+  font-size: .84rem;
+  line-height: 1.6;
+  width: 100%;
+  margin-top: auto;
+}
+
+.u-footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.u-footer p, .u-footer__inner p {
+  margin: 0 !important;
+  color: var(--text-soft) !important;
+  line-height: 1.6 !important;
+}
+
+.u-footer a, .u-footer__inner a {
+  color: #FFFFFF !important;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.u-footer a:hover, .u-footer__inner a:hover {
+  color: var(--primary) !important;
+}
+
+.u-footer strong, .u-footer__inner strong {
+  color: #FFFFFF !important;
+  font-weight: 700;
+}
+
+.u-footer-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: 6px;
+  vertical-align: -2px;
+}
+
+.u-footer-icons img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .u-footer__inner {
+    text-align: center;
+  }
+}
+
+
 
