@@ -40,6 +40,11 @@
       "id": "organismo",
       "nombre": "Organismos y estadísticas",
       "icono": "fa-globe"
+    },
+    {
+      "id": "audiovisual",
+      "nombre": "Material audiovisual",
+      "icono": "fa-circle-play"
     }
   ],
   "notas": {
@@ -53,5 +58,10 @@
     "cierre": ")",
     "separador": "; ",
     "titulo_enlace": "Ver en Referencias: {referencia}"
+  },
+  "videos": {
+    "titulo": "Video: {tema}",
+    "duracion": "Duración: {duracion}",
+    "fuente": "Fuente:"
   }
 }
