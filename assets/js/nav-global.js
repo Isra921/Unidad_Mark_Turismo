@@ -45,7 +45,9 @@
     function renderizar(contenedor, datos) {
         const rutaActual = normalizarRuta(window.location.href);
         const rutaInicio = normalizarRuta(DataManager.ruta(datos.marca.url));
-        const esInicio = rutaActual === rutaInicio || (DataManager.raiz() === '' && !window.location.pathname.includes('/unidades/'));
+        // Solo la portada (marca.url) oculta los logos: otras páginas de la raíz, como
+        // referencias.html, los siguen mostrando.
+        const esInicio = rutaActual === rutaInicio;
 
         contenedor.classList.toggle('nav--en-inicio', esInicio);
         if (esInicio) {
