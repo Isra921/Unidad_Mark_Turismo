@@ -264,7 +264,7 @@ Copia un objeto dentro de `"referencias"`:
 | Campo | Obligatorio | Qué es |
 |---|---|---|
 | `id` | Sí | Nombre corto y único, sin espacios: `apellido-año` (ej. `kotler-2017`). Las figuras y citas lo usan. |
-| `categoria` | Sí | Grupo en el que aparece: uno de los `id` de `categorias` en `referencias-config.json` (`basica`, `consulta`, `organismo`). |
+| `categoria` | Sí | Grupo en el que aparece: uno de los `id` de `categorias` en `referencias-config.json` (`basica`, `consulta`, `organismo`, `audiovisual`). |
 | `temas` | Sí | Temas en los que se usa. Sirve para el filtro "Tema". |
 | `referencia` | Sí | La referencia **completa en APA 7**, tal como debe leerse. Las *cursivas* se marcan con `*asteriscos*`. |
 | `cita` | Sí | Forma **narrativa** `Autor (año)`. Con ella se arman las notas de figura y las citas del texto. |
@@ -272,6 +272,7 @@ Copia un objeto dentro de `"referencias"`:
 | `descripcion` | Sí | Para qué sirve la obra. |
 | `etiquetas` | No | Palabras clave (aparecen como píldoras y cuentan para el buscador). |
 | `enlace` | No | Botón a la obra en línea: `texto` y `url`. |
+| `video` | Solo videos | `embed` (URL `https://www.youtube.com/embed/…`) y `duracion` (ej. `"4:05"`). Con esto se arma la tarjeta del video en el tema. |
 
 **Reglas APA que hay que cuidar a mano:**
 
@@ -283,6 +284,8 @@ Copia un objeto dentro de `"referencias"`:
   **Excepción:** si dos obras se abreviarían igual (mismo primer autor y año), se escriben los
   apellidos necesarios para distinguirlas: `Kotler, Kartajaya y Setiawan (2022)` y `Kotler, Bowen y Baloglu (2022)`.
 - Organismos con abreviatura: la primera vez se presenta entre corchetes (`cita`) y después se usa sola (`cita_corta`).
+- Videos de YouTube: `Apellido, I. [nombre del canal]. (año, día de mes). *Título exacto en YouTube* [Video]. YouTube. URL`.
+  Varias obras del mismo autor y año llevan letra (2026a, 2026b…) en orden alfabético del título, en `referencia` y en `cita`.
 
 ### Agregar una categoría
 
@@ -345,6 +348,20 @@ Se ve así: … u otros motivos (Naciones Unidas, 2010; Organización Mundial de
 - Paréntesis, separador `"; "` y texto del cursor están en `citas` de `referencias-config.json`.
 - Verifica que el tema esté en el campo `temas` de esa referencia; si no, el enlace abre
   una lista donde la obra no aparece.
+
+### Video del tema
+
+Se coloca al inicio de `<div class="t-prose">`, después de la idea central:
+
+```html
+<section class="t-video" id="video-tema" data-toc="Video del tema" data-referencia="salas-ramirez-2026c" hidden></section>
+```
+
+- `data-referencia` es el `id` de una referencia con categoría `audiovisual` y campo `video`.
+- Se muestra "Video: <nombre del tema>", el video de YouTube incrustado y debajo la duración y la fuente
+  (cita enlazada a Referencias). Sus textos están en `videos` de `referencias-config.json`.
+- Queda oculta (`hidden`) hasta que se llena; si la referencia no existe, no se muestra y aparece un aviso `[Video]` en la consola.
+- Un tema sin video simplemente no lleva esta sección.
 
 ## 11. Colores
 
@@ -411,7 +428,7 @@ Con una sola sección no se muestran pestañas. La ventana se construye la prime
   es una coma de más o de menos, o una comilla sin cerrar en un JSON. El mensaje dice qué archivo;
   valídalo en <https://jsonlint.com>. También pasa si se abrió con doble clic (usa Live Server).
 - **Abre la consola** del navegador (F12 → *Console*). Los avisos del sitio empiezan con su origen:
-  - `[Figura] La referencia "x" no existe…` / `[Cita] …`: el `id` de `data-fuentes` o `data-citas` está mal escrito.
+  - `[Figura] La referencia "x" no existe…` / `[Cita] …` / `[Video] …`: el `id` de `data-fuentes`, `data-citas` o `data-referencia` está mal escrito.
   - `[Referencias] unidad-0X.json no tiene el campo "referencias"`.
 - **Una figura no tiene número**: no se pudo leer algún tema anterior de la unidad (revisa su `url` en el JSON de la unidad).
 - **El menú o una ventana no aparece**: revisa que la página cargue `data-manager.js` y luego `componentes.js`,

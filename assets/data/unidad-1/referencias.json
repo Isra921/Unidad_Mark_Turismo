@@ -344,6 +344,72 @@
         "texto": "DataTur",
         "url": "https://datatur.sectur.gob.mx/SitePages/compendioestadistico.aspx"
       }
+    },
+    {
+      "id": "salas-ramirez-2026a",
+      "categoria": "audiovisual",
+      "temas": [
+        "1.4"
+      ],
+      "referencia": "Salas Ramírez, I. [israel salas]. (2026a, 4 de octubre). *Análisis* [Video]. YouTube. https://youtu.be/VES2XcGp9Z4",
+      "cita": "Salas Ramírez (2026a)",
+      "descripcion": "Video del curso que acompaña el tema 1.4: componentes de la oferta turística, características de la demanda y su equilibrio.",
+      "etiquetas": [
+        "Video del curso",
+        "Oferta y demanda"
+      ],
+      "enlace": {
+        "texto": "Ver en YouTube",
+        "url": "https://youtu.be/VES2XcGp9Z4"
+      },
+      "video": {
+        "embed": "https://www.youtube.com/embed/VES2XcGp9Z4",
+        "duracion": "4:45"
+      }
+    },
+    {
+      "id": "salas-ramirez-2026b",
+      "categoria": "audiovisual",
+      "temas": [
+        "1.3"
+      ],
+      "referencia": "Salas Ramírez, I. [israel salas]. (2026b, 4 de octubre). *Empresa* [Video]. YouTube. https://youtu.be/bAY4JxnNJt4",
+      "cita": "Salas Ramírez (2026b)",
+      "descripcion": "Video del curso que acompaña el tema 1.3: características, clasificación, metas y filosofía de la empresa turística.",
+      "etiquetas": [
+        "Video del curso",
+        "Empresa turística"
+      ],
+      "enlace": {
+        "texto": "Ver en YouTube",
+        "url": "https://youtu.be/bAY4JxnNJt4"
+      },
+      "video": {
+        "embed": "https://www.youtube.com/embed/bAY4JxnNJt4",
+        "duracion": "4:45"
+      }
+    },
+    {
+      "id": "salas-ramirez-2026c",
+      "categoria": "audiovisual",
+      "temas": [
+        "1.1"
+      ],
+      "referencia": "Salas Ramírez, I. [israel salas]. (2026c, 4 de octubre). *Fundamentos de Plan de Marketing* [Video]. YouTube. https://youtu.be/htBxG3fr9zs",
+      "cita": "Salas Ramírez (2026c)",
+      "descripcion": "Video del curso que acompaña el tema 1.1: qué es un plan de marketing, por qué es importante en turismo y cuál es su estructura.",
+      "etiquetas": [
+        "Video del curso",
+        "Plan de marketing"
+      ],
+      "enlace": {
+        "texto": "Ver en YouTube",
+        "url": "https://youtu.be/htBxG3fr9zs"
+      },
+      "video": {
+        "embed": "https://www.youtube.com/embed/htBxG3fr9zs",
+        "duracion": "4:05"
+      }
     }
   ]
 }

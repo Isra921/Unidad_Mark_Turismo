@@ -8,7 +8,8 @@
 //   - Desde el propio HTML: "En esta página" (elementos con data-toc),
 //     progreso de lectura y botones de video (data-video).
 //   - Desde referencias.json de la unidad + referencias-config.json:
-//     número y nota de las figuras (data-fuentes) y citas en el texto (data-citas).
+//     número y nota de las figuras (data-fuentes), citas en el texto (data-citas)
+//     y tarjeta del video del tema (data-referencia).
 // Si el JSON no carga, el tema se sigue leyendo con los enlaces de respaldo del HTML.
 // Depende de: data-manager.js, unidades-ui.js
 // ==========================================================================
@@ -353,11 +354,70 @@
         });
     }
 
-    /** Figuras y citas usan los mismos dos JSON: se cargan una sola vez. */
+    // ---------- Video del tema ----------
+    // En el HTML solo se marca el lugar (oculto hasta que se llena):
+    //   <section class="t-video" id="video-tema" data-toc="Video del tema"
+    //            data-referencia="salas-ramirez-2026c" hidden></section>
+    // La referencia (categoría "audiovisual") lleva además:
+    //   "video": { "embed": "https://www.youtube.com/embed/…", "duracion": "4:05" }
+    // Se muestra "Video: <nombre del tema>", el video de YouTube incrustado y debajo
+    // la duración y la fuente (cita enlazada a Referencias, como en las figuras).
+
+    const SELECTOR_VIDEO = '.t-article .t-video[data-referencia]';
+    const PERMISOS_IFRAME = 'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+
+    function crear(etiqueta, clase, ...contenido) {
+        const nodo = document.createElement(etiqueta);
+        if (clase) nodo.className = clase;
+        nodo.append(...contenido);
+        return nodo;
+    }
+
+    function prepararVideos(config, referencias, tema, destino) {
+        const textos = config.videos;
+        document.querySelectorAll(SELECTOR_VIDEO).forEach(seccion => {
+            const ref = buscarReferencia(referencias, seccion.dataset.referencia, 'Video');
+            if (!ref) return;
+            if (!ref.video || !ref.video.embed) {
+                console.warn(`[Video] La referencia "${ref.id}" no tiene el campo "video" con "embed".`);
+                return;
+            }
+            const titulo = plantilla(textos.titulo, { tema: tema.nombre });
+
+            const icono = crear('i', 'fas fa-circle-play');
+            icono.setAttribute('aria-hidden', 'true');
+            const encabezado = crear('div', 't-video__head',
+                crear('span', 't-video__icon', icono),
+                crear('p', 't-video__title', titulo));
+
+            const iframe = document.createElement('iframe');
+            iframe.src = ref.video.embed;
+            iframe.title = titulo;
+            iframe.loading = 'lazy';
+            iframe.allow = PERMISOS_IFRAME;
+            iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+            iframe.allowFullscreen = true;
+
+            const fuente = crear('a', '', ref.cita);
+            fuente.href = destino;
+            fuente.title = plantilla(config.citas.titulo_enlace, {
+                referencia: ref.referencia.replace(PATRON_CURSIVAS, '')
+            });
+            const meta = crear('p', 't-video__meta');
+            if (ref.video.duracion) meta.append(`${plantilla(textos.duracion, { duracion: ref.video.duracion })} · `);
+            meta.append(`${textos.fuente} `, fuente);
+
+            seccion.replaceChildren(encabezado, crear('div', 't-video__frame', iframe), meta);
+            seccion.hidden = false;
+        });
+    }
+
+    /** Figuras, citas y videos usan los mismos dos JSON: se cargan una sola vez. */
     async function prepararReferencias(unidad, tema) {
         const hayFiguras = document.querySelector(`.t-article ${SELECTOR_FIGURA}`);
         const hayCitas = document.querySelector(SELECTOR_CITA);
-        if (!hayFiguras && !hayCitas) return;
+        const hayVideos = document.querySelector(SELECTOR_VIDEO);
+        if (!hayFiguras && !hayCitas && !hayVideos) return;
         if (!unidad.referencias) {
             console.warn(`[Referencias] ${unidad.id}.json no tiene el campo "referencias".`);
             return;
@@ -368,6 +428,7 @@
             DataManager.getArchivo(unidad.referencias)
         ]);
         prepararCitas(config, datos.referencias, unidad.id, tema.numero);
+        prepararVideos(config, datos.referencias, tema, DataManager.urlReferencias(unidad.id, tema.numero));
         await prepararFiguras(unidad, tema, config, datos.referencias);
     }
 
