@@ -1,6 +1,6 @@
 {
   "marca": {
-    "titulo": "EST · Marketing",
+    "titulo": "EST · Plan de marketing",
     "subtitulo": "Unidad 1: Encuadre empresarial",
     "url": "index.html",
     "logo_izq": {
@@ -20,6 +20,11 @@
       "texto": "Inicio",
       "icono": "fa-home",
       "url": "index.html"
+    },
+    {
+      "texto": "Plan de Estudios",
+      "icono": "fa-file-lines",
+      "modal": "plan-estudios"
     },
     {
       "texto": "Unidad 1",

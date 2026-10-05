@@ -409,8 +409,8 @@
             border-radius: 20px;
             padding: 2rem;
             box-shadow: 0 20px 60px color-mix(in srgb, var(--shadow-color) 70%, transparent);
-            max-width: 90vw;
-            width: 800px;
+            max-width: 95vw;
+            width: 1040px;
             max-height: 85vh;
             overflow-y: auto;
             position: relative;
@@ -1678,21 +1678,42 @@ body {
     text-align: center;
 }
 
-.hero-title-lockup .institutional-line {
-    display: block;
-    white-space: nowrap;
+.hero-main-title {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.15;
+    text-align: center;
 }
 
-.hero-title-lockup h1 {
-    margin: 12px 0 0;
+/* Proporciones solicitadas: 2X (IPN), 1.5X (EST), 1X (Plan de Marketing) */
+.hero-inst-title {
+    font-size: clamp(1.8rem, 3.8vw, 2.7rem);
+    font-weight: 800;
+    letter-spacing: -.02em;
     color: var(--text-light);
-    font-size: clamp(2.25rem, 4.7vw, 4.15rem);
-    line-height: 1.06;
-    letter-spacing: -.045em;
+    text-transform: uppercase;
+}
+
+.hero-school-title {
+    font-size: clamp(1.35rem, 2.85vw, 2.025rem);
+    font-weight: 700;
+    letter-spacing: -.01em;
+    color: var(--accent);
+}
+
+.hero-subject-title {
+    font-size: clamp(0.9rem, 1.9vw, 1.35rem);
+    font-weight: 600;
+    color: var(--text-muted-light);
+    letter-spacing: .02em;
 }
 
 .hero-copy h1 { display: none; }
-.hero-description { line-height: 1.6; }
+
 
 .hero-section::before { top: 18%; }
 .hero-section::after { bottom: 18%; }
@@ -1856,7 +1877,7 @@ button.modal-subsection:hover { background: var(--surface-hover); color: var(--t
 .hero-section { margin-top: 88px; }
 .hero-institutional { grid-template-columns: 140px minmax(0, 1fr) 140px; gap: 24px; }
 .hero-title-lockup { container-type: inline-size; }
-.hero-title-lockup h1 { font-size: clamp(1rem, 7.8cqi, 3.4rem); letter-spacing: -.035em; }
+.hero-title-lockup h1:not(.hero-main-title) { font-size: clamp(1rem, 7.8cqi, 3.4rem); letter-spacing: -.035em; }
 .hero-subject { white-space: nowrap; }
 .hero-title-lockup .institutional-line { white-space: normal; }
 .hero-institutional > img { object-fit: contain; justify-self: center; }
@@ -1910,7 +1931,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px s
 .hero-institutional { display: block; grid-column: 2; grid-row: 1; width: 100%; margin-bottom: 12px; }
 .hero-content { grid-column: 2; grid-row: 2; min-width: 0; }
 .hero-copy { width: 100%; }
-.hero-title-lockup h1 { font-size: clamp(1rem, 7.8cqi, 3.4rem); }
+.hero-title-lockup h1:not(.hero-main-title) { font-size: clamp(1rem, 7.8cqi, 3.4rem); }
 .welcome-section { align-items: center; }
 .welcome-content p { text-align: justify; hyphens: auto; }
 .material-panel { align-self: center; min-width: 0; }

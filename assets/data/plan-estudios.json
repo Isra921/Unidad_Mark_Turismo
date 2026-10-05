@@ -1,0 +1,102 @@
+{
+  "titulo": "Plan de Estudios",
+  "boton_cerrar": "Cerrar ventana",
+  "archivo_pdf": "assets/docs/plan-de-estudios-plan-de-marketing.pdf",
+  "datos_generales": {
+    "institucion": "Instituto Politécnico Nacional",
+    "secretaria": "Secretaría Académica · Dirección de Educación Superior",
+    "unidad_academica": "Escuela Superior de Turismo",
+    "programa_academico": "Licenciatura en Turismo",
+    "unidad_aprendizaje": "Plan de marketing",
+    "semestre": "VII Semestre",
+    "plan_estudios": "2020",
+    "modalidad": "Escolarizada",
+    "tipo": "Teórica-práctica / Obligatoria",
+    "vigencia": "Enero 2023",
+    "creditos_tepic": "6.0",
+    "creditos_satca": "5.5",
+    "horas_teoria_semana": "2.0 h",
+    "horas_practica_semana": "2.0 h",
+    "horas_autonomo_semana": "20.0 h / semestre",
+    "horas_totales": "72.0 h"
+  },
+  "proposito": "Evalúa planes de marketing de diversos productos turísticos, con base en la investigación de mercados y la mezcla de mercadotecnia.",
+  "intencion_educativa": "La unidad de aprendizaje contribuye al perfil de egreso de la Licenciatura en Turismo con el desarrollo de las habilidades de administración y diseño de productos turísticos basados en la investigación de mercados y la mezcla de mercadotecnia. Asimismo, fomenta el liderazgo y la toma de decisiones de comercialización en empresas turísticas. Se relaciona de manera antecedente con Administración y fundamentos de mercadotecnia, Investigación de mercados turísticos y Comercialización de productos turísticos. De forma lateral con Diseño de productos turísticos alternativos y de manera consecuente con Comunicación integral y Marketing digital.",
+  "unidades_tematicas": [
+    {
+      "numero": "I",
+      "titulo": "Encuadre empresarial",
+      "competencia": "Analiza el encuadre empresarial con base en el enfoque industrial del turismo.",
+      "horas_docente": "8.0 h (5.0 T / 3.0 P)",
+      "horas_autonomo": "2.0 h",
+      "temas": [
+        "1.1 Fundamentos de Plan de Marketing.",
+        "1.2 Encuadre basado en las notas metodológicas de Organización Mundial del Turismo (OMT)",
+        "1.3 Empresa turística (Características, Fijación de metas y objetivos, Filosofía empresarial: misión, visión y valores)",
+        "1.4 Análisis de la oferta y la demanda",
+        "1.5 El enfoque industrial del turismo"
+      ]
+    },
+    {
+      "numero": "II",
+      "titulo": "Identificación del perfil del consumidor y desarrollo de la mezcla de mercadotecnia",
+      "competencia": "Aplica la mezcla de mercadotecnia con base en sus elementos, perfil del consumidor y pronósticos de ventas.",
+      "horas_docente": "18.0 h (9.0 T / 9.0 P)",
+      "horas_autonomo": "3.0 h",
+      "temas": [
+        "2.1 Segmento de mercado meta y perfil del consumidor",
+        "2.2 Elementos de la mezcla de mercadotecnia (Producto Turístico según OMT, Precio según punto de equilibrio, Branding y posicionamiento, Comunicación integral)",
+        "2.3 Pronósticos de ventas para el primer año de operación (Canales directos e indirectos, ecommerce)"
+      ]
+    },
+    {
+      "numero": "III",
+      "titulo": "Elaboración e implementación de estrategias",
+      "competencia": "Elabora matrices estratégicas a partir de su clasificación y análisis del entorno.",
+      "horas_docente": "16.0 h (8.0 T / 8.0 P)",
+      "horas_autonomo": "5.0 h",
+      "temas": [
+        "3.1 Análisis del entorno (Interno y Externo)",
+        "3.2 Matriz de Evaluación de Factores Externos (MEFE) y Factores Internos (MEFI)",
+        "3.3 Matriz de Fortalezas, Oportunidades, Debilidades y Amenazas (FODA)",
+        "3.4 Matriz de Boston Consulting Group (BCG)",
+        "3.5 Matriz Producto/Mercado o Vector de crecimiento (ANSOFF)",
+        "3.6 Matriz del Perfil Competitivo (MPC)"
+      ]
+    },
+    {
+      "numero": "IV",
+      "titulo": "Selección de estrategias y aplicación de tácticas del plan",
+      "competencia": "Formula estrategias y tácticas del plan de mercadotecnia con base en la investigación de mercados.",
+      "horas_docente": "14.0 h (6.0 T / 8.0 P)",
+      "horas_autonomo": "5.0 h",
+      "temas": [
+        "4.1 Investigación de mercados",
+        "4.2 Formulación e implementación de estrategias del Plan de Marketing (Mejora continua de producto, precio, promoción y plaza)",
+        "4.3 Aplicación de tácticas para cada estrategia del Plan de Marketing",
+        "4.4 Comunicación integral del marketing (CIM: Medios digitales vs analógicos, selección de medios, inbound, symbiotic y social marketing)",
+        "4.5 Plan de medios (Objetivos y Metas)"
+      ]
+    },
+    {
+      "numero": "V",
+      "titulo": "Presupuesto, ruta crítica, mecanismos de evaluación y control del Plan de Marketing",
+      "competencia": "Evalúa el plan de mercadotecnia con base en la ruta crítica.",
+      "horas_docente": "16.0 h (8.0 T / 8.0 P)",
+      "horas_autonomo": "5.0 h",
+      "temas": [
+        "5.1 Presupuesto",
+        "5.2 Ruta crítica",
+        "5.3 Medidas y mecanismos de evaluación y control del Plan de Marketing",
+        "5.4 Reporte ejecutivo (Presentación y Conclusiones)"
+      ]
+    }
+  ],
+  "evaluacion": [
+    "Evaluación diagnóstica (Saberes previamente adquiridos)",
+    "Portafolio de evidencias: Reporte de indagación",
+    "Proyecto integrador (Fase 1: Clasificación OMT, Fase 2: Filosofía y mezcla promocional, Fase 3: Matrices estratégicas, Fase 4: Procesos, distribución y precios, Fase 5: Presupuesto y proyección de ventas)",
+    "Organizadores gráficos y exposiciones",
+    "Reportes de prácticas de aula"
+  ]
+}
