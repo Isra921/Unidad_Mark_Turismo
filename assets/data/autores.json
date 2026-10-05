@@ -16,21 +16,6 @@
       "personas": [
         {
           "grado": "Dr.",
-          "nombre": "Edgardo Adrián Franco Martínez",
-          "correo": "edfrancom@ipn.mx",
-          "foto": "assets/img/autores/franco_martinez_edgardo.jpg",
-          "semblanza": [
-            "Doctor en Educación por el Centro Universitario de España y México, maestro en Ciencias de la Computación por el CINVESTAV-IPN e ingeniero en Sistemas Computacionales por la ESCOM-IPN, cuenta con experiencia en docencia, consultoría y gestión de sistemas. Desde 2010 se desempeña como profesor de Ciencias de la Computación en la ESCOM-IPN, donde ha dirigido más de 35 trabajos terminales y ocupado cargos de coordinación académica y jefaturas departamentales. Su trayectoria incluye la coordinación del club de algoritmia, la organización de concursos y la formación de más de 100 equipos para el International Collegiate Programming Contest (ICPC), con participación en finales mundiales y reconocimientos como entrenador en México y Centroamérica. Asimismo, ha sido mentor de proyectos estudiantiles premiados, entre ellos el ganador nacional de Imagine Cup 2015 en la categoría Ciudadanía Global, y coordina el proyecto Aprende ESCOM IPN desde 2022."
-          ],
-          "areas": [
-            "Ciencias de la Computación",
-            "Algoritmia y programación competitiva",
-            "Educación y entornos virtuales",
-            "Gestión de sistemas"
-          ]
-        },
-        {
-          "grado": "Dr.",
           "nombre": "Roberto Patiño Abuela",
           "correo": "rpatinoa@ipn.mx",
           "foto": "assets/img/autores/patino_abuela_roberto.jpeg",
@@ -43,6 +28,21 @@
             "Competitividad",
             "Innovación turística",
             "Sostenibilidad"
+          ]
+        },
+        {
+          "grado": "Dr.",
+          "nombre": "Edgardo Adrián Franco Martínez",
+          "correo": "edfrancom@ipn.mx",
+          "foto": "assets/img/autores/franco_martinez_edgardo.jpg",
+          "semblanza": [
+            "Doctor en Educación por el Centro Universitario de España y México, maestro en Ciencias de la Computación por el CINVESTAV-IPN e ingeniero en Sistemas Computacionales por la ESCOM-IPN, cuenta con experiencia en docencia, consultoría y gestión de sistemas. Desde 2010 se desempeña como profesor de Ciencias de la Computación en la ESCOM-IPN, donde ha dirigido más de 35 trabajos terminales y ocupado cargos de coordinación académica y jefaturas departamentales. Su trayectoria incluye la coordinación del club de algoritmia, la organización de concursos y la formación de más de 100 equipos para el International Collegiate Programming Contest (ICPC), con participación en finales mundiales y reconocimientos como entrenador en México y Centroamérica. Asimismo, ha sido mentor de proyectos estudiantiles premiados, entre ellos el ganador nacional de Imagine Cup 2015 en la categoría Ciudadanía Global, y coordina el proyecto Aprende ESCOM IPN desde 2022."
+          ],
+          "areas": [
+            "Ciencias de la Computación",
+            "Algoritmia y programación competitiva",
+            "Educación y entornos virtuales",
+            "Gestión de sistemas"
           ]
         },
         {
