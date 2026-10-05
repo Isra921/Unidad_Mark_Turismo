@@ -32,17 +32,17 @@
         },
         {
           "grado": "Dr.",
-          "nombre": "Yaxkin Flores Mendoza",
-          "correo": "yfloresme@ipn.mx",
-          "foto": "assets/img/autores/flores_mendoza_yaxkin.png",
+          "nombre": "Edgardo Adrián Franco Martínez",
+          "correo": "edfrancom@ipn.mx",
+          "foto": "assets/img/autores/franco_martinez_edgardo.jpg",
           "semblanza": [
-            "Ingeniero en sistemas computacionales, maestro en ciencias de la computación y doctor en educación. Docente de tiempo completo del departamento de Ciencias e Ingeniería de la Computación de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN). Cuenta con amplia trayectoria en innovación tecnológica aplicada a modelos pedagógicos y entornos virtuales de aprendizaje."
+            "Doctor en Educación por el Centro Universitario de España y México, maestro en Ciencias de la Computación por el CINVESTAV-IPN e ingeniero en Sistemas Computacionales por la ESCOM-IPN, cuenta con experiencia en docencia, consultoría y gestión de sistemas. Desde 2010 se desempeña como profesor de Ciencias de la Computación en la ESCOM-IPN, donde ha dirigido más de 35 trabajos terminales y ocupado cargos de coordinación académica y jefaturas departamentales. Su trayectoria incluye la coordinación del club de algoritmia, la organización de concursos y la formación de más de 100 equipos para el International Collegiate Programming Contest (ICPC), con participación en finales mundiales y reconocimientos como entrenador en México y Centroamérica. Asimismo, ha sido mentor de proyectos estudiantiles premiados, entre ellos el ganador nacional de Imagine Cup 2015 en la categoría Ciudadanía Global, y coordina el proyecto Aprende ESCOM IPN desde 2022."
           ],
           "areas": [
-            "Neurociencia de la educación",
-            "Redes neuronales",
-            "Metodología de la investigación",
-            "Educación en línea con plataformas virtuales"
+            "Ciencias de la Computación",
+            "Algoritmia y programación competitiva",
+            "Educación y entornos virtuales",
+            "Gestión de sistemas"
           ]
         },
         {
@@ -62,21 +62,6 @@
             "Redes neuronales",
             "Generación de simuladores médicos",
             "Plataformas virtuales aplicadas a la educación"
-          ]
-        },
-        {
-          "grado": "M. en C.",
-          "nombre": "Daniel Cruz García",
-          "correo": "dcruzg@ipn.mx",
-          "foto": "assets/img/autores/cruz_garcia_daniel.png",
-          "semblanza": [
-            "Profesor de tiempo completo en la Escuela Superior de Cómputo (ESCOM - IPN). Ingeniero en Sistemas Computacionales y Maestro en Ciencias en la especialidad de Ingeniería Eléctrica, opción Computación. Cuenta con amplia experiencia docente e investigadora en tecnologías de la información, redes y sistemas inteligentes."
-          ],
-          "areas": [
-            "Sistemas distribuidos",
-            "Redes",
-            "Seguridad",
-            "Inteligencia artificial"
           ]
         }
       ]
