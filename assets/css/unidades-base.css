@@ -61,6 +61,7 @@ body.u-body {
 
 /* Tipografía: se hereda de global.css (la misma del inicio). Los botones no heredan la fuente por defecto. */
 :where(.u-page) button { font-family: inherit; }
+.u-page p { text-align: justify; hyphens: auto; }
 
 :where(.u-page) a:focus-visible,
 :where(.u-page) button:focus-visible {
@@ -135,19 +136,19 @@ body.u-body {
 /* Botón principal: idéntico al CTA "Ver unidades" del inicio (inicio.css · .cta-button) */
 .u-btn--primary {
   padding: 14px 26px;
-  border: 0;
+  border: 1px solid color-mix(in srgb, var(--primary) 30%, transparent);
   background: var(--cta-bg);
-  color: var(--footer-bg);
-  font-size: 1.125rem;
-  font-weight: 700;
-  box-shadow: 0 10px 24px color-mix(in srgb, var(--shadow-color) 22%, transparent);
-  transition: all .3s ease;
+  color: #FFFFFF;
+  font-size: 1.05rem;
+  font-weight: 600;
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--shadow-color) 35%, transparent);
+  transition: all .25s ease;
 }
 .u-btn--primary:hover {
-  background: var(--cta-hover);
-  color: var(--primary-hover);
+  background: linear-gradient(135deg, #059669, #047857);
+  color: #FFFFFF;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px color-mix(in srgb, var(--shadow-color) 20%, transparent);
+  box-shadow: 0 8px 22px color-mix(in srgb, var(--shadow-color) 45%, transparent);
 }
 .u-btn--primary i { transition: transform .3s ease; }
 .u-btn--primary:hover i { transform: translateX(5px); }

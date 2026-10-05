@@ -30,7 +30,8 @@
     /** Normaliza una ruta para comparar páginas (".../" equivale a ".../index.html"). */
     function normalizarRuta(href) {
         const ruta = new URL(href, window.location.href).pathname;
-        return ruta.endsWith('/') ? `${ruta}${ARCHIVO_INDICE}` : ruta;
+        const completa = ruta.endsWith('/') ? `${ruta}${ARCHIVO_INDICE}` : ruta;
+        return decodeURI(completa).toLowerCase();
     }
 
     function crearIcono(clase) {
@@ -43,14 +44,46 @@
     /** Construye el contenido del header a partir del JSON. */
     function renderizar(contenedor, datos) {
         const rutaActual = normalizarRuta(window.location.href);
+        const rutaInicio = normalizarRuta(DataManager.ruta(datos.marca.url));
+        const esInicio = rutaActual === rutaInicio || (DataManager.raiz() === '' && !window.location.pathname.includes('/unidades/'));
+
+        contenedor.classList.toggle('nav--en-inicio', esInicio);
+        if (esInicio) {
+            document.body.classList.add('pagina-inicio');
+        } else {
+            document.body.classList.remove('pagina-inicio');
+        }
 
         const marca = document.createElement('a');
         marca.className = 'brand';
         marca.href = DataManager.ruta(datos.marca.url);
-        marca.textContent = datos.marca.titulo;
+
+        if (datos.marca.logo_izq) {
+            const logoIzq = document.createElement('img');
+            logoIzq.className = `brand-logo ${datos.marca.logo_izq.clase || ''}`.trim();
+            logoIzq.src = DataManager.ruta(datos.marca.logo_izq.src);
+            logoIzq.alt = datos.marca.logo_izq.alt || '';
+            marca.append(logoIzq);
+        }
+
+        const textoMarca = document.createElement('div');
+        textoMarca.className = 'brand-text';
+        const titulo = document.createElement('span');
+        titulo.className = 'brand-title';
+        titulo.textContent = datos.marca.titulo;
         const subtitulo = document.createElement('small');
+        subtitulo.className = 'brand-sub';
         subtitulo.textContent = datos.marca.subtitulo;
-        marca.append(subtitulo);
+        textoMarca.append(titulo, subtitulo);
+        marca.append(textoMarca);
+
+        if (datos.marca.logo_der) {
+            const logoDer = document.createElement('img');
+            logoDer.className = `brand-logo ${datos.marca.logo_der.clase || ''}`.trim();
+            logoDer.src = DataManager.ruta(datos.marca.logo_der.src);
+            logoDer.alt = datos.marca.logo_der.alt || '';
+            marca.append(logoDer);
+        }
 
         const botonMenu = document.createElement('button');
         botonMenu.className = 'nav-toggle';

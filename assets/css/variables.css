@@ -27,8 +27,8 @@
 
   /* --- Botones y Llamados a la Acción (CTA) --- */
   --cta-color: #062319;     /* Contraste oscuro óptimo sobre fondo claro */
-  --cta-hover: #03140E;     /* Hover para botones CTA */
-  --cta-bg: linear-gradient(135deg, var(--accent), var(--primary));
+  --cta-hover: #155E44;     /* Verde bosque elegante en hover */
+  --cta-bg: linear-gradient(135deg, #10B981, #059669); /* Verde esmeralda sobrio y equilibrado */
 
   /* --- Tipografía y Textos (Alto Contraste Blanco Puro) --- */
   --text-light: #FFFFFF;       /* Texto principal blanco puro para máxima legibilidad */

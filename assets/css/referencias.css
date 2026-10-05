@@ -249,6 +249,8 @@
   font-weight: 500;
   color: var(--text-light);
   line-height: 1.5;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .r-card__citation em {
@@ -261,6 +263,8 @@
   font-size: 0.85rem;
   color: var(--text-muted);
   line-height: 1.55;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .r-card__meta {

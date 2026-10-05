@@ -1,0 +1,79 @@
+{
+  "titulo": "Actividades de aprendizaje",
+  "boton_cerrar": "Cerrar ventana",
+  "secciones": [
+    {
+      "id": "temas",
+      "pestana": "Actividades por tema",
+      "titulo": "Unidad 1: Encuadre empresarial",
+      "descripcion": "Ejercicios interactivos con retroalimentación inmediata para reforzar los conceptos clave de cada tema.",
+      "nota": "Estas actividades son formativas: no tienen límite de intentos y no afectan tu calificación.",
+      "items": [
+        {
+          "tag": "Tema 1.1",
+          "titulo": "Actividad 1.1: Fundamentos de Plan de Marketing",
+          "descripcion": "Estructura, justificación y aplicación estratégica de las 7P en servicios turísticos.",
+          "icono": "fa-gamepad",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-1.html"
+        },
+        {
+          "tag": "Tema 1.2",
+          "titulo": "Actividad 1.2: Notas y directrices de la OMT",
+          "descripcion": "Conceptos, normalización estadística y directrices metodológicas de la Organización Mundial del Turismo.",
+          "icono": "fa-gamepad",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-2.html"
+        },
+        {
+          "tag": "Tema 1.3",
+          "titulo": "Actividad 1.3: Tipología de la Empresa Turística",
+          "descripcion": "Clasificación de organizaciones de alojamiento, intermediación, transporte y servicios complementarios.",
+          "icono": "fa-gamepad",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-3.html"
+        },
+        {
+          "tag": "Tema 1.4",
+          "titulo": "Actividad 1.4: Diagnóstico de la Oferta y la Demanda",
+          "descripcion": "Segmentación del mercado, motivaciones de viaje y estacionalidad turística.",
+          "icono": "fa-gamepad",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-4.html"
+        },
+        {
+          "tag": "Tema 1.5",
+          "titulo": "Actividad 1.5: El Enfoque Industrial del Turismo",
+          "descripcion": "Clústeres regionales, cadenas de valor articuladas y desarrollo territorial del sector.",
+          "icono": "fa-gamepad",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-5.html"
+        }
+      ]
+    },
+    {
+      "id": "integradora",
+      "pestana": "Evaluación Integradora",
+      "titulo": "Evaluación Integradora de la Unidad 1",
+      "descripcion": "Simulador de toma de decisiones estratégicas aplicadas a un caso real de destino turístico.",
+      "nota": "Al finalizar la evaluación podrás generar y descargar tu reporte ejecutivo con puntuación ponderada.",
+      "items": [
+        {
+          "tag": "Caso Integrador",
+          "destacada": true,
+          "titulo": "Diagnóstico Estratégico y Simulación: Caso Valle Sereno",
+          "descripcion": "Aplica los conceptos de encuadre empresarial, notas OMT, oferta-demanda y clústeres para resolver desafíos y maximizar el desempeño del destino.",
+          "icono": "fa-trophy",
+          "reactivos": "Simulación y retos",
+          "tiempo": "Ponderación 100%",
+          "url": "unidades/unidad-01/actividades/actividad-final.html"
+        }
+      ]
+    }
+  ]
+}
