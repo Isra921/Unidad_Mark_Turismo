@@ -47,5 +47,11 @@
     "nota": "Nota.",
     "nota_prefijo": "Elaboración propia con base en",
     "conector": "y"
+  },
+  "citas": {
+    "apertura": "(",
+    "cierre": ")",
+    "separador": "; ",
+    "titulo_enlace": "Ver en Referencias: {referencia}"
   }
 }

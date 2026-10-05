@@ -669,6 +669,10 @@ body:has(.t-viewer[open]) { overflow: hidden; }
 .t-prose a:hover,
 .t-refs a:hover { text-decoration-color: var(--link-underline-hover); }
 
+/* Citas en el texto (las arma tema-plantilla.js): mismo color que el párrafo,
+   para que se lean como parte del texto; solo el subrayado indica que son enlace */
+.t-cita a { color: inherit; }
+
 /* ---------- Responsivo ---------- */
 
 /* Pantallas medianas: se oculta "En esta página" y la lectura gana espacio */
