@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referencias bibliográficas | Plan de marketing · Unidad I: Encuadre empresarial | EST</title>
+  <meta name="description" content="Referencias bibliográficas de Plan de marketing (Unidad I: Encuadre empresarial) - Escuela Superior de Turismo (EST - IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/comun.css">
+  <link rel="stylesheet" href="assets/css/unidades-base.css">
+  <link rel="stylesheet" href="assets/css/referencias.css">
+
+  <link rel="icon" type="image/jpeg" href="assets/img/EST.jpeg">
+</head>
+
+<!--
+  PÁGINA DE REFERENCIAS (una sola para todas las unidades)
+  - data-config: textos de la página, categorías y textos de notas (ruta desde la raíz).
+  - Las referencias de cada unidad se leen del campo "referencias" de su JSON
+    (assets/data/unidades/unidad-XX.json). Ver assets/js/paginas/referencias.js.
+  - Se puede abrir filtrada: referencias.html?unidad=unidad-01&tema=1.2
+-->
+<body class="u-body" data-root="" data-config="assets/data/referencias-config.json">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page" id="referencias-app" aria-busy="true">
+    <p class="u-loading">Cargando referencias…</p>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p><a href="https://isra921.github.io/Unidad_Mark_Turismo/index.html">Recurso Didáctico Digital. Unidad I Plan de Marketing</a> por <strong>Dr. Roberto Patiño Abuela, Dr. Edgardo Adrián Franco Martínez y D. en E. Israel Salas Ramírez</strong>. Licencia bajo <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-ND 4.0</a> <span class="u-footer-icons"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="NC" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="ND" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /></span></p>
+      <p>Fecha de elaboración: Septiembre 2026</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-manager.js?v=20260930"></script>
+  <script src="assets/js/componentes.js"></script>
+  <script src="assets/js/paginas/referencias.js"></script>
+</body>
+
+</html>

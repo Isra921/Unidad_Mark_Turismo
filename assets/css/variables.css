@@ -28,7 +28,15 @@
   /* --- Botones y Llamados a la Acción (CTA) --- */
   --cta-color: #062319;     /* Contraste oscuro óptimo sobre fondo claro */
   --cta-hover: #155E44;     /* Verde bosque elegante en hover */
-  --cta-bg: linear-gradient(135deg, #10B981, #059669); /* Verde esmeralda sobrio y equilibrado */
+  --cta-bg: linear-gradient(135deg, #10B981, #059669); /* Verde esmeralda sobrio y equilibrado (barras y bordes decorativos) */
+
+  /* Botones principales con texto blanco. Verdes oscuros para que el texto
+     tenga contraste AA (mínimo 4.5:1): #047857 5.5:1 · #065F46 7.7:1. */
+  --btn-text: var(--text-light);
+  --btn-bg: linear-gradient(135deg, #047857, #065F46);
+  --btn-bg-hover: linear-gradient(135deg, #065F46, #064E3B);
+  --btn-alt-bg: linear-gradient(135deg, #0F766E, #115E59);       /* Variante turquesa (ej. evaluación integradora) */
+  --btn-alt-bg-hover: linear-gradient(135deg, #115E59, #134E4A);
 
   /* --- Tipografía y Textos (Alto Contraste Blanco Puro) --- */
   --text-light: #FFFFFF;       /* Texto principal blanco puro para máxima legibilidad */

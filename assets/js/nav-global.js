@@ -9,6 +9,8 @@
 //   cursor al borde superior y menú desplegable en pantallas pequeñas.
 // - Los enlaces con "modal" no navegan: emiten [data-modal="<id>"] para que
 //   el componente de ventana emergente correspondiente la abra.
+// - Los enlaces con "con_unidad": true agregan ?unidad=<id> cuando la página
+//   pertenece a una unidad (<body data-unidad="…">), ej. Referencias.
 // ==========================================================================
 (function () {
     const RUTA_DATOS = 'assets/data/navegacion.json';
@@ -43,7 +45,9 @@
     function renderizar(contenedor, datos) {
         const rutaActual = normalizarRuta(window.location.href);
         const rutaInicio = normalizarRuta(DataManager.ruta(datos.marca.url));
-        const esInicio = rutaActual === rutaInicio || (DataManager.raiz() === '' && !window.location.pathname.includes('/unidades/'));
+        // Solo la portada (marca.url) oculta los logos: otras páginas de la raíz, como
+        // referencias.html, los siguen mostrando.
+        const esInicio = rutaActual === rutaInicio;
 
         contenedor.classList.toggle('nav--en-inicio', esInicio);
         if (esInicio) {
@@ -104,7 +108,10 @@
                 a.dataset.modal = enlace.modal;
                 a.setAttribute('aria-haspopup', 'dialog');
             } else {
-                a.href = DataManager.ruta(enlace.url);
+                const idUnidad = document.body.dataset.unidad;
+                const consulta = enlace.con_unidad && idUnidad
+                    ? `?${new URLSearchParams({ unidad: idUnidad })}` : '';
+                a.href = DataManager.ruta(enlace.url) + consulta;
                 if (normalizarRuta(a.href) === rutaActual) {
                     a.classList.add('active');
                     a.setAttribute('aria-current', 'page');

@@ -137,16 +137,16 @@ body.u-body {
 .u-btn--primary {
   padding: 14px 26px;
   border: 1px solid color-mix(in srgb, var(--primary) 30%, transparent);
-  background: var(--cta-bg);
-  color: #FFFFFF;
+  background: var(--btn-bg);
+  color: var(--btn-text);
   font-size: 1.05rem;
   font-weight: 600;
   box-shadow: 0 6px 18px color-mix(in srgb, var(--shadow-color) 35%, transparent);
   transition: all .25s ease;
 }
 .u-btn--primary:hover {
-  background: linear-gradient(135deg, #059669, #047857);
-  color: #FFFFFF;
+  background: var(--btn-bg-hover);
+  color: var(--btn-text);
   transform: translateY(-2px);
   box-shadow: 0 8px 22px color-mix(in srgb, var(--shadow-color) 45%, transparent);
 }
