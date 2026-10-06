@@ -96,36 +96,51 @@
                         </div>
 
                         <!-- Controles de Simulación -->
+                        <!-- Controles de Simulación (Distribución Espaciosa y Clara) -->
                         <div class="workbench-controls">
-                            <div class="control-field">
-                                <span class="control-label">Segmento objetivo de demanda</span>
-                                <div class="btn-group-toggle">
+                            <!-- Fila 1: Selección de Segmento de Demanda -->
+                            <div class="control-field control-field--full">
+                                <div class="control-label-row">
+                                    <span class="control-step-badge">Paso 1</span>
+                                    <span class="control-label">Segmento objetivo de demanda</span>
+                                </div>
+                                <div class="btn-group-toggle" role="group" aria-label="Selección de segmento de demanda">
                                     <button type="button" class="toggle-btn active" id="btnSegCultural" onclick="setSegmento('cultural')">
-                                        <i class="fas fa-landmark"></i> Cultural &amp; Gastronomía
+                                        <i class="fas fa-landmark"></i>
+                                        <span>Cultural &amp; Gastronomía</span>
                                     </button>
                                     <button type="button" class="toggle-btn" id="btnSegEco" onclick="setSegmento('ecoturismo')">
-                                        <i class="fas fa-leaf"></i> Ecoturismo &amp; Bienestar
+                                        <i class="fas fa-leaf"></i>
+                                        <span>Ecoturismo &amp; Bienestar</span>
                                     </button>
                                     <button type="button" class="toggle-btn" id="btnSegBleisure" onclick="setSegmento('bleisure')">
-                                        <i class="fas fa-briefcase"></i> Negocios &amp; Escapadas
+                                        <i class="fas fa-briefcase"></i>
+                                        <span>Negocios &amp; Escapadas</span>
                                     </button>
                                 </div>
                             </div>
 
-                            <div class="control-field">
-                                <label class="control-label" for="strategySelect">Estrategia nuclear de Marketing Mix y Enfoque Industrial</label>
-                                <select class="select-input-styled" id="strategySelect" onchange="onStrategyChange()">
-                                    <option value="desestacionalizacion" selected>Estrategia A: Paquetes Entre Semana con Alianzas del Clúster (Desestacionalización)</option>
-                                    <option value="desintermediacion">Estrategia B: Campaña de Reserva Directa y Fidelización (Desintermediación OTAs)</option>
-                                    <option value="encadenamiento">Estrategia C: Integración de Productores Locales a la Cadena de Restauración y Alojamiento</option>
-                                    <option value="capacidad_carga">Estrategia D: Gestión Inteligente de Flujos y Protección de Capacidad de Carga</option>
-                                </select>
-                            </div>
+                            <!-- Fila 2: Estrategia de Marketing Mix y Botón de Proyección -->
+                            <div class="workbench-controls-row2">
+                                <div class="control-field control-field--strategy">
+                                    <div class="control-label-row">
+                                        <span class="control-step-badge">Paso 2</span>
+                                        <label class="control-label" for="strategySelect">Estrategia nuclear de Marketing Mix y Enfoque Industrial</label>
+                                    </div>
+                                    <select class="select-input-styled" id="strategySelect" onchange="onStrategyChange()">
+                                        <option value="desestacionalizacion" selected>Estrategia A: Paquetes Entre Semana con Alianzas del Clúster (Desestacionalización)</option>
+                                        <option value="desintermediacion">Estrategia B: Campaña de Reserva Directa y Fidelización (Desintermediación OTAs)</option>
+                                        <option value="encadenamiento">Estrategia C: Integración de Productores Locales a la Cadena de Restauración y Alojamiento</option>
+                                        <option value="capacidad_carga">Estrategia D: Gestión Inteligente de Flujos y Protección de Capacidad de Carga</option>
+                                    </select>
+                                </div>
 
-                            <div class="action-button-group">
-                                <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularEstrategia()">
-                                    <i class="fas fa-chart-pie"></i> Proyectar impacto estratégico
-                                </button>
+                                <div class="action-button-group">
+                                    <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularEstrategia()">
+                                        <i class="fas fa-chart-pie"></i>
+                                        <span>Proyectar impacto estratégico</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
 
