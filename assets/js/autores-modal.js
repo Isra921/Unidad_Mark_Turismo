@@ -9,7 +9,7 @@
 // ==========================================================================
 (function () {
     const ID_VENTANA = 'autores';
-    const RUTA_DATOS = 'assets/data/autores.json?v=20261006_snii';
+    const RUTA_DATOS = 'assets/data/autores.json?v=20261006_snii2';
     const { el, icono } = VentanaModal;
 
     function nombreCompleto(persona) {
