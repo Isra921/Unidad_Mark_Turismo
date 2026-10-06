@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -126,6 +126,78 @@
                                 <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularEstrategia()">
                                     <i class="fas fa-chart-pie"></i> Proyectar impacto estratégico
                                 </button>
+                            </div>
+                        </div>
+
+                        <!-- Tablero de Métricas Proyectadas (KPIs en Tiempo Real) -->
+                        <div class="kpi-dashboard" id="kpiDashboard" aria-label="Tablero de métricas proyectadas">
+                            <div class="kpi-card" id="kpiOcupacion">
+                                <div class="kpi-header">
+                                    <span class="kpi-title"><i class="fas fa-bed"></i> Ocupación Lunes-Jueves</span>
+                                    <span class="kpi-badge kpi-badge--base" id="badgeOcupacion">Base: 22%</span>
+                                </div>
+                                <div class="kpi-value-row">
+                                    <span class="kpi-value" id="valOcupacion">54%</span>
+                                    <span class="kpi-delta kpi-delta--up" id="deltaOcupacion">+32 pp</span>
+                                </div>
+                                <div class="kpi-progress">
+                                    <div class="kpi-progress-bar" id="barOcupacion" style="width: 54%;"></div>
+                                </div>
+                                <span class="kpi-subtext" id="subOcupacion">Mitigación del valle de estacionalidad entre semana</span>
+                            </div>
+
+                            <div class="kpi-card" id="kpiGasto">
+                                <div class="kpi-header">
+                                    <span class="kpi-title"><i class="fas fa-wallet"></i> Gasto Medio Diario</span>
+                                    <span class="kpi-badge kpi-badge--base" id="badgeGasto">Base: $1,420</span>
+                                </div>
+                                <div class="kpi-value-row">
+                                    <span class="kpi-value" id="valGasto">$2,340 MXN</span>
+                                    <span class="kpi-delta kpi-delta--up" id="deltaGasto">+65%</span>
+                                </div>
+                                <div class="kpi-progress">
+                                    <div class="kpi-progress-bar" id="barGasto" style="width: 78%;"></div>
+                                </div>
+                                <span class="kpi-subtext" id="subGasto">Conversión de excursionistas en turistas con pernocta</span>
+                            </div>
+
+                            <div class="kpi-card" id="kpiVentaDirecta">
+                                <div class="kpi-header">
+                                    <span class="kpi-title"><i class="fas fa-arrow-trend-up"></i> Venta Directa (MiPyMEs)</span>
+                                    <span class="kpi-badge kpi-badge--base" id="badgeVentaDirecta">Base: 12%</span>
+                                </div>
+                                <div class="kpi-value-row">
+                                    <span class="kpi-value" id="valVentaDirecta">28%</span>
+                                    <span class="kpi-delta kpi-delta--up" id="deltaVentaDirecta">+16 pp</span>
+                                </div>
+                                <div class="kpi-progress">
+                                    <div class="kpi-progress-bar" id="barVentaDirecta" style="width: 28%;"></div>
+                                </div>
+                                <span class="kpi-subtext" id="subVentaDirecta">Reducción de dependencia de comisiones OTAs</span>
+                            </div>
+
+                            <div class="kpi-card" id="kpiEstacionalidad">
+                                <div class="kpi-header">
+                                    <span class="kpi-title"><i class="fas fa-scale-balanced"></i> Índice de Estacionalidad</span>
+                                    <span class="kpi-badge kpi-badge--base" id="badgeEstacionalidad">Base: 2.9 (Crítico)</span>
+                                </div>
+                                <div class="kpi-value-row">
+                                    <span class="kpi-value" id="valEstacionalidad">1.4</span>
+                                    <span class="kpi-delta kpi-delta--ok" id="deltaEstacionalidad">Equilibrado</span>
+                                </div>
+                                <div class="kpi-progress">
+                                    <div class="kpi-progress-bar" id="barEstacionalidad" style="width: 82%;"></div>
+                                </div>
+                                <span class="kpi-subtext" id="subEstacionalidad">Flujo sostenible y protección de capacidad de carga</span>
+                            </div>
+                        </div>
+
+                        <!-- Caja de Recomendación Didáctica -->
+                        <div class="sim-recommendation-box" id="simRecommendationBox">
+                            <div class="rec-icon"><i class="fas fa-lightbulb" aria-hidden="true"></i></div>
+                            <div class="rec-content">
+                                <h4 id="recTitle">Hallazgo clave para tu evaluación (Reto 2 · Tema 1.2 OMT):</h4>
+                                <p id="recText">La simulación demuestra el principio metodológico de la OMT: no se debe prohibir el acceso a visitantes, sino convertir excursionistas en turistas con pernocta mediante rutas nocturnas y festivales gastronómicos entre semana. <em>(Revisa el Reto 2 a continuación)</em>.</p>
                             </div>
                         </div>
 
@@ -343,8 +415,8 @@
                         <ul class="summary-list">
                             <li><span class="summary-label">Estado</span> <strong class="summary-val"><i class="fas fa-circle-check" aria-hidden="true"></i> Caso activo</strong></li>
                             <li><span class="summary-label">Modalidad</span> <strong class="summary-val">Evaluación Integradora</strong></li>
-                            <li><span class="summary-label">Materia</span> <strong class="summary-val">Marketing</strong></li>
-                            <li><span class="summary-label">Unidad</span> <strong class="summary-val">1: Encuadre empresarial</strong></li>
+                            <li><span class="summary-label">Materia</span> <strong class="summary-val">Plan de marketing</strong></li>
+                            <li><span class="summary-label">Unidad</span> <strong class="summary-val">Unidad I: Encuadre empresarial</strong></li>
                             <li><span class="summary-label">Institución</span> <strong class="summary-val">EST · IPN</strong></li>
                             <li><span class="summary-label">Ponderación</span> <strong class="summary-val">100%</strong></li>
                         </ul>
